@@ -1,0 +1,16 @@
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\bin\Debug\MedicationSkiing.exe.config
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\bin\Debug\MedicationSkiing.exe
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\bin\Debug\MedicationSkiing.pdb
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\obj\Debug\MedicationSkiing.csprojAssemblyReference.cache
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\obj\Debug\MedicationSkiing.Form1.resources
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\obj\Debug\MedicationSkiing.Properties.Resources.resources
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\obj\Debug\MedicationSkiing.csproj.GenerateResource.cache
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\obj\Debug\MedicationSkiing.csproj.CoreCompileInputs.cache
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\obj\Debug\MedicationSkiing.exe
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\obj\Debug\MedicationSkiing.pdb
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\bin\Debug\MedicationSkiing.exe.manifest
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\bin\Debug\MedicationSkiing.application
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\obj\Debug\MedicationSkiing.exe.manifest
+c:\users\hanif\source\repos\MedicationSkiing\MedicationSkiing\obj\Debug\MedicationSkiing.application
+C:\Users\hanif\source\repos\MedicationSkiing\MedicationSkiing\obj\Debug\MedicationSkiing.Form2.resources
+C:\Users\hanif\source\repos\MedicationSkiing\MedicationSkiing\obj\Debug\MedicationSkiing.Form3.resources

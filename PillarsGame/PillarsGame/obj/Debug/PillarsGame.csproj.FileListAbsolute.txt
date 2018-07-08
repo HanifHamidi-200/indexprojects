@@ -1,0 +1,14 @@
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\bin\Debug\PillarsGame.exe.config
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\bin\Debug\PillarsGame.exe
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\bin\Debug\PillarsGame.pdb
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\obj\Debug\PillarsGame.csprojAssemblyReference.cache
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\obj\Debug\PillarsGame.Form1.resources
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\obj\Debug\PillarsGame.Properties.Resources.resources
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\obj\Debug\PillarsGame.csproj.GenerateResource.cache
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\obj\Debug\PillarsGame.csproj.CoreCompileInputs.cache
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\obj\Debug\PillarsGame.exe
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\obj\Debug\PillarsGame.pdb
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\bin\Debug\PillarsGame.exe.manifest
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\bin\Debug\PillarsGame.application
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\obj\Debug\PillarsGame.exe.manifest
+c:\users\hanif\source\repos\PillarsGame\PillarsGame\obj\Debug\PillarsGame.application

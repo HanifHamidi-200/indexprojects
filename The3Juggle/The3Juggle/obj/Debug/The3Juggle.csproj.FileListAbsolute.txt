@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\bin\Debug\The3Juggle.exe.config
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\bin\Debug\The3Juggle.exe
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\bin\Debug\The3Juggle.pdb
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\obj\Debug\The3Juggle.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\obj\Debug\The3Juggle.Form1.resources
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\obj\Debug\The3Juggle.Properties.Resources.resources
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\obj\Debug\The3Juggle.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\obj\Debug\The3Juggle.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\obj\Debug\The3Juggle.exe
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\obj\Debug\The3Juggle.pdb
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\bin\Debug\The3Juggle.exe.manifest
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\bin\Debug\The3Juggle.application
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\obj\Debug\The3Juggle.exe.manifest
+C:\Users\hanif\source\repos\The3Juggle\The3Juggle\obj\Debug\The3Juggle.application

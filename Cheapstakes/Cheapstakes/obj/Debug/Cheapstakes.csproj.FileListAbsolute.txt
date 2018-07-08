@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\bin\Debug\Cheapstakes.exe.config
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\bin\Debug\Cheapstakes.exe
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\bin\Debug\Cheapstakes.pdb
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\obj\Debug\Cheapstakes.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\obj\Debug\Cheapstakes.Form1.resources
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\obj\Debug\Cheapstakes.Properties.Resources.resources
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\obj\Debug\Cheapstakes.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\obj\Debug\Cheapstakes.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\obj\Debug\Cheapstakes.exe
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\obj\Debug\Cheapstakes.pdb
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\bin\Debug\Cheapstakes.exe.manifest
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\bin\Debug\Cheapstakes.application
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\obj\Debug\Cheapstakes.exe.manifest
+C:\Users\hanif\source\repos\Cheapstakes\Cheapstakes\obj\Debug\Cheapstakes.application

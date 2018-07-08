@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ArtTechnologyProgram.exe" version="1.0.0.1" publicKeyToken="4b3fd93db703549f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ArtTechnologyProgram" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ArtTechnologyProgram.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ArtTechnologyProgram.exe" size="28128">
+      <assemblyIdentity name="ArtTechnologyProgram" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oZ+y7286L8wiucIBhekicSB/66dmI0W6hMt1I4Dya/s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ArtTechnologyProgram.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Nullgate.png" size="3278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rmWNhuJdzQKGuu1GOtAA1HySsae0urh584XzY1JqycM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\forenset.png" size="3385">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bkaKr75JwKn+hZMnRUSd77Iv9FE1RgchqhnI6s8cdjQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\jondle.png" size="4659">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WnHV+1BcB+h4WnVO+pHsGiGrmJ8RhQd5bYXi2qgOtYM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\nacuta.png" size="3385">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bkaKr75JwKn+hZMnRUSd77Iv9FE1RgchqhnI6s8cdjQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\perelli.png" size="2197">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OT42KiP43ytyBLNF4jKHhzt4Di3H2ZHIFriuzeABNsA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\phute.png" size="4659">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WnHV+1BcB+h4WnVO+pHsGiGrmJ8RhQd5bYXi2qgOtYM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\temasak.png" size="2197">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OT42KiP43ytyBLNF4jKHhzt4Di3H2ZHIFriuzeABNsA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="c744a37190298a4e57c2b11d5ac0a92c89f3ab08" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VEOzc3+c9SepiAhEs0ZGRAGFUR6wLKofmwcXqgscRHk=</DigestValue></Reference></SignedInfo><SignatureValue>p3ww8htxhOq7Pgcl5UZKwQdIPOH+W9g5AEQSBA5cjpdZJEAOTCDNTp+AENUxo+2b+EEzg4ECXg0lsDZUyoif5lL0YrX+c4ZP/ly4HkulJCtTeHBU34pCRDpyJm0uSgti5AIp2KMw3Nxb+RiGYtAgVG05IkSj6vH9WuF3YV8ncGA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>/BlFvmvy5d5bi++XmlliCiluRk9q60kVTjM/sF8+laRLBU3/kmt0ajssEj7DAOzJe7Vooo6Aozvau4aT0rrO9wSmjtW0bppsJSYpabBKLIZzkzQ2a24eeudFnModxolfgtKTJNUqBqmgYQjgsDBjVcxGx90s34jZ3U8R9E1XWhk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="79441c0baa17079b1faa2cb01e518501444646b3440888a927f59c7f73b34354" Description="" Url=""><as:assemblyIdentity name="ArtTechnologyProgram.exe" version="1.0.0.1" publicKeyToken="4b3fd93db703549f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2od1L52M90x8ZYPJAaJvgDt5Z0Todzsg1EREozBpDWA=</DigestValue></Reference></SignedInfo><SignatureValue>bSRwVbe/w59Yi0ZmlhYgUpkeqhryhtNnUAvEhmyv+j0mrxJlTjVWASY+OPTwP+khIRBdNsLlWvok38efcQMU4h4Nd27NBijN1PGuboMH+2drmZWXJ265Xf/maPrNs3I8Q/3tDaDzcFQBDW1+ov/aSq9jAAhvl08hW9soONJQX4c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>/BlFvmvy5d5bi++XmlliCiluRk9q60kVTjM/sF8+laRLBU3/kmt0ajssEj7DAOzJe7Vooo6Aozvau4aT0rrO9wSmjtW0bppsJSYpabBKLIZzkzQ2a24eeudFnModxolfgtKTJNUqBqmgYQjgsDBjVcxGx90s34jZ3U8R9E1XWhk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQFTLpcRoOH4VOuSDT3uXOJjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzA1MjMwNDAyWhcNMTkwNzA2MDUwNDAyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPwZRb5r8uXeW4vvl5pZYgopbkZPautJFU4zP7BfPpWkSwVN/5JrdGo7LBI+wwDsyXu1aKKOgKM72ruGk9K6zvcEpo7VtG6abCUmKWmwSiyGc5M0NmtuHnrnRZzKHcaJX4LSkyTVKgapoGEI4LAwY1XMRsfdLN+I2d1PEfRNV1oZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA6ATXBjDLaIdhyBxthoiGsg7MVSaNguanj0R0fQU2OhQsKIETfwHC8vr2u0XZCmqemYbbLYs4BB/RxBvvQ62QwlO4wzipwGjZrTFezjDS70SvBhrv7MCOJqkYmkh5jJQaT5orcdojpLUVKWWzIMEoi+bfkgLGaPVJdjMisQvBHZ8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

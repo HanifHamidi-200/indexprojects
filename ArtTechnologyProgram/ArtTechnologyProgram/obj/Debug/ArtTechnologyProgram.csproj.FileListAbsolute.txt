@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\bin\Debug\ArtTechnologyProgram.exe.config
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\bin\Debug\ArtTechnologyProgram.exe
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\bin\Debug\ArtTechnologyProgram.pdb
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\obj\Debug\ArtTechnologyProgram.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\obj\Debug\ArtTechnologyProgram.Form1.resources
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\obj\Debug\ArtTechnologyProgram.Properties.Resources.resources
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\obj\Debug\ArtTechnologyProgram.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\obj\Debug\ArtTechnologyProgram.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\obj\Debug\ArtTechnologyProgram.exe
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\obj\Debug\ArtTechnologyProgram.pdb
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\bin\Debug\ArtTechnologyProgram.exe.manifest
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\bin\Debug\ArtTechnologyProgram.application
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\obj\Debug\ArtTechnologyProgram.exe.manifest
+C:\Users\hanif\source\repos\ArtTechnologyProgram\ArtTechnologyProgram\obj\Debug\ArtTechnologyProgram.application

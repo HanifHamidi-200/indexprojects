@@ -1,0 +1,20 @@
+﻿<Window x:Class="ContactsPage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContactsPage"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Grid Height="40" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="#FFCC4545">
+            <GridViewColumnHeader HorizontalAlignment="Left" Content="Here" MinWidth="30" Margin="5,0,0,0"/>
+            <GridViewColumnHeader HorizontalAlignment="Left" Content="Now" Margin="65,0,0,0"/>
+            <GridViewColumnHeader HorizontalAlignment="Left" Content="Forever" MinWidth="30" Margin="125,0,0,0"/>
+            <GridViewColumnHeader HorizontalAlignment="Left" Content="Done" Margin="185,0,0,0"/>
+        </Grid>
+        <Grid Height="200" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF2B2BCC">
+
+        </Grid>
+    </DockPanel>
+</Window>

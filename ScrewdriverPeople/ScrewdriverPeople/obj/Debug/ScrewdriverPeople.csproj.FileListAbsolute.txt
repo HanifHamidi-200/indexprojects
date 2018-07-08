@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\bin\Debug\ScrewdriverPeople.exe.config
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\bin\Debug\ScrewdriverPeople.exe
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\bin\Debug\ScrewdriverPeople.pdb
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\obj\Debug\ScrewdriverPeople.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\obj\Debug\ScrewdriverPeople.Form1.resources
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\obj\Debug\ScrewdriverPeople.Properties.Resources.resources
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\obj\Debug\ScrewdriverPeople.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\obj\Debug\ScrewdriverPeople.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\obj\Debug\ScrewdriverPeople.exe
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\obj\Debug\ScrewdriverPeople.pdb
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\bin\Debug\ScrewdriverPeople.exe.manifest
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\bin\Debug\ScrewdriverPeople.application
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\obj\Debug\ScrewdriverPeople.exe.manifest
+C:\Users\hanif\source\repos\ScrewdriverPeople\ScrewdriverPeople\obj\Debug\ScrewdriverPeople.application

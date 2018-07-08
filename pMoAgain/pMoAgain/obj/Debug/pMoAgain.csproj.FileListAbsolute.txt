@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\bin\Debug\pMoAgain.exe.config
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\bin\Debug\pMoAgain.exe
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\bin\Debug\pMoAgain.pdb
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\obj\Debug\pMoAgain.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\obj\Debug\pMoAgain.pMoAgain.resources
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\obj\Debug\pMoAgain.Properties.Resources.resources
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\obj\Debug\pMoAgain.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\obj\Debug\pMoAgain.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\obj\Debug\pMoAgain.exe
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\obj\Debug\pMoAgain.pdb
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\bin\Debug\pMoAgain.exe.manifest
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\bin\Debug\pMoAgain.application
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\obj\Debug\pMoAgain.exe.manifest
+C:\Users\hanif\source\repos\pMoAgain\pMoAgain\obj\Debug\pMoAgain.application

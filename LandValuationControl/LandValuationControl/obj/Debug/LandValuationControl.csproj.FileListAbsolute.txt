@@ -1,0 +1,10 @@
+C:\Users\hanif\source\repos\LandValuationControl\LandValuationControl\bin\Debug\LandValuationControl.exe.config
+C:\Users\hanif\source\repos\LandValuationControl\LandValuationControl\bin\Debug\LandValuationControl.exe
+C:\Users\hanif\source\repos\LandValuationControl\LandValuationControl\bin\Debug\LandValuationControl.pdb
+C:\Users\hanif\source\repos\LandValuationControl\LandValuationControl\obj\Debug\LandValuationControl.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\LandValuationControl\LandValuationControl\obj\Debug\LandValuationControl.Form1.resources
+C:\Users\hanif\source\repos\LandValuationControl\LandValuationControl\obj\Debug\LandValuationControl.Properties.Resources.resources
+C:\Users\hanif\source\repos\LandValuationControl\LandValuationControl\obj\Debug\LandValuationControl.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\LandValuationControl\LandValuationControl\obj\Debug\LandValuationControl.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\LandValuationControl\LandValuationControl\obj\Debug\LandValuationControl.exe
+C:\Users\hanif\source\repos\LandValuationControl\LandValuationControl\obj\Debug\LandValuationControl.pdb

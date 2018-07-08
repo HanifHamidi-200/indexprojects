@@ -1,0 +1,14 @@
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\bin\Debug\CosmicRaysIncoming.exe.config
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\bin\Debug\CosmicRaysIncoming.exe
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\bin\Debug\CosmicRaysIncoming.pdb
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\obj\Debug\CosmicRaysIncoming.csprojAssemblyReference.cache
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\obj\Debug\CosmicRaysIncoming.Form1.resources
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\obj\Debug\CosmicRaysIncoming.Properties.Resources.resources
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\obj\Debug\CosmicRaysIncoming.csproj.GenerateResource.cache
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\obj\Debug\CosmicRaysIncoming.csproj.CoreCompileInputs.cache
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\obj\Debug\CosmicRaysIncoming.exe
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\obj\Debug\CosmicRaysIncoming.pdb
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\bin\Debug\CosmicRaysIncoming.exe.manifest
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\bin\Debug\CosmicRaysIncoming.application
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\obj\Debug\CosmicRaysIncoming.exe.manifest
+c:\users\hanif\source\repos\CosmicRaysIncoming\CosmicRaysIncoming\obj\Debug\CosmicRaysIncoming.application

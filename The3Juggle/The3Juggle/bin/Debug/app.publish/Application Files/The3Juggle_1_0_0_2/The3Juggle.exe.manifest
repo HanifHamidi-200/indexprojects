@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="The3Juggle.exe" version="1.0.0.2" publicKeyToken="3d507266711df60f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="The3Juggle" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="The3Juggle.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="The3Juggle.exe" size="324576">
+      <assemblyIdentity name="The3Juggle" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eCBvp/xIfULKEvBPExhLVlrH2vp5Gayg608xd2f/KH8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="The3Juggle.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="b5a16d9196c9f1d5ead6c0471595c6bae25e1d98" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YufoL39EYyGuwJpxnC+93/RmvxjvCGX2QRh6pXAi1xM=</DigestValue></Reference></SignedInfo><SignatureValue>nqpEaVfWPGFHe0+f8hqwAkB8s00TVLugF+BlB+vNYFkWvfjFucermWUZhxqD/KT+z5JlgUf8HXix30Aos+k2rOcjK4djWYsblvTHe6b+g2M7W6Qws5R20v7dcKLrFRNdUZqKqKRiVBoB/p1nwurOT3rqQv6cws41UBSuJ+uGnSo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nwCyuYV+Wopd9muQW/Gob+pvpQyEAL5zGTM8ByZDQJmkNEylm/Uq/L8Kw6SdIfVMSAxLJrhotDPw6jrNM5qeQVmiTNSA/NRaooTVVwaMATF9DoBaTAxYaEatCUwzELyLXPHa2IZYhPHO+TIUfe0xFZ7aynd25vXFm5zCpyfTiKU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="13d72270a57a1841f66508ef18bf66f4dfbd2f9c719ac0ae2163447f2fe8e762" Description="" Url=""><as:assemblyIdentity name="The3Juggle.exe" version="1.0.0.2" publicKeyToken="3d507266711df60f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DQLoPMPAIpfddrlWYvsxDzHx1gV6Jto22si79IWDdBk=</DigestValue></Reference></SignedInfo><SignatureValue>DqhNC5Ipi/AhdPIAeaocw829VhwMZ2xCr8VA7mj0BeS+osFv+8NhoyteZbjFt9dW7zvHqtFZecVqTYYFQNfXq11nkFPe4zIIO4dLs4BgpQkQnBwWspOFoBmtijWbnUAcyXeMD3/EHyT5VLRT9QQCy50GdQ34yIMkZpuBdVwtUaE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nwCyuYV+Wopd9muQW/Gob+pvpQyEAL5zGTM8ByZDQJmkNEylm/Uq/L8Kw6SdIfVMSAxLJrhotDPw6jrNM5qeQVmiTNSA/NRaooTVVwaMATF9DoBaTAxYaEatCUwzELyLXPHa2IZYhPHO+TIUfe0xFZ7aynd25vXFm5zCpyfTiKU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQEUcjXnHv1btBd/QZggymUTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNjI3MDUzNzU1WhcNMTkwNjI3MTEzNzU1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ8AsrmFflqKXfZrkFvxqG/qb6UMhAC+cxkzPAcmQ0CZpDRMpZv1Kvy/CsOknSH1TEgMSya4aLQz8Oo6zTOankFZokzUgPzUWqKE1VcGjAExfQ6AWkwMWGhGrQlMMxC8i1zx2tiGWITxzvkyFH3tMRWe2sp3dub1xZucwqcn04ilAgMBAAEwDQYJKoZIhvcNAQELBQADgYEATxy7t9KTEPQBNXmov6s4nQ5OCMPccbSaUZPJiQeBvq9gEnholz/Np5UCQnVLgTQOiLby3vjTKBcoBm+0zls+DecOfe91hbgefplfrAhjNmWqpViO/gyaIdczKzXrctYDqrSg73pijOnunXwIc6b1pi7MF6y7X9rCHtlHKzc+T/s=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

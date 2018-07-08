@@ -1,0 +1,15 @@
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\bin\Debug\FacebookPage.exe.config
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\bin\Debug\FacebookPage.exe
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\bin\Debug\FacebookPage.pdb
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\obj\Debug\FacebookPage.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\obj\Debug\FacebookPage.Form1.resources
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\obj\Debug\FacebookPage.Properties.Resources.resources
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\obj\Debug\FacebookPage.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\obj\Debug\FacebookPage.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\obj\Debug\FacebookPage.exe
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\obj\Debug\FacebookPage.pdb
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\obj\Debug\FacebookPage.Form2.resources
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\bin\Debug\FacebookPage.exe.manifest
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\bin\Debug\FacebookPage.application
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\obj\Debug\FacebookPage.exe.manifest
+C:\Users\hanif\source\repos\FacebookPage\FacebookPage\obj\Debug\FacebookPage.application

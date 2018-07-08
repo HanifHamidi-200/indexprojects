@@ -1,0 +1,10 @@
+C:\Users\hanif\source\repos\ControlOftheSituation\ControlOftheSituation\bin\Debug\ControlOftheSituation.exe.config
+C:\Users\hanif\source\repos\ControlOftheSituation\ControlOftheSituation\bin\Debug\ControlOftheSituation.exe
+C:\Users\hanif\source\repos\ControlOftheSituation\ControlOftheSituation\bin\Debug\ControlOftheSituation.pdb
+C:\Users\hanif\source\repos\ControlOftheSituation\ControlOftheSituation\obj\Debug\ControlOftheSituation.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\ControlOftheSituation\ControlOftheSituation\obj\Debug\ControlOftheSituation.Form1.resources
+C:\Users\hanif\source\repos\ControlOftheSituation\ControlOftheSituation\obj\Debug\ControlOftheSituation.Properties.Resources.resources
+C:\Users\hanif\source\repos\ControlOftheSituation\ControlOftheSituation\obj\Debug\ControlOftheSituation.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\ControlOftheSituation\ControlOftheSituation\obj\Debug\ControlOftheSituation.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\ControlOftheSituation\ControlOftheSituation\obj\Debug\ControlOftheSituation.exe
+C:\Users\hanif\source\repos\ControlOftheSituation\ControlOftheSituation\obj\Debug\ControlOftheSituation.pdb

@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\bin\Debug\PicturesOfBusiness.exe.config
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\bin\Debug\PicturesOfBusiness.exe
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\bin\Debug\PicturesOfBusiness.pdb
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\obj\Debug\PicturesOfBusiness.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\obj\Debug\PicturesOfBusiness.Form1.resources
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\obj\Debug\PicturesOfBusiness.Properties.Resources.resources
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\obj\Debug\PicturesOfBusiness.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\obj\Debug\PicturesOfBusiness.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\obj\Debug\PicturesOfBusiness.exe
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\obj\Debug\PicturesOfBusiness.pdb
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\bin\Debug\PicturesOfBusiness.exe.manifest
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\bin\Debug\PicturesOfBusiness.application
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\obj\Debug\PicturesOfBusiness.exe.manifest
+C:\Users\hanif\source\repos\PicturesOfBusiness\PicturesOfBusiness\obj\Debug\PicturesOfBusiness.application

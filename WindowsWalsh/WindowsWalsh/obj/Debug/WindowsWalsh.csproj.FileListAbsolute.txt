@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\bin\Debug\WindowsWalsh.exe.config
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\bin\Debug\WindowsWalsh.exe
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\bin\Debug\WindowsWalsh.pdb
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\obj\Debug\WindowsWalsh.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\obj\Debug\WindowsWalsh.Form1.resources
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\obj\Debug\WindowsWalsh.Properties.Resources.resources
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\obj\Debug\WindowsWalsh.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\obj\Debug\WindowsWalsh.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\obj\Debug\WindowsWalsh.exe
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\obj\Debug\WindowsWalsh.pdb
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\bin\Debug\WindowsWalsh.exe.manifest
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\bin\Debug\WindowsWalsh.application
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\obj\Debug\WindowsWalsh.exe.manifest
+C:\Users\hanif\source\repos\WindowsWalsh\WindowsWalsh\obj\Debug\WindowsWalsh.application

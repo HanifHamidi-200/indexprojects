@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\bin\Debug\LowcroftModules.exe.config
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\bin\Debug\LowcroftModules.exe
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\bin\Debug\LowcroftModules.pdb
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\obj\Debug\LowcroftModules.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\obj\Debug\LowcroftModules.Form1.resources
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\obj\Debug\LowcroftModules.Properties.Resources.resources
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\obj\Debug\LowcroftModules.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\obj\Debug\LowcroftModules.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\obj\Debug\LowcroftModules.exe
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\obj\Debug\LowcroftModules.pdb
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\bin\Debug\LowcroftModules.exe.manifest
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\bin\Debug\LowcroftModules.application
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\obj\Debug\LowcroftModules.exe.manifest
+C:\Users\hanif\source\repos\LowcroftModules\LowcroftModules\obj\Debug\LowcroftModules.application

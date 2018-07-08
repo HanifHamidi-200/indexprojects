@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\bin\Debug\BottleLearnings.exe.config
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\bin\Debug\BottleLearnings.exe
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\bin\Debug\BottleLearnings.pdb
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\obj\Debug\BottleLearnings.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\obj\Debug\BottleLearnings.Form1.resources
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\obj\Debug\BottleLearnings.Properties.Resources.resources
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\obj\Debug\BottleLearnings.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\obj\Debug\BottleLearnings.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\obj\Debug\BottleLearnings.exe
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\obj\Debug\BottleLearnings.pdb
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\bin\Debug\BottleLearnings.exe.manifest
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\bin\Debug\BottleLearnings.application
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\obj\Debug\BottleLearnings.exe.manifest
+C:\Users\hanif\source\repos\BottleLearnings\BottleLearnings\obj\Debug\BottleLearnings.application

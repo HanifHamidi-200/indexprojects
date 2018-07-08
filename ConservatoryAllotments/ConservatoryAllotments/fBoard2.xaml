@@ -1,0 +1,91 @@
+﻿<Window x:Class="ConservatoryAllotments.fBoard2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConservatoryAllotments"
+        mc:Ignorable="d"
+        Title="fBoard2" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn1" Content="Button" HorizontalAlignment="Left" Height="75" Margin="24,245,0,0" VerticalAlignment="Top" Width="73" Background="#FFDE5252" RenderTransformOrigin="0.5,0.5" Click="btn1_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-65.556"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btn2" Content="Button" HorizontalAlignment="Left" Height="75" Margin="88,127,0,0" VerticalAlignment="Top" Width="73" Background="#FFDE5252" RenderTransformOrigin="0.5,0.5" Click="btn2_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-37.875"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btn3" Content="Button" HorizontalAlignment="Left" Height="75" Margin="201,88,0,0" VerticalAlignment="Top" Width="73" Background="#FFDE5252" RenderTransformOrigin="0.5,0.5" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="26.565"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btn4" Content="Button" HorizontalAlignment="Left" Height="75" Margin="267,187,0,0" VerticalAlignment="Top" Width="74" Background="#FFDE5252" RenderTransformOrigin="0.5,0.5" Click="btn4_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="69.444"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btn5" Content="Button" HorizontalAlignment="Left" Height="75" Margin="347,267,0,0" VerticalAlignment="Top" Width="73" Background="#FFDE5252" RenderTransformOrigin="0.5,0.5" Click="btn5_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="4.399"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btn6" Content="Button" HorizontalAlignment="Left" Height="75" Margin="454,218,0,0" VerticalAlignment="Top" Width="74" Background="#FFDE5252" RenderTransformOrigin="0.5,0.5" Click="btn6_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-41.987"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btn7" Content="Button" HorizontalAlignment="Left" Height="75" Margin="516,154,0,0" VerticalAlignment="Top" Width="74" Background="#FFDE5252" RenderTransformOrigin="0.5,0.5" Click="btn7_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-41.987"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="19" Margin="40,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Background="#FF75D850"/>
+        <Label x:Name="lbl1" Content="KEY" HorizontalAlignment="Left" Height="26" Margin="40,39,0,0" VerticalAlignment="Top" Width="45" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
+        <Label x:Name="lbl1_Copy" Content="(same, upgrade, obelisk, scatum, appeared, gravy, boiled, turnover)" HorizontalAlignment="Left" Height="26" Margin="108,39,0,0" VerticalAlignment="Top" Width="380" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Background="#FF5CD3CD"/>
+        <Button x:Name="btnQNext" Content="QNext" HorizontalAlignment="Left" Height="36" Margin="542,10,0,0" VerticalAlignment="Top" Width="86" Background="#FFDEB152" RenderTransformOrigin="0.5,0.5" Click="btnQNext_Click"/>
+        <ListBox x:Name="lst1" HorizontalAlignment="Left" Height="102" Margin="568,202,0,0" VerticalAlignment="Top" Width="180" Background="#FF27C8D8"/>
+        <Label x:Name="lbl1_Copy1" Content="DIARY" HorizontalAlignment="Left" Height="26" Margin="568,142,0,0" VerticalAlignment="Top" Width="44" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
+        <TextBox x:Name="txtDiary" HorizontalAlignment="Left" Height="20" Margin="568,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Background="#FF75D850"/>
+        <Button x:Name="btnDiary" Content="Add" HorizontalAlignment="Left" Height="20" Margin="702,168,0,0" VerticalAlignment="Top" Width="64" Background="#FFDEB152" RenderTransformOrigin="0.5,0.5" Click="btnDiary_Click"/>
+        <Button x:Name="btnDiaryClear" Content="Clear" HorizontalAlignment="Left" Height="20" Margin="702,324,0,0" VerticalAlignment="Top" Width="64" Background="#FFDEB152" RenderTransformOrigin="0.5,0.5" Click="btnDiaryClear_Click"/>
+
+    </Grid>
+</Window>

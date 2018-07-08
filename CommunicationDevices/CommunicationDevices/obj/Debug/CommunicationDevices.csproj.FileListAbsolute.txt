@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\bin\Debug\CommunicationDevices.exe.config
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\bin\Debug\CommunicationDevices.exe
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\bin\Debug\CommunicationDevices.pdb
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\obj\Debug\CommunicationDevices.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\obj\Debug\CommunicationDevices.Form1.resources
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\obj\Debug\CommunicationDevices.Properties.Resources.resources
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\obj\Debug\CommunicationDevices.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\obj\Debug\CommunicationDevices.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\obj\Debug\CommunicationDevices.exe
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\obj\Debug\CommunicationDevices.pdb
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\bin\Debug\CommunicationDevices.exe.manifest
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\bin\Debug\CommunicationDevices.application
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\obj\Debug\CommunicationDevices.exe.manifest
+C:\Users\hanif\source\repos\CommunicationDevices\CommunicationDevices\obj\Debug\CommunicationDevices.application

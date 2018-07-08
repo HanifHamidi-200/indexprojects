@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CommunicationDevices.exe" version="1.0.0.0" publicKeyToken="2c8d1d8067b71ca4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CommunicationDevices" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CommunicationDevices.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CommunicationDevices.exe" size="50144">
+      <assemblyIdentity name="CommunicationDevices" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sv1acFxGI0oWOQ63XPFpyy11GnmJWUHqAsKAHw4ldlU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CommunicationDevices.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Equals.png" size="557">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8SxB5PC53F6ZtyMBrN/nhBGSccSgFPCerr+5DRso0fM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Exit.png" size="3045">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I13dBNb5D+6Ii3VtTN9EH/368GIsJ/3/EDKL0L4Vu1E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Eye.png" size="2611">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VegO/VOPiQcEC8ku/MHCfV5S/8W+pv2hsod0wHwtDr8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Mebbelgrid.png" size="2481">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9NgzOZYhpcovAiE/t0AiOCQJNkQs0pTluGesTcg56vE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Nullgate.png" size="3278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rmWNhuJdzQKGuu1GOtAA1HySsae0urh584XzY1JqycM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Paddle.png" size="1968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aTrpgETGwLT0kBn+AFwczSlnNPZggGZ9ZdLEhGP3+KI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Proscient.png" size="7420">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tDdSejTAtArCSfCz6ds28IATM4yWr9RO6bDAk5ER4nM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F SkinFormula.png" size="4590">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bjOkEUERFMtsDvbNdP5deC3ka3YJZq0Vr49A4GZYfec=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Star.png" size="6052">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lHTJSsASuqDaD2DgqmfAndZjbp0l/6SLpskgVayYwHQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Steel.png" size="543">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MoO6YGFGzVZorx8oww+MWJ2Y+Ar5PGAglDUYRhgVDJE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Triangle.png" size="1733">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MFHmeHuLCr+wlszjbfZuHSn4TInFfsnx64leRHwgI1Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Turquoise.png" size="1954">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k+KpPwA7dOx3XY3gMxAgRYQm8ODA1Vz6K9LhSgvCRwg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="05ef841475b179e0262111cec8324876f138ff4b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SgSv/++WHWleY1GhQCBVkTN6orC4jma+z9GGlmhAKOQ=</DigestValue></Reference></SignedInfo><SignatureValue>do8G8YWH4AvveQcTkfVgJN5IyNZNZRE6GNT9n1lckHKJ1QDDZZqPiCm/f7EjhOjdKrqOfApra8J0P+VJiDK5+zBsgVPdH/L7JTn/lwuX0U1O1FboICpTyZ5BH7xUQ4uFJu9wyFKIu5uHLTMcRUclnQ6pMQiJHXHPL/4mwURiYsw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tTP5nBJ9B1V9mAMwauhrlAy7Q6OP9qRZdIhHQjfccsuQGVUb5C9KmlPorBe33GB/4YugPjO7Cf9L9yLsWhPTcHL/62zBz/UMq0ax9YR3LqszRkA/Psg3MTmrj/6jLgI2d0QpfU4xl9WZwo91L0TUWM5wL6AHZlox0QEBTGBdS90=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e42840689686d1cfbe668eb8b0a27a3391552040a151635e691d96efffaf044a" Description="" Url=""><as:assemblyIdentity name="CommunicationDevices.exe" version="1.0.0.0" publicKeyToken="2c8d1d8067b71ca4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jWmXRlRSfS2u01CfKJ8cgwmv6PNbuXa+4RCoLNwqcLI=</DigestValue></Reference></SignedInfo><SignatureValue>M5CbWlcZoOrndBo9IQZvZU3IqSXumiYpTK065JyOapzK80AwWEzA7a0e/7GvIRrAmbgtXn92vf5cphGvAOhGCr3QMvSd2OhRjDvSQ/z/ZSHILxsQAGerUTj+hoThCuz7/dHIRDyzz+n24TjcaiFpyX7SQNcmhEnCGYPkNJDytHg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tTP5nBJ9B1V9mAMwauhrlAy7Q6OP9qRZdIhHQjfccsuQGVUb5C9KmlPorBe33GB/4YugPjO7Cf9L9yLsWhPTcHL/62zBz/UMq0ax9YR3LqszRkA/Psg3MTmrj/6jLgI2d0QpfU4xl9WZwo91L0TUWM5wL6AHZlox0QEBTGBdS90=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYibBwExC2qtLCuB2wlCuTDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzA0MjIzMzU2WhcNMTkwNzA1MDQzMzU2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALUz+ZwSfQdVfZgDMGroa5QMu0Ojj/akWXSIR0I33HLLkBlVG+QvSppT6KwXt9xgf+GLoD4zuwn/S/ci7FoT03By/+tswc/1DKtGsfWEdy6rM0ZAPz7INzE5q4/+oy4CNndEKX1OMZfVmcKPdS9E1FjOcC+gB2ZaMdEBAUxgXUvdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAIOLb8EKWSjxm4BAxiq6P+dkxeYHImBNysNF0FW9BUwdqZoRieGiBnh5lvQGgnoXDw+jNQ6PMRildHrxPbPkNC3ckByVvlf2767XFb70ZgrB3c0VwjngtpL5I14xR+kyt/Eb3t37kxm1/Jw5YsoPkTnjUQVzEi/OJln0/ofx5U0Y=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

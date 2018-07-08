@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\bin\Debug\JobTurnaround.exe.config
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\bin\Debug\JobTurnaround.exe
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\bin\Debug\JobTurnaround.pdb
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\obj\Debug\JobTurnaround.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\obj\Debug\JobTurnaround.Form1.resources
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\obj\Debug\JobTurnaround.Properties.Resources.resources
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\obj\Debug\JobTurnaround.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\obj\Debug\JobTurnaround.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\obj\Debug\JobTurnaround.exe
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\obj\Debug\JobTurnaround.pdb
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\bin\Debug\JobTurnaround.exe.manifest
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\bin\Debug\JobTurnaround.application
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\obj\Debug\JobTurnaround.exe.manifest
+C:\Users\hanif\source\repos\JobTurnaround\JobTurnaround\obj\Debug\JobTurnaround.application

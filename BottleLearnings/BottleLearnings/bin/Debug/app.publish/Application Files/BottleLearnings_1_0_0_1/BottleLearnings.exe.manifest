@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BottleLearnings.exe" version="1.0.0.1" publicKeyToken="0bba58f74cd4e0b7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BottleLearnings" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BottleLearnings.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BottleLearnings.exe" size="226272">
+      <assemblyIdentity name="BottleLearnings" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GsUZmMFOQolM+lbtFJsYvRDyAD1g+l+Z60I0RsHe+Qs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BottleLearnings.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Angel 1.png" size="7352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bv9e4dHvhfpxK2YNXoiXCfuMo2FdKep3n4gmytdz4ho=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Nullgate.png" size="3278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rmWNhuJdzQKGuu1GOtAA1HySsae0urh584XzY1JqycM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Plumbing 1.png" size="9017">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KPskql1GtzPJqwIiYctrE2W0mwVo3OCKjrTO13ggJQI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Plumbing 2.png" size="9017">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KPskql1GtzPJqwIiYctrE2W0mwVo3OCKjrTO13ggJQI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Structures 1a.png" size="3284">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>G+XbE+KwJMty/1nRhnbXGwlHkUhnkitxkTwA1Yg6e/I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Structures 1b.png" size="3284">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>G+XbE+KwJMty/1nRhnbXGwlHkUhnkitxkTwA1Yg6e/I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Structures 1c.png" size="3284">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>G+XbE+KwJMty/1nRhnbXGwlHkUhnkitxkTwA1Yg6e/I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Structures 2a.png" size="2944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JfmWglXsamEG+E4VgHtPaXm+B1pRYkfELakZ6Y5C3yI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Structures 2b.png" size="2944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JfmWglXsamEG+E4VgHtPaXm+B1pRYkfELakZ6Y5C3yI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Structures 2c.png" size="2944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JfmWglXsamEG+E4VgHtPaXm+B1pRYkfELakZ6Y5C3yI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="b27b5c67942e5a2a6e135481d408cc0122fd1073" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EYXW0lIqtGyj9O8nFnrRdRl5QDXC+Yy+epGrMcyEepo=</DigestValue></Reference></SignedInfo><SignatureValue>iC0kICr3kvQ/rrYQzRIQQwC5YwBUeG8eY1YtQZg7csyG4ZW9opSEx0CVWz4sB20oNd9BuVlCqJ9Pj6CXgNDipx1zfM0NWu+hI0t/63QcSm1E+D5vMI83m7siAnfYuDf0hyB4fzAzLDcuYzUgJOAXHsCe9hn1x9KRpgj1/SLOmvo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xw/oPqRqZh+vRqvEbRnjxUwJwG86+spyOnSPPe3GpFArlK8vzo/fl4WN1t/IX5eerl6u0TKYeDSKuogsm0RI0mNZthkgATZK1JMVOh5ChcQB8wZHdQr+L2NIg1mBP1/8IT6bxEkxReKGc8ngu95rE5LFaoltt6Y6/cwKtULLI1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9a7a84cc31ab917abe8cf9c23540791975d17a1627eff4a36cb42a52d2d68511" Description="" Url=""><as:assemblyIdentity name="BottleLearnings.exe" version="1.0.0.1" publicKeyToken="0bba58f74cd4e0b7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>P+svLQMxBKftLehuXrMwHeuLvKu4mKdxvaAeTm5tn0k=</DigestValue></Reference></SignedInfo><SignatureValue>AyspoYN9sLCtpn8UcAfp8UZ9vThOKXBCwu3VgbUxpCBV0V3luBJaMiUaaX0lQbeOW3C2K6q8G4YvzlIjHS/Ij4EEZngZx7rCpsKx0NFzoOraAHnjWBi5bdzJK92GWS+lOC1oE77q3eYS1blLX16SGwZ3I70PqkKS1ZCzWOIN/V8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xw/oPqRqZh+vRqvEbRnjxUwJwG86+spyOnSPPe3GpFArlK8vzo/fl4WN1t/IX5eerl6u0TKYeDSKuogsm0RI0mNZthkgATZK1JMVOh5ChcQB8wZHdQr+L2NIg1mBP1/8IT6bxEkxReKGc8ngu95rE5LFaoltt6Y6/cwKtULLI1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQGcbmJcNGhqpHuLzMuAeeRjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzAyMjAxNzE3WhcNMTkwNzAzMDIxNzE3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMcP6D6kamYfr0arxG0Z48VMCcBvOvrKcjp0jz3txqRQK5SvL86P35eFjdbfyF+Xnq5ertEymHg0irqILJtESNJjWbYZIAE2StSTFToeQoXEAfMGR3UK/i9jSINZgT9f/CE+m8RJMUXihnPJ4LveaxOSxWqJbbemOv3MCrVCyyNVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAYjI7Rhr934BDkycniXkt5XtKLB15BN95Z50hg5/cneMsLdH6y1AQujHoXw1dWSE9v0Pq7XO6sziBj/uH469MNTldLu6l8o4FZ9zFbiZQA2zLdeLy/stAhFXg218bCPC9qO0gFi+DU6Hptxwex4V75LKDvhldg+u+TIvsepiJyqg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\OriginSays\OriginSays\bin\Debug\OriginSays.exe.config
+C:\Users\hanif\source\repos\OriginSays\OriginSays\bin\Debug\OriginSays.exe
+C:\Users\hanif\source\repos\OriginSays\OriginSays\bin\Debug\OriginSays.pdb
+C:\Users\hanif\source\repos\OriginSays\OriginSays\obj\Debug\OriginSays.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\OriginSays\OriginSays\obj\Debug\OriginSays.Form1.resources
+C:\Users\hanif\source\repos\OriginSays\OriginSays\obj\Debug\OriginSays.Properties.Resources.resources
+C:\Users\hanif\source\repos\OriginSays\OriginSays\obj\Debug\OriginSays.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\OriginSays\OriginSays\obj\Debug\OriginSays.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\OriginSays\OriginSays\obj\Debug\OriginSays.exe
+C:\Users\hanif\source\repos\OriginSays\OriginSays\obj\Debug\OriginSays.pdb
+C:\Users\hanif\source\repos\OriginSays\OriginSays\bin\Debug\OriginSays.exe.manifest
+C:\Users\hanif\source\repos\OriginSays\OriginSays\bin\Debug\OriginSays.application
+C:\Users\hanif\source\repos\OriginSays\OriginSays\obj\Debug\OriginSays.exe.manifest
+C:\Users\hanif\source\repos\OriginSays\OriginSays\obj\Debug\OriginSays.application

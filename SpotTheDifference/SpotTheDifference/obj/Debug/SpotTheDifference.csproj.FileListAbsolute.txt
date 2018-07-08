@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\bin\Debug\SpotTheDifference.exe.config
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\bin\Debug\SpotTheDifference.exe
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\bin\Debug\SpotTheDifference.pdb
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\obj\Debug\SpotTheDifference.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\obj\Debug\SpotTheDifference.Form1.resources
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\obj\Debug\SpotTheDifference.Properties.Resources.resources
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\obj\Debug\SpotTheDifference.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\obj\Debug\SpotTheDifference.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\obj\Debug\SpotTheDifference.exe
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\obj\Debug\SpotTheDifference.pdb
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\bin\Debug\SpotTheDifference.exe.manifest
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\bin\Debug\SpotTheDifference.application
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\obj\Debug\SpotTheDifference.exe.manifest
+C:\Users\hanif\source\repos\SpotTheDifference\SpotTheDifference\obj\Debug\SpotTheDifference.application

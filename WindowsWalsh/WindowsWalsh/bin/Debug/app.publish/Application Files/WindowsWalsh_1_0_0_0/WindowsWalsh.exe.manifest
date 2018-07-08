@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindowsWalsh.exe" version="1.0.0.0" publicKeyToken="8644eef8f06a0aad" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsWalsh" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WindowsWalsh.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsWalsh.exe" size="20448">
+      <assemblyIdentity name="WindowsWalsh" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iR4T9Kog2BY4ZHf+KeAghbMlOq9UcbQECJguKKEqLQc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WindowsWalsh.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="19dbebf29a95c5fbac8ee6479cb0d541f164f7bc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tYJL3kDsltNMXhYABcFWT4XOGIEacy1Rw78/+hUuO0k=</DigestValue></Reference></SignedInfo><SignatureValue>ctxnmja1VLD8V7jg+jF0vY/4wkj/kYjlYPKkC8axUl72aeKlkkyYCFO46Q7l9iZKsA092s/dVRi9CCaXw1QK8flcu2UvmCRDz8czlJxDqOiOoLru43hhL87g+ZMgFO6cRmPlTdf6WRmtmRR+62FveYko+HreSU4xBwEav6VnYf4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8uKUU+f5A5mW0Rl9UhnFDOCAWg+Tly5cpT0iG9EucIhWGk85fGBJVg53ca7TOKr/2iHNETI2Z4wLsgCmyLS8GRenW7aDv+gfXInqYDYd7Bt8+P+UuFSpzZMf0XP8vdQuIh6ZyDWUlC3NQY/0hf9sQtMDdHkWuKd4oHP93HjYyi0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="493b2e15fa3fbfc3512d731a8118ce854f56c10500165e4cd396ec40de4b82b5" Description="" Url=""><as:assemblyIdentity name="WindowsWalsh.exe" version="1.0.0.0" publicKeyToken="8644eef8f06a0aad" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qS/dEbsuGbstFQBC4dhnVzIAls3AVw5QStcuvAXvAQI=</DigestValue></Reference></SignedInfo><SignatureValue>6sI48/Fr5MbomVqOvNJoiIm6qRUBtZ5jCPTOJ4mpqyS4Bbi7JwdBa3lfEOlZfVAuy16pbfEMuhxsbiAff2Z8F5/QEPnEcMed6HLWnXIbSMI32suyoWAYoaUiffmid7pOF9NNOs63u5z1W6YXgOJ1EZDOk1uk6UjUojozY66RnVQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8uKUU+f5A5mW0Rl9UhnFDOCAWg+Tly5cpT0iG9EucIhWGk85fGBJVg53ca7TOKr/2iHNETI2Z4wLsgCmyLS8GRenW7aDv+gfXInqYDYd7Bt8+P+UuFSpzZMf0XP8vdQuIh6ZyDWUlC3NQY/0hf9sQtMDdHkWuKd4oHP93HjYyi0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHkGjtwm8JKhLjfdJciL3ojANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzA2MTg1NDQwWhcNMTkwNzA3MDA1NDQwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPLilFPn+QOZltEZfVIZxQzggFoPk5cuXKU9IhvRLnCIVhpPOXxgSVYOd3Gu0ziq/9ohzREyNmeMC7IApsi0vBkXp1u2g7/oH1yJ6mA2HewbfPj/lLhUqc2TH9Fz/L3ULiIemcg1lJQtzUGP9IX/bELTA3R5FrineKBz/dx42MotAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAcGKjrUEuddY9ynDOapWQgC+zBGuskmBy9SUR9PQEHOvsLfr9bPtslE0tmyaq2e+7Vq8mm/r8SOO0CSbseOsNIe0TJRYArsrH8bSrWs+RR0QKU13/xgY964GGnQ3KFMDs9tpu3ptHvogDxtcy6//3lW+2sLDPxU6kOt0JaG2ydO0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

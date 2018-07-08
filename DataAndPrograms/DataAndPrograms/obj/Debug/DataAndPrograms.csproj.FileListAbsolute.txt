@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\bin\Debug\DataAndPrograms.exe.config
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\bin\Debug\DataAndPrograms.exe
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\bin\Debug\DataAndPrograms.pdb
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\obj\Debug\DataAndPrograms.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\obj\Debug\DataAndPrograms.Form1.resources
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\obj\Debug\DataAndPrograms.Properties.Resources.resources
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\obj\Debug\DataAndPrograms.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\obj\Debug\DataAndPrograms.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\obj\Debug\DataAndPrograms.exe
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\obj\Debug\DataAndPrograms.pdb
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\bin\Debug\DataAndPrograms.exe.manifest
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\bin\Debug\DataAndPrograms.application
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\obj\Debug\DataAndPrograms.exe.manifest
+C:\Users\hanif\source\repos\DataAndPrograms\DataAndPrograms\obj\Debug\DataAndPrograms.application

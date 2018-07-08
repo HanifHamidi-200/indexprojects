@@ -1,0 +1,10 @@
+C:\Users\hanif\source\repos\Trendsetter\Trendsetter\bin\Debug\Trendsetter.exe.config
+C:\Users\hanif\source\repos\Trendsetter\Trendsetter\bin\Debug\Trendsetter.exe
+C:\Users\hanif\source\repos\Trendsetter\Trendsetter\bin\Debug\Trendsetter.pdb
+C:\Users\hanif\source\repos\Trendsetter\Trendsetter\obj\Debug\Trendsetter.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\Trendsetter\Trendsetter\obj\Debug\Trendsetter.Form1.resources
+C:\Users\hanif\source\repos\Trendsetter\Trendsetter\obj\Debug\Trendsetter.Properties.Resources.resources
+C:\Users\hanif\source\repos\Trendsetter\Trendsetter\obj\Debug\Trendsetter.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\Trendsetter\Trendsetter\obj\Debug\Trendsetter.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\Trendsetter\Trendsetter\obj\Debug\Trendsetter.exe
+C:\Users\hanif\source\repos\Trendsetter\Trendsetter\obj\Debug\Trendsetter.pdb

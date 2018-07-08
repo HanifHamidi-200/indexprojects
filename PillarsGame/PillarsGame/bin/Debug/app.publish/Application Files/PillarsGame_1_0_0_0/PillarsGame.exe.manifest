@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PillarsGame.exe" version="1.0.0.0" publicKeyToken="58fa02512ea3d16f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PillarsGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PillarsGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PillarsGame.exe" size="198624">
+      <assemblyIdentity name="PillarsGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bxJDVForZUVJrX/hUqVz/oVsqKLibkOEhDNyBFyZ7OQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icons\F blank1.png" size="586">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NQv8YOzZB8NQ5eZIQ+Vkme3OkTvcHvXX7+puwom4cjw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F blank2.png" size="587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mKadwt95hsRoMUx+4K4/p+vjzIAcCjkLM2TYUqq/f+A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F fruits1.png" size="5863">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZbDV1RpQT/iB3u+e7jdifz7juQhURjDeeMGPXcWCizk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F fruits2.png" size="4802">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Oz/UJpnuQpBBFUZj++NFeAqEy1A4CR03jJv+7WS1LDI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Nullgate.png" size="3278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rmWNhuJdzQKGuu1GOtAA1HySsae0urh584XzY1JqycM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F pillars.png" size="5573">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZAT3YEWmq8QzmcXAHF8GYCmat5yNieC2uSXHHYsVtVY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PillarsGame.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="3a3661c5462b44bd3f92f5a83c852c4ead1d825d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jgkxXR41DOKidjU1FfJtEeejABjf1KKYxA0ol0DMHGI=</DigestValue></Reference></SignedInfo><SignatureValue>WTN4RkZNUfuPzgvYsIuALtnlF8HawNqgQTYYqqJku3rbRGIZlcggJXHTF5nGqAd/mL+s2gA8Y+Jpmk9Pfk1unFYguOprvATUqySCp56GkWDNKVzY8o3uTcen33BMdqvD9/wxcOUb/ri3ARtRd64SWNL6dfnCInk+nz6uqYks4kA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1UP+00qx1KunBZpYfnJ+3TR5kVzNqqtxCObHqcN5mqugfGB3A79w2MQ4tvLn+b1S+8EJpzvoUa1yOpdg9hWLXuUSl587KMQQOkxl//bU5r+VQYRwAWRevVLnUujTBno47rEaqu3QiC7lk5dAHdbaACixo95YyCaJe0431F5VCeU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="621ccc4097280dc498a2d4df1800a3e7116df215353576a2e20c351e5d31098e" Description="" Url=""><as:assemblyIdentity name="PillarsGame.exe" version="1.0.0.0" publicKeyToken="58fa02512ea3d16f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dKwkD1RPs7u5306nPypId2BrYtiJukmdu6oxgDyv0eQ=</DigestValue></Reference></SignedInfo><SignatureValue>DzB1eHtvpkcjJJ4wwvuh5v5qVd3BYh3MZZQDCjDBYy5BH3kmKfXoOlXHQehJWyIkZa1OBxNJbtCKnsRREKrp0UGBHAuy/3t9zfgwP4kRdaBnh7670UQsRBpMPttfUl1BADh7hnU58bx0mlwZ8UC9V4JrKmOwq02DdRlbpvl6SzY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1UP+00qx1KunBZpYfnJ+3TR5kVzNqqtxCObHqcN5mqugfGB3A79w2MQ4tvLn+b1S+8EJpzvoUa1yOpdg9hWLXuUSl587KMQQOkxl//bU5r+VQYRwAWRevVLnUujTBno47rEaqu3QiC7lk5dAHdbaACixo95YyCaJe0431F5VCeU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZhYTMfMmq7tM8OccL7WBbDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzA4MDYwNDA5WhcNMTkwNzA4MTIwNDA5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANVD/tNKsdSrpwWaWH5yft00eZFczaqrcQjmx6nDeZqroHxgdwO/cNjEOLby5/m9UvvBCac76FGtcjqXYPYVi17lEpefOyjEEDpMZf/21Oa/lUGEcAFkXr1S51Lo0wZ6OO6xGqrt0Igu5ZOXQB3W2gAosaPeWMgmiXtON9ReVQnlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAYSw3vAIg65P77k2rC+BXvKbnZFj7XSZ1w0XFTaWmb9XVjm9mWCPBsVNrC2GJ6d4Ll3TfkqWznbynwzVrKCvftLnAm2OkuGySnXtbrrGSA9TTOKvAGnKFb8UPs/xTXll2xeMNPOAt8u6au2ZVK6oGGPorbX6QjUoGU+8w8WoghF8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

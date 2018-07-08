@@ -1,0 +1,10 @@
+C:\Users\hanif\source\repos\OilDamFactory\OilDamFactory\bin\Debug\OilDamFactory.exe.config
+C:\Users\hanif\source\repos\OilDamFactory\OilDamFactory\bin\Debug\OilDamFactory.exe
+C:\Users\hanif\source\repos\OilDamFactory\OilDamFactory\bin\Debug\OilDamFactory.pdb
+C:\Users\hanif\source\repos\OilDamFactory\OilDamFactory\obj\Debug\OilDamFactory.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\OilDamFactory\OilDamFactory\obj\Debug\OilDamFactory.Form1.resources
+C:\Users\hanif\source\repos\OilDamFactory\OilDamFactory\obj\Debug\OilDamFactory.Properties.Resources.resources
+C:\Users\hanif\source\repos\OilDamFactory\OilDamFactory\obj\Debug\OilDamFactory.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\OilDamFactory\OilDamFactory\obj\Debug\OilDamFactory.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\OilDamFactory\OilDamFactory\obj\Debug\OilDamFactory.exe
+C:\Users\hanif\source\repos\OilDamFactory\OilDamFactory\obj\Debug\OilDamFactory.pdb
