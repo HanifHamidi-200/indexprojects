@@ -13,6 +13,7 @@ namespace ArtTechnologyProgram
     public partial class Form1 : Form
     {
         private int nFirstRecord;
+        private int mnCount = 17;
 
         private void fPutRecord(int nRecord,int nPos)
         {
@@ -93,6 +94,49 @@ namespace ArtTechnologyProgram
                 sDescription = "usewise VehicleAssault",
                 sFile = "phute.png"
             };
+            Item picture12 = new Item
+            {
+                nNumber = 12,
+                sTitle = "emu",
+                sDescription = "coalesced bordering",
+                sFile = "temasak.png"
+            };
+            Item picture13 = new Item
+            {
+                nNumber =13,
+                sTitle = "poltry",
+                sDescription = "tripmarked pointer",
+                sFile = "jondle.png"
+            };
+            Item picture14 = new Item
+            {
+                nNumber = 14,
+                sTitle = "thwice",
+                sDescription = "sayings and belongings",
+                sFile = "nacuta.png"
+            };
+            Item picture15 = new Item
+            {
+                nNumber = 15,
+                sTitle = "serrant",
+                sDescription = "a fashioned servant",
+                sFile = "perelli.png"
+            };
+            Item picture16 = new Item
+            {
+                nNumber = 16,
+                sTitle = "molken",
+                sDescription = "difference of distinguishments",
+                sFile = "phute.png"
+            };
+            Item picture17 = new Item
+            {
+                nNumber = 17,
+                sTitle = "jaded",
+                sDescription = "patterned ribcage",
+                sFile = "phute.png"
+            };
+
             Item picExamine = new Item();
 
             switch (nRecord)
@@ -127,8 +171,26 @@ namespace ArtTechnologyProgram
                 case 10:
                     picExamine = picture10;
                     break;
-                default:
+                case 11:
                     picExamine = picture11;
+                    break;
+                case 12:
+                    picExamine = picture12;
+                    break;
+                case 13:
+                    picExamine = picture13;
+                    break;
+                case 14:
+                    picExamine = picture14;
+                    break;
+                case 15:
+                    picExamine = picture15;
+                    break;
+                case 16:
+                    picExamine = picture16;
+                    break;
+                default:
+                    picExamine = picture17;
                     break;
             }
 
@@ -174,9 +236,9 @@ namespace ArtTechnologyProgram
             {
                 nPos += 1;
                 nRecord = i;
-                if (nRecord > 11)
+                if (nRecord > mnCount)
                 {
-                    nRecord -= 11;
+                    nRecord -= mnCount;
                 }
                 fPutRecord(nRecord, nPos);
             }
@@ -196,7 +258,7 @@ namespace ArtTechnologyProgram
         private void btnUp_Click(object sender, EventArgs e)
         {
             nFirstRecord += 1;
-            if (nFirstRecord == 12)
+            if (nFirstRecord == mnCount+1)
             {
                 nFirstRecord = 1;
             }
@@ -208,7 +270,7 @@ namespace ArtTechnologyProgram
             nFirstRecord -= 1;
             if (nFirstRecord == 0)
             {
-                nFirstRecord = 11;
+                nFirstRecord = mnCount;
             }
             fUpdateDisplay();
         }

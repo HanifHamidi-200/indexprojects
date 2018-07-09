@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\Typeouts\Typeouts\bin\Debug\Typeouts.exe.config
+C:\Users\hanif\source\repos\Typeouts\Typeouts\bin\Debug\Typeouts.exe
+C:\Users\hanif\source\repos\Typeouts\Typeouts\bin\Debug\Typeouts.pdb
+C:\Users\hanif\source\repos\Typeouts\Typeouts\obj\Debug\Typeouts.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\Typeouts\Typeouts\obj\Debug\Typeouts.Form1.resources
+C:\Users\hanif\source\repos\Typeouts\Typeouts\obj\Debug\Typeouts.Properties.Resources.resources
+C:\Users\hanif\source\repos\Typeouts\Typeouts\obj\Debug\Typeouts.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\Typeouts\Typeouts\obj\Debug\Typeouts.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\Typeouts\Typeouts\obj\Debug\Typeouts.exe
+C:\Users\hanif\source\repos\Typeouts\Typeouts\obj\Debug\Typeouts.pdb
+C:\Users\hanif\source\repos\Typeouts\Typeouts\bin\Debug\Typeouts.exe.manifest
+C:\Users\hanif\source\repos\Typeouts\Typeouts\bin\Debug\Typeouts.application
+C:\Users\hanif\source\repos\Typeouts\Typeouts\obj\Debug\Typeouts.exe.manifest
+C:\Users\hanif\source\repos\Typeouts\Typeouts\obj\Debug\Typeouts.application
