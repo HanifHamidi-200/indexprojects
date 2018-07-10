@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\Murmurs\Murmurs\bin\Debug\Murmurs.exe.config
+C:\Users\hanif\source\repos\Murmurs\Murmurs\bin\Debug\Murmurs.exe
+C:\Users\hanif\source\repos\Murmurs\Murmurs\bin\Debug\Murmurs.pdb
+C:\Users\hanif\source\repos\Murmurs\Murmurs\obj\Debug\Murmurs.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\Murmurs\Murmurs\obj\Debug\Murmurs.Form1.resources
+C:\Users\hanif\source\repos\Murmurs\Murmurs\obj\Debug\Murmurs.Properties.Resources.resources
+C:\Users\hanif\source\repos\Murmurs\Murmurs\obj\Debug\Murmurs.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\Murmurs\Murmurs\obj\Debug\Murmurs.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\Murmurs\Murmurs\obj\Debug\Murmurs.exe
+C:\Users\hanif\source\repos\Murmurs\Murmurs\obj\Debug\Murmurs.pdb
+C:\Users\hanif\source\repos\Murmurs\Murmurs\bin\Debug\Murmurs.exe.manifest
+C:\Users\hanif\source\repos\Murmurs\Murmurs\bin\Debug\Murmurs.application
+C:\Users\hanif\source\repos\Murmurs\Murmurs\obj\Debug\Murmurs.exe.manifest
+C:\Users\hanif\source\repos\Murmurs\Murmurs\obj\Debug\Murmurs.application

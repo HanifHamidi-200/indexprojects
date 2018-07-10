@@ -65,9 +65,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.txtLetter = new System.Windows.Forms.TextBox();
             this.btnOK = new System.Windows.Forms.Button();
-            this.txtMode = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic2)).BeginInit();
@@ -480,15 +478,6 @@
             this.label8.TabIndex = 8;
             this.label8.Text = "N-S";
             // 
-            // txtLetter
-            // 
-            this.txtLetter.BackColor = System.Drawing.Color.Yellow;
-            this.txtLetter.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLetter.Location = new System.Drawing.Point(22, 179);
-            this.txtLetter.Name = "txtLetter";
-            this.txtLetter.Size = new System.Drawing.Size(64, 32);
-            this.txtLetter.TabIndex = 12;
-            // 
             // btnOK
             // 
             this.btnOK.Location = new System.Drawing.Point(22, 72);
@@ -497,23 +486,13 @@
             this.btnOK.TabIndex = 11;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
-            // txtMode
-            // 
-            this.txtMode.BackColor = System.Drawing.Color.Yellow;
-            this.txtMode.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMode.Location = new System.Drawing.Point(22, 141);
-            this.txtMode.Name = "txtMode";
-            this.txtMode.Size = new System.Drawing.Size(64, 32);
-            this.txtMode.TabIndex = 13;
-              // 
             // fPopup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1031, 450);
-            this.Controls.Add(this.txtMode);
-            this.Controls.Add(this.txtLetter);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
@@ -599,8 +578,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtLetter;
         private System.Windows.Forms.Button btnOK;
-        private System.Windows.Forms.TextBox txtMode;
     }
 }

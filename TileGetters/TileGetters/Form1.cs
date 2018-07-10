@@ -15,9 +15,8 @@ namespace TileGetters
     {
         private static List<int> _count = new List<int> { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
         private String sAnswer1=null, sAnswer2=null,sAnswer3=null;
-        int mnPopup1, mnPopup2, mnPopup3, mnPopup4;
-        public int mnMode, mnLetter;
-        public cLookup LookupClass = new cLookup();
+        private String msPopup1;
+        private int mnItem;
 
         public Form1()
         {
@@ -5956,6 +5955,11 @@ namespace TileGetters
 
         }
 
+        private void lstPopup1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            mnItem = lstPopup1.SelectedIndex + 1;
+        }
+
         private void pice_Click(object sender, EventArgs e)
         {
             String sLetter = txtLetter.Text.Substring(0, 1);
@@ -5998,13 +6002,48 @@ namespace TileGetters
         private void btnPopup1_Click(object sender, EventArgs e)
         {
             fPopup testdialog = new fPopup();
-                 
-           if (testdialog.ShowDialog(this) == DialogResult.OK)
+
+            switch (mnItem)
             {
-             }
-             
+                case 1:
+                    msPopup1 = "B";
+                    break;
+                case 2:
+                    msPopup1 = "L";
+                    break;
+                case 3:
+                    msPopup1 = "M";
+                    break;
+                default:
+                    msPopup1 = "S";
+                    break;
+            }
+
+            String sName ="data.txt";
+
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@sName))
+            {
+                file.WriteLine(msPopup1);
+            }
+
+           
+        
+
+
+        testdialog.ShowDialog();
             testdialog.Dispose();
 
+        }
+
+        private void txtLetter_TextChanged(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void txtLetter_KeyUp(object sender, KeyEventArgs e)
+        {
+            char sLetter = (char)e.KeyCode;
+            txtLetter.Text = Convert.ToString(sLetter);
         }
 
         private void pic2_Click(object sender, EventArgs e)

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Battleship.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Battleship.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Battleship" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Battleship.exe" size="411104">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Battleship.exe" size="419296">
       <assemblyIdentity name="Battleship" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TiJjpwFw3Su1FFhbcYQpBQe2NrB1BlLLoZvgBChFdoE=</dsig:DigestValue>
+        <dsig:DigestValue>2IyXiqwpRVLrIbDWXhaEe3TPy3Boi41nYlSKEQpFgFc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -60,6 +60,105 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Exit.png" size="3045">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I13dBNb5D+6Ii3VtTN9EH/368GIsJ/3/EDKL0L4Vu1E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F land.png" size="2162">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jCcQfg9pHTidXT1m2FmmwsQ8GHNcvhYCD0nRGGOT6pg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F landings1.png" size="1939">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zDuP4nmYtEWEJxpXJNMnRiUAdLmM0wGrvqiN1nl5i5c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F landings2.png" size="1785">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dp5DEktie2AGak9l4uV43vwCNqVHpbwfjkYIFRaVV/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F landings3.png" size="1276">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gP4iKeyqwURYw5dh4zdp00jXOPpPIoXD22ECFQIgl3g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Nullgate.png" size="3278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rmWNhuJdzQKGuu1GOtAA1HySsae0urh584XzY1JqycM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F sea.png" size="3381">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J+VEgWkKIwSxjQ+dmIzzpTaM/o0nI1r1IFm9+94Q77Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F type1.png" size="3833">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iVYrvts8TnHfVoyIDtkvpU8F4FJCGb9et1W/ZlXYGxQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F type2.png" size="3025">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rrFyXABGpZd1UZzX8tvMdGBQaF5ZwjNHqtxpg9gPh/s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F type3.png" size="2581">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kNW60Fd0adxGfhZnSz2VHOE41KCbbu0GXDj6HpPM2P4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F type4.png" size="2390">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IA5X61tHqkPv1TbQVjj6A8QSPlCB3MpRt57q31psAk4=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

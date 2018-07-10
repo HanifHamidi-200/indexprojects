@@ -22,7 +22,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -73,7 +73,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="fEnemy.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +127,20 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="icons\F Exit.png" />
+    <Content Include="icons\F land.png" />
+    <Content Include="icons\F landings1.png" />
+    <Content Include="icons\F landings2.png" />
+    <Content Include="icons\F landings3.png" />
+    <Content Include="icons\F Nullgate.png" />
+    <Content Include="icons\F sea.png" />
+    <Content Include="icons\F type1.png" />
+    <Content Include="icons\F type2.png" />
+    <Content Include="icons\F type3.png" />
+    <Content Include="icons\F type4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

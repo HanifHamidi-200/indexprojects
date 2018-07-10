@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Battleship.exe" version="1.0.0.1" publicKeyToken="cdfde31a979075a4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Battleship" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Battleship.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Battleship.exe" size="419296">
+      <assemblyIdentity name="Battleship" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2IyXiqwpRVLrIbDWXhaEe3TPy3Boi41nYlSKEQpFgFc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Battleship.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Exit.png" size="3045">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I13dBNb5D+6Ii3VtTN9EH/368GIsJ/3/EDKL0L4Vu1E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F land.png" size="2162">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jCcQfg9pHTidXT1m2FmmwsQ8GHNcvhYCD0nRGGOT6pg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F landings1.png" size="1939">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zDuP4nmYtEWEJxpXJNMnRiUAdLmM0wGrvqiN1nl5i5c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F landings2.png" size="1785">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dp5DEktie2AGak9l4uV43vwCNqVHpbwfjkYIFRaVV/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F landings3.png" size="1276">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gP4iKeyqwURYw5dh4zdp00jXOPpPIoXD22ECFQIgl3g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Nullgate.png" size="3278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rmWNhuJdzQKGuu1GOtAA1HySsae0urh584XzY1JqycM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F sea.png" size="3381">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J+VEgWkKIwSxjQ+dmIzzpTaM/o0nI1r1IFm9+94Q77Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F type1.png" size="3833">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iVYrvts8TnHfVoyIDtkvpU8F4FJCGb9et1W/ZlXYGxQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F type2.png" size="3025">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rrFyXABGpZd1UZzX8tvMdGBQaF5ZwjNHqtxpg9gPh/s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F type3.png" size="2581">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kNW60Fd0adxGfhZnSz2VHOE41KCbbu0GXDj6HpPM2P4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F type4.png" size="2390">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IA5X61tHqkPv1TbQVjj6A8QSPlCB3MpRt57q31psAk4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="99044055c06adef3fc0083470cd4f21470454446" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QiHjb7qZ4eBxRMX474pEqA1/Wm8dlthZtPeJchiSJOg=</DigestValue></Reference></SignedInfo><SignatureValue>qMxpJDGGqjkuX90ketZUhTGn5pOXHha5TvDCyPEswHt3GdP5h8Nw63DPbJpj23T6KgpVS6/XOtzTU+7ZiVqcKEpnoTVOZ4pMjLhgtqxO8RAtmjAKOrbkd3nFedzQttWirPxvW+ZLrqiZQHAszCW7A7oGSx7IJdgpG47yAS/o5Fs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zq53gsA75o2I+8bFU2w8qxuFicj7Mh0n8usWcibXdkCTgX88BBWWtH2JMfMpkY12fYLEVHg8yiPdsa9YwGyR7TPghj1Yo0uEHq9PliAcObp872NgsWv9w+d8EiPGMDUfSrkaI8HtN8Y7GUZztQXOVSgEhqYybLqUpFCkpgefTgE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e82492187289f7b459d8961d6f5a7f0da8448aeff8c54471e0e199ba6fe32142" Description="" Url=""><as:assemblyIdentity name="Battleship.exe" version="1.0.0.1" publicKeyToken="cdfde31a979075a4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RzmysEkkfBokN7362q8LSK7nn9MqhU3l9lRDYJEEWxA=</DigestValue></Reference></SignedInfo><SignatureValue>krLcrnQR+cKGQlnqD6ph/qD6vvueLIy3wguY/ny4d4x/OzlUWSse9K0bMCnvJoSyvqKceKOYeeawTHZXJN0v/kyA5o484Dunq6gOHvEgICpDLyKAPM+YzEURuOojprCmADuK6oPAos23nH058YxWo2KF+TSjggC+VUF77m9az9s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zq53gsA75o2I+8bFU2w8qxuFicj7Mh0n8usWcibXdkCTgX88BBWWtH2JMfMpkY12fYLEVHg8yiPdsa9YwGyR7TPghj1Yo0uEHq9PliAcObp872NgsWv9w+d8EiPGMDUfSrkaI8HtN8Y7GUZztQXOVSgEhqYybLqUpFCkpgefTgE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYhXVUMyO+p1D4yl+AbzCozANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNjI2MDYzMDM2WhcNMTkwNjI2MTIzMDM2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM6ud4LAO+aNiPvGxVNsPKsbhYnI+zIdJ/LrFnIm13ZAk4F/PAQVlrR9iTHzKZGNdn2CxFR4PMoj3bGvWMBske0z4IY9WKNLhB6vT5YgHDm6fO9jYLFr/cPnfBIjxjA1H0q5GiPB7TfGOxlGc7UFzlUoBIamMmy6lKRQpKYHn04BAgMBAAEwDQYJKoZIhvcNAQELBQADgYEACMpE19e3uE3EJr//8pD0k1zbdtC/MPDgPUSCoqSN4KnqdzwuAivDJnje4f+GoGSTiv71QD+4SL2ror85l3MdxG7DkrBzLYxc2Ktsk8RcJNpbd98NjQ4gR33jvar6hOGBEtBg7aq3wTL4mqKdm1RH+8ON8bHNQFJGVNA5tNXKn8Y=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

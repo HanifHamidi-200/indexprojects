@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,14 +18,50 @@ namespace TileGetters
         public fPopup()
         {
             InitializeComponent();
-           //Form1.LookupClass.Mode
-        }
+         }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+              ActiveForm.Close();
+          }
 
         private void fPopup_Load(object sender, EventArgs e)
         {
             Random rnd1 = new Random();
 
-            mnMode = rnd1.Next(1, 5);
+            String sLine=null;
+            String sName = "data.txt";
+
+            try
+            {   // Open the text file using a stream reader.
+                using (System.IO.StreamReader sr = new StreamReader(sName))
+                {
+                    // Read the stream to a string, and write the string to the console.
+                    sLine = sr.ReadLine();
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("The file could not be read:", e1.Message);
+                sLine = "B";
+            }
+
+            switch (sLine)
+            {
+                case "B":
+                    mnMode = 1;
+                    break;
+                case "L":
+                    mnMode = 2;
+                    break;
+                case "M":
+                    mnMode = 3;
+                    break;
+                default:
+                    mnMode = 4;
+                    break;
+
+            }
             mnLetter = rnd1.Next(1, 27);
 
             PictureBox picture1 = new PictureBox

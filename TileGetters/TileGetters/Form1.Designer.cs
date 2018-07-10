@@ -59,6 +59,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtLetter = new System.Windows.Forms.TextBox();
             this.btnPopup1 = new System.Windows.Forms.Button();
+            this.lstPopup1 = new System.Windows.Forms.ListBox();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic2)).BeginInit();
@@ -477,6 +478,8 @@
             this.txtLetter.Name = "txtLetter";
             this.txtLetter.Size = new System.Drawing.Size(64, 32);
             this.txtLetter.TabIndex = 3;
+            this.txtLetter.TextChanged += new System.EventHandler(this.txtLetter_TextChanged);
+            this.txtLetter.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtLetter_KeyUp);
             // 
             // btnPopup1
             // 
@@ -490,11 +493,26 @@
             this.btnPopup1.UseVisualStyleBackColor = false;
             this.btnPopup1.Click += new System.EventHandler(this.btnPopup1_Click);
             // 
+            // lstPopup1
+            // 
+            this.lstPopup1.FormattingEnabled = true;
+            this.lstPopup1.Items.AddRange(new object[] {
+            "B",
+            "L",
+            "M",
+            "S"});
+            this.lstPopup1.Location = new System.Drawing.Point(18, 223);
+            this.lstPopup1.Name = "lstPopup1";
+            this.lstPopup1.Size = new System.Drawing.Size(83, 82);
+            this.lstPopup1.TabIndex = 5;
+            this.lstPopup1.SelectedIndexChanged += new System.EventHandler(this.lstPopup1_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(571, 466);
+            this.Controls.Add(this.lstPopup1);
             this.Controls.Add(this.txtLetter);
             this.Controls.Add(this.btnPopup1);
             this.Controls.Add(this.groupBox1);
@@ -558,6 +576,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtLetter;
         private System.Windows.Forms.Button btnPopup1;
+        private System.Windows.Forms.ListBox lstPopup1;
     }
 }
 

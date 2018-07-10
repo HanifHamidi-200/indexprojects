@@ -300,6 +300,7 @@
             this.btnDrop2.TabIndex = 25;
             this.btnDrop2.Text = "dropDam";
             this.btnDrop2.UseVisualStyleBackColor = false;
+            this.btnDrop2.Click += new System.EventHandler(this.btnDrop2_Click);
             // 
             // btnDrop3
             // 
@@ -310,6 +311,7 @@
             this.btnDrop3.TabIndex = 26;
             this.btnDrop3.Text = "dropFactory";
             this.btnDrop3.UseVisualStyleBackColor = false;
+            this.btnDrop3.Click += new System.EventHandler(this.btnDrop3_Click);
             // 
             // btnLookup
             // 
