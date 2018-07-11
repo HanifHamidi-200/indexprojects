@@ -32,12 +32,378 @@ namespace SpotTheDifference
         private static List<int> _rotate2_3 = new List<int> { 0, 0, 0, 0, 0 };
         private static List<int> _rotate2_4 = new List<int> { 0, 0, 0, 0, 0 };
         private static List<int> _rotate2_5 = new List<int> { 0, 0, 0, 0, 0 };
+        private static List<int> _correct1_1 = new List<int> { 0, 0, 0, 0, 0 };
+        private static List<int> _correct1_2 = new List<int> { 0, 0, 0, 0, 0 };
+        private static List<int> _correct1_3 = new List<int> { 0, 0, 0, 0, 0 };
+        private static List<int> _correct1_4 = new List<int> { 0, 0, 0, 0, 0 };
+        private static List<int> _correct1_5 = new List<int> { 0, 0, 0, 0, 0 };
+        private static List<int> _correct2_1 = new List<int> { 0, 0, 0, 0, 0 };
+        private static List<int> _correct2_2 = new List<int> { 0, 0, 0, 0, 0 };
+        private static List<int> _correct2_3 = new List<int> { 0, 0, 0, 0, 0 };
+        private static List<int> _correct2_4 = new List<int> { 0, 0, 0, 0, 0 };
+        private static List<int> _correct2_5 = new List<int> { 0, 0, 0, 0, 0 };
         private static List<bool> _use1 = new List<bool> { false,false,false,false,false};
         private static List<bool> _use2= new List<bool> { false, false, false, false, false };
         private static List<bool> _use3 = new List<bool> { false, false, false, false, false };
         private static List<bool> _use4 = new List<bool> { false, false, false, false, false };
         private static List<bool> _use5 = new List<bool> { false, false, false, false, false };
         private int nNumber;
+        private int nScore;
+
+        private bool fCheck()
+        {
+            int nExpected;
+            int nMisses = 0;
+
+            for (int i = 1; i <= 5; i++)
+            {
+                if (_correct1_1[i - 1] > 0)
+                {
+                    if (_col1_1[i - 1] == 5)
+                    {
+                        nExpected = 2;
+                    }
+                    else
+                    {
+                        nExpected = 1;
+                    }
+                    if (_correct2_1[i - 1] == nExpected)
+                    {
+                        nScore += 10;
+                    }
+                    else
+                    {
+                        nMisses += 1;
+                    }
+                }
+
+                if (_correct1_2[i - 1] > 0)
+                {
+                    if (_col1_2[i - 1] == 5)
+                    {
+                        nExpected = 2;
+                    }
+                    else
+                    {
+                        nExpected = 1;
+                    }
+                    if (_correct2_2[i - 1] == nExpected)
+                    {
+                        nScore += 10;
+                    }
+                    else
+                    {
+                        nMisses += 1;
+                    }
+                }
+
+                if (_correct1_3[i - 1] > 0)
+                {
+                    if (_col1_3[i - 1] == 5)
+                    {
+                        nExpected = 2;
+                    }
+                    else
+                    {
+                        nExpected = 1;
+                    }
+                    if (_correct2_3[i - 1] == nExpected)
+                    {
+                        nScore += 10;
+                    }
+                    else
+                    {
+                        nMisses += 1;
+                    }
+                }
+
+                if (_correct1_4[i - 1] > 0)
+                {
+                    if (_col1_4[i - 1] == 5)
+                    {
+                        nExpected = 2;
+                    }
+                    else
+                    {
+                        nExpected = 1;
+                    }
+                    if (_correct2_4[i - 1] == nExpected)
+                    {
+                        nScore += 10;
+                    }
+                    else
+                    {
+                        nMisses += 1;
+                    }
+                }
+
+                if (_correct1_5[i - 1] > 0)
+                {
+                    if (_col1_5[i - 1] == 5)
+                    {
+                        nExpected = 2;
+                    }
+                    else
+                    {
+                        nExpected = 1;
+                    }
+                    if (_correct2_5[i - 1] == nExpected)
+                    {
+                        nScore += 10;
+                    }
+                    else
+                    {
+                        nMisses += 1;
+                    }
+                }
+
+                 }
+            if (nMisses > 0)
+            {
+                MessageBox.Show("Misses = " + Convert.ToString(nMisses), "Error!");
+                return false;
+            }
+            else
+            {
+                lblScore.Text = "Score = " + Convert.ToString(nScore);
+                return true;
+            }
+        }
+
+        private void fReset()
+            {
+            Random rnd1 = new Random();
+            int nCol, nRow, nType;
+            int nRotate1, nRotate2;
+
+            for (int i = 1; i <= 5; i++)
+            {
+                _correct2_1[i - 1] = 0;
+                _correct2_2[i - 1] = 0;
+                _correct2_3[i - 1] = 0;
+                _correct2_4[i - 1] = 0;
+                _correct2_5[i - 1] = 0;
+            }
+
+            for (int i = 1; i <= 5; i++)
+            {
+                nNumber = rnd1.Next(1, 10);
+                if (nNumber <= 4)
+                {
+                    _use1[i - 1] = false;
+                }
+                else
+                {
+                    _use1[i - 1] = true;
+                }
+                nNumber = rnd1.Next(1, 10);
+                if (nNumber <= 4)
+                {
+                    _use2[i - 1] = false;
+                }
+                else
+                {
+                    _use2[i - 1] = true;
+                }
+                nNumber = rnd1.Next(1, 10);
+                if (nNumber <= 4)
+                {
+                    _use3[i - 1] = false;
+                }
+                else
+                {
+                    _use3[i - 1] = true;
+                }
+                nNumber = rnd1.Next(1, 10);
+                if (nNumber <= 4)
+                {
+                    _use4[i - 1] = false;
+                }
+                else
+                {
+                    _use4[i - 1] = true;
+                }
+                nNumber = rnd1.Next(1, 10);
+                if (nNumber <= 4)
+                {
+                    _use5[i - 1] = false;
+                }
+                else
+                {
+                    _use5[i - 1] = true;
+                }
+
+            }
+
+            //Board
+            for (int i = 1; i <= 5; i++)
+            {
+                if (_use1[i - 1])
+                {
+                    nType = rnd1.Next(1, 5);
+                    nRotate1 = rnd1.Next(1, 5);
+                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
+                    _col1_1[i - 1] = nType;
+                    _col2_1[i - 1] = nType;
+                    _rotate1_1[i - 1] = nRotate1;
+                    _rotate2_1[i - 1] = nRotate2;
+                }
+                else
+                {
+                    nType = 5;
+                    nRotate1 = 1;
+                    nRotate2 = 1;
+                    _col1_1[i - 1] = nType;
+                    _col2_1[i - 1] = nType;
+                    _rotate1_1[i - 1] = nRotate1;
+                    _rotate2_1[i - 1] = nRotate2;
+                }
+            }
+            for (int i = 1; i <= 5; i++)
+            {
+                if (_use2[i - 1])
+                {
+                    nType = rnd1.Next(1, 5);
+                    nRotate1 = rnd1.Next(1, 5);
+                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
+                    _col1_2[i - 1] = nType;
+                    _col2_2[i - 1] = nType;
+                    _rotate1_2[i - 1] = nRotate1;
+                    _rotate2_2[i - 1] = nRotate2;
+                }
+                else
+                {
+                    nType = 5;
+                    nRotate1 = 1;
+                    nRotate2 = 1;
+                    _col1_2[i - 1] = nType;
+                    _col2_2[i - 1] = nType;
+                    _rotate1_2[i - 1] = nRotate1;
+                    _rotate2_2[i - 1] = nRotate2;
+                }
+            }
+            for (int i = 1; i <= 5; i++)
+            {
+                if (_use3[i - 1])
+                {
+                    nType = rnd1.Next(1, 5);
+                    nRotate1 = rnd1.Next(1, 5);
+                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
+                    _col1_3[i - 1] = nType;
+                    _col2_3[i - 1] = nType;
+                    _rotate1_3[i - 1] = nRotate1;
+                    _rotate2_3[i - 1] = nRotate2;
+                }
+                else
+                {
+                    nType = 5;
+                    nRotate1 = 1;
+                    nRotate2 = 1;
+                    _col1_3[i - 1] = nType;
+                    _col2_3[i - 1] = nType;
+                    _rotate1_3[i - 1] = nRotate1;
+                    _rotate2_3[i - 1] = nRotate2;
+                }
+            }
+            for (int i = 1; i <= 5; i++)
+            {
+                if (_use4[i - 1])
+                {
+                    nType = rnd1.Next(1, 5);
+                    nRotate1 = rnd1.Next(1, 5);
+                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
+                    _col1_4[i - 1] = nType;
+                    _col2_4[i - 1] = nType;
+                    _rotate1_4[i - 1] = nRotate1;
+                    _rotate2_4[i - 1] = nRotate2;
+                }
+                else
+                {
+                    nType = 5;
+                    nRotate1 = 1;
+                    nRotate2 = 1;
+                    _col1_4[i - 1] = nType;
+                    _col2_4[i - 1] = nType;
+                    _rotate1_4[i - 1] = nRotate1;
+                    _rotate2_1[i - 1] = nRotate2;
+                }
+            }
+            for (int i = 1; i <= 5; i++)
+            {
+                if (_use5[i - 1])
+                {
+                    nType = rnd1.Next(1, 5);
+                    nRotate1 = rnd1.Next(1, 5);
+                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
+                    _col1_5[i - 1] = nType;
+                    _col2_5[i - 1] = nType;
+                    _rotate1_5[i - 1] = nRotate1;
+                    _rotate2_5[i - 1] = nRotate2;
+                }
+                else
+                {
+                    nType = 5;
+                    nRotate1 = 1;
+                    nRotate2 = 1;
+                    _col1_5[i - 1] = nType;
+                    _col2_5[i - 1] = nType;
+                    _rotate1_5[i - 1] = nRotate1;
+                    _rotate2_5[i - 1] = nRotate2;
+                }
+            }
+
+            nNumber = rnd1.Next(2, 7);
+            for (int i = 1; i <= nNumber; i++)
+            {
+                nCol = rnd1.Next(1, 6);
+                nRow = rnd1.Next(1, 6);
+                nType = rnd1.Next(1, 5);
+                nNumber = rnd1.Next(1, 10);
+                if (nNumber <= 5)
+                {
+                    switch (nCol)
+                    {
+                        case 1:
+                            _col1_1[nRow - 1] = nType;
+                            break;
+                        case 2:
+                            _col1_2[nRow - 1] = nType;
+                            break;
+                        case 3:
+                            _col1_3[nRow - 1] = nType;
+                            break;
+                        case 4:
+                            _col1_4[nRow - 1] = nType;
+                            break;
+                        default:
+                            _col1_5[nRow - 1] = nType;
+                            break;
+                    }
+                }
+                else
+                {
+                    switch (nCol)
+                    {
+                        case 1:
+                            _col2_1[nRow - 1] = nType;
+                            break;
+                        case 2:
+                            _col2_2[nRow - 1] = nType;
+                            break;
+                        case 3:
+                            _col2_3[nRow - 1] = nType;
+                            break;
+                        case 4:
+                            _col2_4[nRow - 1] = nType;
+                            break;
+                        default:
+                            _col2_5[nRow - 1] = nType;
+                            break;
+                    }
+
+                }
+            }
+        }
 
         private void fUpdateDisplay()
         {
@@ -1158,466 +1524,331 @@ namespace SpotTheDifference
             }
 
         }
+
+        private void fMask()
+        {
+            for (int i = 1; i <= 5; i++)
+            {
+                _correct1_1[i - 1] = 0;
+                _correct1_2[i - 1] = 0;
+                _correct1_3[i - 1] = 0;
+                _correct1_4[i - 1] = 0;
+                _correct1_5[i - 1] = 0;
+            }
+
+            for (int i = 1; i <= 5; i++)
+            {
+                if (_col1_1[i - 1] != _col2_1[i - 1])
+                {
+                    _correct1_1[i - 1] = 1;
+                }
+                if (_col1_2[i - 1] != _col2_2[i - 1])
+                {
+                    _correct1_2[i - 1] = 1;
+                }
+                if (_col1_3[i - 1] != _col2_3[i - 1])
+                {
+                    _correct1_3[i - 1] = 1;
+                }
+                if (_col1_4[i - 1] != _col2_4[i - 1])
+                {
+                    _correct1_4[i - 1] = 1;
+                }
+                if (_col1_5[i - 1] != _col2_5[i - 1])
+                {
+                    _correct1_5[i - 1] = 1;
+                }
+            }
+
+
+        }
         public Form1()
         {
             InitializeComponent();
+            nScore = 0;
+            lblScore.Text = "Score = 0";
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Random rnd1 = new Random();
-            int nCol,nRow,nType;
-            int nRotate1, nRotate2;
-
-            for (int i = 1; i <= 5; i++)
-            {
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 4)
-                {
-                    _use1[i - 1] = false;
-                }
-                else
-                {
-                    _use1[i - 1] = true;
-                }
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 4)
-                {
-                    _use2[i - 1] = false;
-                }
-                else
-                {
-                    _use2[i - 1] = true;
-                }
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 4)
-                {
-                    _use3[i - 1] = false;
-                }
-                else
-                {
-                    _use3[i - 1] = true;
-                }
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 4)
-                {
-                    _use4[i - 1] = false;
-                }
-                else
-                {
-                    _use4[i - 1] = true;
-                }
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 4)
-                {
-                    _use5[i - 1] = false;
-                }
-                else
-                {
-                    _use5[i - 1] = true;
-                }
-
-            }
-
-            //Board
-            for (int i = 1; i <= 5; i++)
-            {
-                if (_use1[i - 1])
-                {
-                    nType = rnd1.Next(1, 5);
-                    nRotate1 = rnd1.Next(1, 5);
-                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
-                    _col1_1[i - 1] = nType;
-                    _col2_1[i - 1] = nType;
-                    _rotate1_1[i - 1] = nRotate1;
-                    _rotate2_1[i - 1] = nRotate2;
-                }
-                else
-                {
-                    nType = 5;
-                    nRotate1 = 1;
-                    nRotate2 = 1;
-                    _col1_1[i - 1] = nType;
-                    _col2_1[i - 1] = nType;
-                    _rotate1_1[i - 1] = nRotate1;
-                    _rotate2_1[i - 1] = nRotate2;
-                }
-            }
-            for (int i = 1; i <= 5; i++)
-            {
-                if (_use2[i - 1])
-                {
-                    nType = rnd1.Next(1, 5);
-                    nRotate1 = rnd1.Next(1, 5);
-                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
-                    _col1_2[i - 1] = nType;
-                    _col2_2[i - 1] = nType;
-                    _rotate1_2[i - 1] = nRotate1;
-                    _rotate2_2[i - 1] = nRotate2;
-                }
-                else
-                {
-                    nType = 5;
-                    nRotate1 = 1;
-                    nRotate2 = 1;
-                    _col1_2[i - 1] = nType;
-                    _col2_2[i - 1] = nType;
-                    _rotate1_2[i - 1] = nRotate1;
-                    _rotate2_2[i - 1] = nRotate2;
-                }
-            }
-            for (int i = 1; i <= 5; i++)
-            {
-                if (_use3[i - 1])
-                {
-                    nType = rnd1.Next(1, 5);
-                    nRotate1 = rnd1.Next(1, 5);
-                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
-                    _col1_3[i - 1] = nType;
-                    _col2_3[i - 1] = nType;
-                    _rotate1_3[i - 1] = nRotate1;
-                    _rotate2_3[i - 1] = nRotate2;
-                }
-                else
-                {
-                    nType = 5;
-                    nRotate1 = 1;
-                    nRotate2 = 1;
-                    _col1_3[i - 1] = nType;
-                    _col2_3[i - 1] = nType;
-                    _rotate1_3[i - 1] = nRotate1;
-                    _rotate2_3[i - 1] = nRotate2;
-                }
-            }
-            for (int i = 1; i <= 5; i++)
-            {
-                if (_use4[i - 1])
-                {
-                    nType = rnd1.Next(1, 5);
-                    nRotate1 = rnd1.Next(1, 5);
-                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
-                    _col1_4[i - 1] = nType;
-                    _col2_4[i - 1] = nType;
-                    _rotate1_4[i - 1] = nRotate1;
-                    _rotate2_4[i - 1] = nRotate2;
-                }
-                else
-                {
-                    nType = 5;
-                    nRotate1 = 1;
-                    nRotate2 = 1;
-                    _col1_4[i - 1] = nType;
-                    _col2_4[i - 1] = nType;
-                    _rotate1_4[i - 1] = nRotate1;
-                    _rotate2_1[i - 1] = nRotate2;
-                }
-            }
-            for (int i = 1; i <= 5; i++)
-            {
-                if (_use5[i - 1])
-                {
-                    nType = rnd1.Next(1, 5);
-                    nRotate1 = rnd1.Next(1, 5);
-                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
-                    _col1_5[i - 1] = nType;
-                    _col2_5[i - 1] = nType;
-                    _rotate1_5[i - 1] = nRotate1;
-                    _rotate2_5[i - 1] = nRotate2;
-                }
-                else
-                {
-                    nType = 5;
-                    nRotate1 = 1;
-                    nRotate2 = 1;
-                    _col1_5[i - 1] = nType;
-                    _col2_5[i - 1] = nType;
-                    _rotate1_5[i - 1] = nRotate1;
-                    _rotate2_5[i - 1] = nRotate2;
-                }
-            }
-
-            nNumber = rnd1.Next(2, 7);
-            for (int i = 1; i <= nNumber; i++)
-            {
-                nCol = rnd1.Next(1, 6);
-                nRow = rnd1.Next(1, 6);
-                nType = rnd1.Next(1, 5);
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 5)
-                {
-                    switch (nCol)
-                    {
-                        case 1:
-                            _col1_1[nRow - 1] = nType;
-                            break;
-                        case 2:
-                            _col1_2[nRow - 1] = nType;
-                            break;
-                        case 3:
-                            _col1_3[nRow - 1] = nType;
-                            break;
-                        case 4:
-                            _col1_4[nRow - 1] = nType;
-                            break;
-                        default:
-                            _col1_5[nRow - 1] = nType;
-                            break;
-                    }
-                }
-                else
-                {
-                    switch (nCol)
-                    {
-                        case 1:
-                            _col2_1[nRow - 1] = nType;
-                            break;
-                        case 2:
-                            _col2_2[nRow - 1] = nType;
-                            break;
-                        case 3:
-                            _col2_3[nRow - 1] = nType;
-                            break;
-                        case 4:
-                            _col2_4[nRow - 1] = nType;
-                            break;
-                        default:
-                            _col2_5[nRow - 1] = nType;
-                            break;
-                    }
-
-                }
-            }
-
+            fReset();
+            fMask();
             fUpdateDisplay();
         }
 
         private void btnQNext_Click(object sender, EventArgs e)
         {
-            Random rnd1 = new Random();
-            int nCol, nRow, nType;
-            int nRotate1, nRotate2;
-
-            for (int i = 1; i <= 5; i++)
-            {
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 4)
-                {
-                    _use1[i - 1] = false;
-                }
-                else
-                {
-                    _use1[i - 1] = true;
-                }
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 4)
-                {
-                    _use2[i - 1] = false;
-                }
-                else
-                {
-                    _use2[i - 1] = true;
-                }
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 4)
-                {
-                    _use3[i - 1] = false;
-                }
-                else
-                {
-                    _use3[i - 1] = true;
-                }
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 4)
-                {
-                    _use4[i - 1] = false;
-                }
-                else
-                {
-                    _use4[i - 1] = true;
-                }
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 4)
-                {
-                    _use5[i - 1] = false;
-                }
-                else
-                {
-                    _use5[i - 1] = true;
-                }
-
-            }
-
-            //Board
-            for (int i = 1; i <= 5; i++)
-            {
-                if (_use1[i - 1])
-                {
-                    nType = rnd1.Next(1, 5);
-                    nRotate1 = rnd1.Next(1, 5);
-                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
-                    _col1_1[i - 1] = nType;
-                    _col2_1[i - 1] = nType;
-                    _rotate1_1[i - 1] = nRotate1;
-                    _rotate2_1[i - 1] = nRotate2;
-                }
-                else
-                {
-                    nType = 5;
-                    nRotate1 = 1;
-                    nRotate2 = 1;
-                    _col1_1[i - 1] = nType;
-                    _col2_1[i - 1] = nType;
-                    _rotate1_1[i - 1] = nRotate1;
-                    _rotate2_1[i - 1] = nRotate2;
-                }
-            }
-            for (int i = 1; i <= 5; i++)
-            {
-                if (_use2[i - 1])
-                {
-                    nType = rnd1.Next(1, 5);
-                    nRotate1 = rnd1.Next(1, 5);
-                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
-                    _col1_2[i - 1] = nType;
-                    _col2_2[i - 1] = nType;
-                    _rotate1_2[i - 1] = nRotate1;
-                    _rotate2_2[i - 1] = nRotate2;
-                }
-                else
-                {
-                    nType = 5;
-                    nRotate1 = 1;
-                    nRotate2 = 1;
-                    _col1_2[i - 1] = nType;
-                    _col2_2[i - 1] = nType;
-                    _rotate1_2[i - 1] = nRotate1;
-                    _rotate2_2[i - 1] = nRotate2;
-                }
-            }
-            for (int i = 1; i <= 5; i++)
-            {
-                if (_use3[i - 1])
-                {
-                    nType = rnd1.Next(1, 5);
-                    nRotate1 = rnd1.Next(1, 5);
-                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
-                    _col1_3[i - 1] = nType;
-                    _col2_3[i - 1] = nType;
-                    _rotate1_3[i - 1] = nRotate1;
-                    _rotate2_3[i - 1] = nRotate2;
-                }
-                else
-                {
-                    nType = 5;
-                    nRotate1 = 1;
-                    nRotate2 = 1;
-                    _col1_3[i - 1] = nType;
-                    _col2_3[i - 1] = nType;
-                    _rotate1_3[i - 1] = nRotate1;
-                    _rotate2_3[i - 1] = nRotate2;
-                }
-            }
-            for (int i = 1; i <= 5; i++)
-            {
-                if (_use4[i - 1])
-                {
-                    nType = rnd1.Next(1, 5);
-                    nRotate1 = rnd1.Next(1, 5);
-                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
-                    _col1_4[i - 1] = nType;
-                    _col2_4[i - 1] = nType;
-                    _rotate1_4[i - 1] = nRotate1;
-                    _rotate2_4[i - 1] = nRotate2;
-                }
-                else
-                {
-                    nType = 5;
-                    nRotate1 = 1;
-                    nRotate2 = 1;
-                    _col1_4[i - 1] = nType;
-                    _col2_4[i - 1] = nType;
-                    _rotate1_4[i - 1] = nRotate1;
-                    _rotate2_1[i - 1] = nRotate2;
-                }
-            }
-            for (int i = 1; i <= 5; i++)
-            {
-                if (_use5[i - 1])
-                {
-                    nType = rnd1.Next(1, 5);
-                    nRotate1 = rnd1.Next(1, 5);
-                    nRotate2 = nRotate1 + rnd1.Next(1, 5);
-                    _col1_5[i - 1] = nType;
-                    _col2_5[i - 1] = nType;
-                    _rotate1_5[i - 1] = nRotate1;
-                    _rotate2_5[i - 1] = nRotate2;
-                }
-                else
-                {
-                    nType = 5;
-                    nRotate1 = 1;
-                    nRotate2 = 1;
-                    _col1_5[i - 1] = nType;
-                    _col2_5[i - 1] = nType;
-                    _rotate1_5[i - 1] = nRotate1;
-                    _rotate2_5[i - 1] = nRotate2;
-                }
-            }
-
-            nNumber = rnd1.Next(2, 7);
-            for (int i = 1; i <= nNumber; i++)
-            {
-                nCol = rnd1.Next(1, 6);
-                nRow = rnd1.Next(1, 6);
-                nType = rnd1.Next(1, 5);
-                nNumber = rnd1.Next(1, 10);
-                if (nNumber <= 5)
-                {
-                    switch (nCol)
-                    {
-                        case 1:
-                            _col1_1[nRow - 1] = nType;
-                            break;
-                        case 2:
-                            _col1_2[nRow - 1] = nType;
-                            break;
-                        case 3:
-                            _col1_3[nRow - 1] = nType;
-                            break;
-                        case 4:
-                            _col1_4[nRow - 1] = nType;
-                            break;
-                        default:
-                            _col1_5[nRow - 1] = nType;
-                            break;
-                    }
-                }
-                else
-                {
-                    switch (nCol)
-                    {
-                        case 1:
-                            _col2_1[nRow - 1] = nType;
-                            break;
-                        case 2:
-                            _col2_2[nRow - 1] = nType;
-                            break;
-                        case 3:
-                            _col2_3[nRow - 1] = nType;
-                            break;
-                        case 4:
-                            _col2_4[nRow - 1] = nType;
-                            break;
-                        default:
-                            _col2_5[nRow - 1] = nType;
-                            break;
-                    }
-
-                }
-            }
-
+            fReset();
+            fMask();
             fUpdateDisplay();
 
+        }
+
+        private void pic1_11_Click(object sender, EventArgs e)
+        {
+            _correct2_1[0] = 1;
+        }
+
+        private void pic1_12_Click(object sender, EventArgs e)
+        {
+            _correct2_1[1] = 1;
+        }
+
+        private void pic1_13_Click(object sender, EventArgs e)
+        {
+            _correct2_1[2] = 1;
+        }
+
+        private void pic1_14_Click(object sender, EventArgs e)
+        {
+            _correct2_1[3] = 1;
+        }
+
+        private void pic1_15_Click(object sender, EventArgs e)
+        {
+            _correct2_1[4] = 1;
+        }
+
+        private void pic1_21_Click(object sender, EventArgs e)
+        {
+            _correct2_2[0] = 1;
+
+        }
+
+        private void pic1_22_Click(object sender, EventArgs e)
+        {
+            _correct2_2[1] = 1;
+        }
+
+        private void pic1_23_Click(object sender, EventArgs e)
+        {
+            _correct2_2[2] = 1;
+        }
+
+        private void pic1_24_Click(object sender, EventArgs e)
+        {
+            _correct2_2[3] = 1;
+        }
+
+        private void pic1_25_Click(object sender, EventArgs e)
+        {
+            _correct2_2[4] = 1;
+        }
+
+        private void pic1_31_Click(object sender, EventArgs e)
+        {
+            _correct2_3[0] = 1;
+        }
+
+        private void pic1_32_Click(object sender, EventArgs e)
+        {
+            _correct2_3[1] = 1;
+        }
+
+        private void pic1_33_Click(object sender, EventArgs e)
+        {
+            _correct2_3[2] = 1;
+        }
+
+        private void pic1_34_Click(object sender, EventArgs e)
+        {
+            _correct2_3[3] = 1;
+        }
+
+        private void pic1_35_Click(object sender, EventArgs e)
+        {
+            _correct2_3[4] = 1;
+        }
+
+        private void pic1_41_Click(object sender, EventArgs e)
+        {
+            _correct2_4[0] = 1;
+        }
+
+        private void pic1_42_Click(object sender, EventArgs e)
+        {
+            _correct2_4[1] = 1;
+        }
+
+        private void pic1_43_Click(object sender, EventArgs e)
+        {
+            _correct2_4[2] = 1;
+        }
+
+        private void pic1_44_Click(object sender, EventArgs e)
+        {
+            _correct2_4[3] = 1;
+        }
+
+        private void pic1_45_Click(object sender, EventArgs e)
+        {
+            _correct2_4[4] = 1;
+        }
+
+        private void pic1_51_Click(object sender, EventArgs e)
+        {
+            _correct2_5[0] = 1;
+        }
+
+        private void pic1_52_Click(object sender, EventArgs e)
+        {
+            _correct2_5[1] = 1;
+        }
+
+        private void pic1_53_Click(object sender, EventArgs e)
+        {
+            _correct2_5[2] = 1;
+        }
+
+        private void pic1_54_Click(object sender, EventArgs e)
+        {
+            _correct2_5[3] = 1;
+        }
+
+        private void pic1_55_Click(object sender, EventArgs e)
+        {
+            _correct2_5[4] = 1;
+        }
+
+        private void pic2_11_Click(object sender, EventArgs e)
+        {
+            _correct2_1[0] = 2;
+        }
+
+        private void pic2_12_Click(object sender, EventArgs e)
+        {
+            _correct2_1[1] = 2;
+        }
+
+        private void pic2_13_Click(object sender, EventArgs e)
+        {
+            _correct2_1[2] = 2;
+        }
+
+        private void pic2_14_Click(object sender, EventArgs e)
+        {
+            _correct2_1[3] = 2;
+        }
+
+        private void pic2_15_Click(object sender, EventArgs e)
+        {
+            _correct2_1[4] = 2;
+        }
+
+        private void pic2_21_Click(object sender, EventArgs e)
+        {
+            _correct2_2[0] = 2;
+        }
+
+        private void pic2_22_Click(object sender, EventArgs e)
+        {
+            _correct2_2[1] = 2;
+        }
+
+        private void pic2_23_Click(object sender, EventArgs e)
+        {
+            _correct2_2[2] = 2;
+        }
+
+        private void pic2_24_Click(object sender, EventArgs e)
+        {
+            _correct2_2[3] = 2;
+        }
+
+        private void pic2_25_Click(object sender, EventArgs e)
+        {
+            _correct2_2[4] = 2;
+        }
+
+        private void pic2_31_Click(object sender, EventArgs e)
+        {
+            _correct2_3[0] = 2;
+        }
+
+        private void pic2_32_Click(object sender, EventArgs e)
+        {
+            _correct2_3[1] = 2;
+        }
+
+        private void pic2_33_Click(object sender, EventArgs e)
+        {
+            _correct2_3[2] = 2;
+        }
+
+        private void pic2_34_Click(object sender, EventArgs e)
+        {
+            _correct2_3[3] = 2;
+        }
+
+        private void pic2_35_Click(object sender, EventArgs e)
+        {
+            _correct2_3[4] = 2;
+        }
+
+        private void pic2_41_Click(object sender, EventArgs e)
+        {
+            _correct2_4[0] = 2;
+        }
+
+        private void pic2_42_Click(object sender, EventArgs e)
+        {
+            _correct2_4[1] = 2;
+        }
+
+        private void pic2_43_Click(object sender, EventArgs e)
+        {
+            _correct2_4[2] = 2;
+        }
+
+        private void pic2_44_Click(object sender, EventArgs e)
+        {
+            _correct2_4[3] = 2;
+        }
+
+        private void pic2_45_Click(object sender, EventArgs e)
+        {
+            _correct2_4[4] = 2;
+        }
+
+        private void pic2_51_Click(object sender, EventArgs e)
+        {
+            _correct2_5[0] = 2;
+        }
+
+        private void pic2_52_Click(object sender, EventArgs e)
+        {
+            _correct2_5[1] = 2;
+        }
+
+        private void pic2_53_Click(object sender, EventArgs e)
+        {
+            _correct2_5[2] = 2;
+        }
+
+        private void pic2_54_Click(object sender, EventArgs e)
+        {
+            _correct2_5[3] = 2;
+        }
+
+        private void pic2_55_Click(object sender, EventArgs e)
+        {
+            _correct2_5[4] = 2;
+        }
+
+        private void btnComply_Click(object sender, EventArgs e)
+        {
+            bool bEnded = false;
+
+            fMask();
+            bEnded = fCheck();
+
+            if (bEnded)
+            {
+                fReset();
+                fMask();
+                fUpdateDisplay();
+
+            }
         }
     }
 }

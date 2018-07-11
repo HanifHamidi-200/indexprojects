@@ -12,6 +12,10 @@
     <title>RsvpForm</title>
 </head>
 <body>
+    <p>
+        Your name: @Html.TextBoxFor(x => x.Name)
+    </p>
+
     @using (Html.BeginForm())
     {
         <p>

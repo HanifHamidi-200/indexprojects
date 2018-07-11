@@ -13,7 +13,7 @@ namespace ArtTechnologyProgram
     public partial class Form1 : Form
     {
         private int nFirstRecord;
-        private int mnCount = 17;
+        private int mnCount = 22;
 
         private void fPutRecord(int nRecord,int nPos)
         {
@@ -136,6 +136,41 @@ namespace ArtTechnologyProgram
                 sDescription = "patterned ribcage",
                 sFile = "phute.png"
             };
+            Item picture18 = new Item
+            {
+                nNumber = 18,
+                sTitle = "farsate",
+                sDescription = "diamondkeepers",
+                sFile = "temasak.png"
+            };
+            Item picture19 = new Item
+            {
+                nNumber = 19,
+                sTitle = "indoer",
+                sDescription = "PlaceOfExistence",
+                sFile = "jondle.png"
+            };
+            Item picture20 = new Item
+            {
+                nNumber = 20,
+                sTitle = "trapweze",
+                sDescription = "world of Fantasy",
+                sFile = "nacuta.png"
+            };
+            Item picture21 = new Item
+            {
+                nNumber = 21,
+                sTitle = "logold",
+                sDescription = "Verstalt Sie gehen",
+                sFile = "perelli.png"
+            };
+            Item picture22 = new Item
+            {
+                nNumber = 22,
+                sTitle = "refacce",
+                sDescription = "manumission ceiling",
+                sFile = "phute.png"
+            };
 
             Item picExamine = new Item();
 
@@ -189,8 +224,23 @@ namespace ArtTechnologyProgram
                 case 16:
                     picExamine = picture16;
                     break;
-                default:
+                case 17:
                     picExamine = picture17;
+                    break;
+                case 18:
+                    picExamine = picture18;
+                    break;
+                case 19:
+                    picExamine = picture19;
+                    break;
+                case 20:
+                    picExamine = picture20;
+                    break;
+                case 21:
+                    picExamine = picture21;
+                    break;
+                default:
+                    picExamine = picture22;
                     break;
             }
 

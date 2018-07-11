@@ -1,4 +1,4 @@
-﻿@model WeiliessSunIntermergence.Models.GuestResponse
+﻿@model WeiliessSunIntermergence.Models.PageResponse
 
 @{
     Layout = null;
@@ -13,13 +13,27 @@
 </head>
 <body>
     <h1>Thank you, @Model.Name!</h1>
-    @if (Model.WillAttend == true)
+    <p>
+        Submit Machinery now:-
+    </p>
+    @using (Html.BeginForm())
     {
-        @:Submit Machinery now:-
-    }
-    else
-    {
-        @:Error!
+        <p>
+            Your name: @Html.TextBoxFor(x => x.OK)
+        </p>
+        <input type="submit" value="Submit RSVP" />
+        if (Model.WillAttend == true)
+        {
+            <p>
+                Find your Address in the enclosed envelope
+            </p>
+        }
+        else
+        {
+            <p>
+                Error!
+            </p>
+        }
     }
 </body>
 </html>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="SpotTheDifference.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="SpotTheDifference.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="SpotTheDifference" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,17 +42,71 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpotTheDifference.exe" size="180192">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpotTheDifference.exe" size="185312">
       <assemblyIdentity name="SpotTheDifference" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zXxxAoT/Dq7WWBnP8wHPcDjZIKnZuwbU7fOdq3nUQ8Y=</dsig:DigestValue>
+        <dsig:DigestValue>QRPlHwZA0ZVdvg6GxiqiR7Rfe5YydFhZcHdgNsTU/NM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="icons\F colour1.png" size="2066">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RdqZ9orb0colVKoNJSdGa2aS+v1C6xNU9uCa74mAUho=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F colour2.png" size="2099">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BYo7KXNGdt3tptPKAJeu1i2VjX4tCbQPL0nLAB/v9C4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F colour3.png" size="2165">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nbST2OBMN/MGimWXXyIfyGZWC80Mdvp980sBLApCc9k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F colour4.png" size="2133">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1iwtf3sJ7jzHGwymFiuEEWx6jJH0yc+TRIn2jJtrR5o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F cross.png" size="1891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>91CLPPv91MwrS411p2cfDSj2apgWKnAfC/eEHE+seuI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Nullgate.png" size="3278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rmWNhuJdzQKGuu1GOtAA1HySsae0urh584XzY1JqycM=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="SpotTheDifference.exe.config" size="189">
     <hash>
       <dsig:Transforms>
