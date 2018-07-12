@@ -60,6 +60,11 @@
             this.txtLetter = new System.Windows.Forms.TextBox();
             this.btnPopup1 = new System.Windows.Forms.Button();
             this.lstPopup1 = new System.Windows.Forms.ListBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnExpire = new System.Windows.Forms.Button();
+            this.btnRotate = new System.Windows.Forms.Button();
+            this.btnComply = new System.Windows.Forms.Button();
+            this.lblScore = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic2)).BeginInit();
@@ -78,6 +83,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picg)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -474,7 +480,7 @@
             // 
             this.txtLetter.BackColor = System.Drawing.Color.Yellow;
             this.txtLetter.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLetter.Location = new System.Drawing.Point(18, 119);
+            this.txtLetter.Location = new System.Drawing.Point(18, 150);
             this.txtLetter.Name = "txtLetter";
             this.txtLetter.Size = new System.Drawing.Size(64, 32);
             this.txtLetter.TabIndex = 3;
@@ -507,11 +513,69 @@
             this.lstPopup1.TabIndex = 5;
             this.lstPopup1.SelectedIndexChanged += new System.EventHandler(this.lstPopup1_SelectedIndexChanged);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Green;
+            this.groupBox2.Controls.Add(this.btnExpire);
+            this.groupBox2.Controls.Add(this.btnRotate);
+            this.groupBox2.Controls.Add(this.btnComply);
+            this.groupBox2.Location = new System.Drawing.Point(526, 64);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(179, 382);
+            this.groupBox2.TabIndex = 6;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Options";
+            // 
+            // btnExpire
+            // 
+            this.btnExpire.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnExpire.Location = new System.Drawing.Point(27, 191);
+            this.btnExpire.Name = "btnExpire";
+            this.btnExpire.Size = new System.Drawing.Size(80, 72);
+            this.btnExpire.TabIndex = 2;
+            this.btnExpire.Text = "expire";
+            this.btnExpire.UseVisualStyleBackColor = false;
+            this.btnExpire.Click += new System.EventHandler(this.btnExpire_Click);
+            // 
+            // btnRotate
+            // 
+            this.btnRotate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnRotate.Location = new System.Drawing.Point(27, 113);
+            this.btnRotate.Name = "btnRotate";
+            this.btnRotate.Size = new System.Drawing.Size(80, 72);
+            this.btnRotate.TabIndex = 1;
+            this.btnRotate.Text = "rotate";
+            this.btnRotate.UseVisualStyleBackColor = false;
+            this.btnRotate.Click += new System.EventHandler(this.btnRotate_Click);
+            // 
+            // btnComply
+            // 
+            this.btnComply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnComply.Location = new System.Drawing.Point(27, 35);
+            this.btnComply.Name = "btnComply";
+            this.btnComply.Size = new System.Drawing.Size(80, 72);
+            this.btnComply.TabIndex = 0;
+            this.btnComply.Text = "comply";
+            this.btnComply.UseVisualStyleBackColor = false;
+            this.btnComply.Click += new System.EventHandler(this.btnComply_Click);
+            // 
+            // lblScore
+            // 
+            this.lblScore.AutoSize = true;
+            this.lblScore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblScore.Location = new System.Drawing.Point(25, 114);
+            this.lblScore.Name = "lblScore";
+            this.lblScore.Size = new System.Drawing.Size(55, 15);
+            this.lblScore.TabIndex = 7;
+            this.lblScore.Text = "Score = 0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 466);
+            this.ClientSize = new System.Drawing.Size(774, 466);
+            this.Controls.Add(this.lblScore);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.lstPopup1);
             this.Controls.Add(this.txtLetter);
             this.Controls.Add(this.btnPopup1);
@@ -540,6 +604,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picg)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -577,6 +642,11 @@
         private System.Windows.Forms.TextBox txtLetter;
         private System.Windows.Forms.Button btnPopup1;
         private System.Windows.Forms.ListBox lstPopup1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnExpire;
+        private System.Windows.Forms.Button btnRotate;
+        private System.Windows.Forms.Button btnComply;
+        private System.Windows.Forms.Label lblScore;
     }
 }
 
