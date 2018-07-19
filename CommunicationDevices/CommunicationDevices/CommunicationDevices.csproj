@@ -22,7 +22,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -120,14 +120,34 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="F anime.png" />
+    <Content Include="F Equals.png" />
+    <Content Include="F Exit.png" />
+    <Content Include="F Eye.png" />
+    <Content Include="F homingdevice.png" />
+    <Content Include="F Mebbelgrid.png" />
+    <Content Include="F Nullgate.png" />
+    <Content Include="F Paddle.png" />
+    <Content Include="F Proscient.png" />
+    <Content Include="F recharger.png" />
+    <Content Include="F SkinFormula.png" />
+    <Content Include="F spatum.png" />
+    <Content Include="F Star.png" />
+    <Content Include="F Steel.png" />
+    <Content Include="F Triangle.png" />
+    <Content Include="F Turquoise.png" />
+    <Content Include="icons\F anime.png" />
     <Content Include="icons\F Equals.png" />
     <Content Include="icons\F Exit.png" />
     <Content Include="icons\F Eye.png" />
+    <Content Include="icons\F homingdevice.png" />
     <Content Include="icons\F Mebbelgrid.png" />
     <Content Include="icons\F Nullgate.png" />
     <Content Include="icons\F Paddle.png" />
     <Content Include="icons\F Proscient.png" />
+    <Content Include="icons\F recharger.png" />
     <Content Include="icons\F SkinFormula.png" />
+    <Content Include="icons\F spatum.png" />
     <Content Include="icons\F Star.png" />
     <Content Include="icons\F Steel.png" />
     <Content Include="icons\F Triangle.png" />

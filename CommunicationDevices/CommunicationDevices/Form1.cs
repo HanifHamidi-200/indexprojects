@@ -12,15 +12,18 @@ namespace CommunicationDevices
 {
     public partial class Form1 : Form
     {
-        private static List<int> _count = new List<int> { 0, 0, 0, 0, 0, 0, 0, 0,0,0,0,0 };
-        private static List<int> _value = new List<int> { 0, 0, 0, 0, 0, 0, 0, 0,0,0,0,0 };
+        private static List<int> _value = new List<int> { 0, 0, 0, 0, 0, 0, 0, 0,0,0,0,0,0,0,0,0 };
+        private static List<int> _node = new List<int> { 0, 0, 0, 0, 0, 0, 0, 0 };
         private Random rnd1 = new Random();
         private int nScore=0;
         private int mnNeeded=0, mnGot = 0;
         private int mnExit, mnTrueExit;
+        private int mnCount = 16;
+        private int mnNodes = 8;
 
-        private void fUpdateDisplay()
+        private void fPeek(int nValue, int nRotate, ref PictureBox _pic2)
         {
+
             PictureBox picture1 = new PictureBox
             {
                 Name = "pictureBox1",
@@ -30,391 +33,225 @@ namespace CommunicationDevices
             PictureBox picture2 = new PictureBox
             {
                 Name = "pictureBox2",
-                Image = Image.FromFile(@"F Equals.png"),
+                Image = Image.FromFile(@"F anime.png"),
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
             PictureBox picture3 = new PictureBox
             {
                 Name = "pictureBox3",
-                Image = Image.FromFile(@"F Eye.png"),
+                Image = Image.FromFile(@"F Equals.png"),
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
             PictureBox picture4 = new PictureBox
             {
                 Name = "pictureBox4",
-                Image = Image.FromFile(@"F Mebbelgrid.png"),
+                Image = Image.FromFile(@"F Eye.png"),
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
             PictureBox picture5 = new PictureBox
             {
                 Name = "pictureBox5",
-                Image = Image.FromFile(@"F Paddle.png"),
+                Image = Image.FromFile(@"F homingdevice.png"),
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
             PictureBox picture6 = new PictureBox
             {
                 Name = "pictureBox6",
-                Image = Image.FromFile(@"F Proscient.png"),
+                Image = Image.FromFile(@"F Mebbelgrid.png"),
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
             PictureBox picture7 = new PictureBox
             {
                 Name = "pictureBox7",
-                Image = Image.FromFile(@"F SkinFormula.png"),
+                Image = Image.FromFile(@"F Paddle.png"),
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
 
             PictureBox picture8 = new PictureBox
             {
                 Name = "pictureBox8",
-                Image = Image.FromFile(@"F Star.png"),
+                Image = Image.FromFile(@"F Proscient.png"),
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
             PictureBox picture9 = new PictureBox
             {
                 Name = "pictureBox9",
-                Image = Image.FromFile(@"F Steel.png"),
+                Image = Image.FromFile(@"F recharger.png"),
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
             PictureBox picture10 = new PictureBox
             {
                 Name = "pictureBox10",
-                Image = Image.FromFile(@"F Triangle.png"),
+                Image = Image.FromFile(@"F SkinFormula.png"),
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
             PictureBox picture11 = new PictureBox
             {
                 Name = "pictureBox11",
-                Image = Image.FromFile(@"F Turquoise.png"),
+                Image = Image.FromFile(@"F spatum.png"),
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
             PictureBox picture12 = new PictureBox
             {
                 Name = "pictureBox12",
+                Image = Image.FromFile(@"F Star.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture13 = new PictureBox
+            {
+                Name = "pictureBox13",
+                Image = Image.FromFile(@"F Steel.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture14 = new PictureBox
+            {
+                Name = "pictureBox14",
+                Image = Image.FromFile(@"F Triangle.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture15 = new PictureBox
+            {
+                Name = "pictureBox15",
+                Image = Image.FromFile(@"F Turquoise.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture16 = new PictureBox
+            {
+                Name = "pictureBox16",
                 Image = Image.FromFile(@"F NullGate.png"),
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
 
-            switch (_count[0])
+
+            switch (nValue)
             {
                 case 1:
-                    pic1.Image = picture1.Image;
+                    _pic2 = picture1;
                     break;
                 case 2:
-                    pic1.Image = picture2.Image;
+                    _pic2 = picture2;
                     break;
                 case 3:
-                    pic1.Image = picture3.Image;
+                    _pic2 = picture3;
                     break;
                 case 4:
-                    pic1.Image = picture4.Image;
+                    _pic2 = picture4;
                     break;
                 case 5:
-                    pic1.Image = picture5.Image;
+                    _pic2 = picture5;
                     break;
                 case 6:
-                    pic1.Image = picture6.Image;
+                    _pic2 = picture6;
                     break;
                 case 7:
-                    pic1.Image = picture7.Image;
+                    _pic2 = picture7;
                     break;
                 case 8:
-                    pic1.Image = picture8.Image;
+                    _pic2 = picture8;
                     break;
                 case 9:
-                    pic1.Image = picture9.Image;
+                    _pic2 = picture9;
                     break;
                 case 10:
-                    pic1.Image = picture10.Image;
+                    _pic2 = picture10;
                     break;
                 case 11:
-                    pic1.Image = picture11.Image;
+                    _pic2 = picture11;
                     break;
-                default:
-                    pic1.Image = picture12.Image;
+                case 12:
+                    _pic2 = picture12;
                     break;
+                case 13:
+                    _pic2 = picture13;
+                    break;
+                case 14:
+                    _pic2 = picture14;
+                    break;
+                case 15:
+                    _pic2 = picture15;
+                    break;
+                  default:
+                    _pic2 = picture16;
+                    break;
+            }
+            for (int i = 1; i <= nRotate - 1; i++)
+            {
+                _pic2.Image.RotateFlip(RotateFlipType.Rotate90FlipNone);
             }
 
-            switch (_count[1])
-            {
-                case 1:
-                    pic2.Image = picture1.Image;
-                    break;
-                case 2:
-                    pic2.Image = picture2.Image;
-                    break;
-                case 3:
-                    pic2.Image = picture3.Image;
-                    break;
-                case 4:
-                    pic2.Image = picture4.Image;
-                    break;
-                case 5:
-                    pic2.Image = picture5.Image;
-                    break;
-                case 6:
-                    pic2.Image = picture6.Image;
-                    break;
-                case 7:
-                    pic2.Image = picture7.Image;
-                    break;
-                case 8:
-                    pic2.Image = picture8.Image;
-                    break;
-                case 9:
-                    pic2.Image = picture9.Image;
-                    break;
-                case 10:
-                    pic2.Image = picture10.Image;
-                    break;
-                case 11:
-                    pic2.Image = picture11.Image;
-                    break;
-                default:
-                    pic2.Image = picture12.Image;
-                    break;
-            }
-
-            switch (_count[2])
-            {
-                case 1:
-                    pic3.Image = picture1.Image;
-                    break;
-                case 2:
-                    pic3.Image = picture2.Image;
-                    break;
-                case 3:
-                    pic3.Image = picture3.Image;
-                    break;
-                case 4:
-                    pic3.Image = picture4.Image;
-                    break;
-                case 5:
-                    pic3.Image = picture5.Image;
-                    break;
-                case 6:
-                    pic3.Image = picture6.Image;
-                    break;
-                case 7:
-                    pic3.Image = picture7.Image;
-                    break;
-                case 8:
-                    pic3.Image = picture8.Image;
-                    break;
-                case 9:
-                    pic3.Image = picture9.Image;
-                    break;
-                case 10:
-                    pic3.Image = picture10.Image;
-                    break;
-                case 11:
-                    pic3.Image = picture11.Image;
-                    break;
-                default:
-                    pic3.Image = picture12.Image;
-                    break;
-            }
-
-            switch (_count[3])
-            {
-                case 1:
-                    pic4.Image = picture1.Image;
-                    break;
-                case 2:
-                    pic4.Image = picture2.Image;
-                    break;
-                case 3:
-                    pic4.Image = picture3.Image;
-                    break;
-                case 4:
-                    pic4.Image = picture4.Image;
-                    break;
-                case 5:
-                    pic4.Image = picture5.Image;
-                    break;
-                case 6:
-                    pic4.Image = picture6.Image;
-                    break;
-                case 7:
-                    pic4.Image = picture7.Image;
-                    break;
-                case 8:
-                    pic4.Image = picture8.Image;
-                    break;
-                case 9:
-                    pic4.Image = picture9.Image;
-                    break;
-                case 10:
-                    pic4.Image = picture10.Image;
-                    break;
-                case 11:
-                    pic4.Image = picture11.Image;
-                    break;
-                default:
-                    pic4.Image = picture12.Image;
-                    break;
-            }
-
-            switch (_count[4])
-            {
-                case 1:
-                    pic5.Image = picture1.Image;
-                    break;
-                case 2:
-                    pic5.Image = picture2.Image;
-                    break;
-                case 3:
-                    pic5.Image = picture3.Image;
-                    break;
-                case 4:
-                    pic5.Image = picture4.Image;
-                    break;
-                case 5:
-                    pic5.Image = picture5.Image;
-                    break;
-                case 6:
-                    pic5.Image = picture6.Image;
-                    break;
-                case 7:
-                    pic5.Image = picture7.Image;
-                    break;
-                case 8:
-                    pic5.Image = picture8.Image;
-                    break;
-                case 9:
-                    pic5.Image = picture9.Image;
-                    break;
-                case 10:
-                    pic5.Image = picture10.Image;
-                    break;
-                case 11:
-                    pic5.Image = picture11.Image;
-                    break;
-                default:
-                    pic5.Image = picture12.Image;
-                    break;
-            }
-
-            switch (_count[5])
-            {
-                case 1:
-                    pic6.Image = picture1.Image;
-                    break;
-                case 2:
-                    pic6.Image = picture2.Image;
-                    break;
-                case 3:
-                    pic6.Image = picture3.Image;
-                    break;
-                case 4:
-                    pic6.Image = picture4.Image;
-                    break;
-                case 5:
-                    pic6.Image = picture5.Image;
-                    break;
-                case 6:
-                    pic6.Image = picture6.Image;
-                    break;
-                case 7:
-                    pic6.Image = picture7.Image;
-                    break;
-                case 8:
-                    pic6.Image = picture8.Image;
-                    break;
-                case 9:
-                    pic6.Image = picture9.Image;
-                    break;
-                case 10:
-                    pic6.Image = picture10.Image;
-                    break;
-                case 11:
-                    pic6.Image = picture11.Image;
-                    break;
-                default:
-                    pic6.Image = picture12.Image;
-                    break;
-            }
-
-            switch (_count[6])
-            {
-                case 1:
-                    pic7.Image = picture1.Image;
-                    break;
-                case 2:
-                    pic7.Image = picture2.Image;
-                    break;
-                case 3:
-                    pic7.Image = picture3.Image;
-                    break;
-                case 4:
-                    pic7.Image = picture4.Image;
-                    break;
-                case 5:
-                    pic7.Image = picture5.Image;
-                    break;
-                case 6:
-                    pic7.Image = picture6.Image;
-                    break;
-                case 7:
-                    pic7.Image = picture7.Image;
-                    break;
-                case 8:
-                    pic7.Image = picture8.Image;
-                    break;
-                case 9:
-                    pic7.Image = picture9.Image;
-                    break;
-                case 10:
-                    pic7.Image = picture10.Image;
-                    break;
-                case 11:
-                    pic7.Image = picture11.Image;
-                    break;
-                default:
-                    pic7.Image = picture12.Image;
-                    break;
-            }
-
-            switch (_count[7])
-            {
-                case 1:
-                    pic8.Image = picture1.Image;
-                    break;
-                case 2:
-                    pic8.Image = picture2.Image;
-                    break;
-                case 3:
-                    pic8.Image = picture3.Image;
-                    break;
-                case 4:
-                    pic8.Image = picture4.Image;
-                    break;
-                case 5:
-                    pic8.Image = picture5.Image;
-                    break;
-                case 6:
-                    pic8.Image = picture6.Image;
-                    break;
-                case 7:
-                    pic8.Image = picture7.Image;
-                    break;
-                case 8:
-                    pic8.Image = picture8.Image;
-                    break;
-                case 9:
-                    pic8.Image = picture9.Image;
-                    break;
-                case 10:
-                    pic8.Image = picture10.Image;
-                    break;
-                case 11:
-                    pic8.Image = picture11.Image;
-                    break;
-                default:
-                    pic8.Image = picture12.Image;
-                    break;
-            }
         }
+
+        private void fUpdateDisplay()
+        {
+            PictureBox _pic = new PictureBox();
+            int nType, nRotate;
+
+            for (int i = 1; i <= 8; i++)
+            {
+                nType = _node[i - 1];
+                nRotate = 1;
+                fPeek(nType, nRotate, ref _pic);
+                switch (i)
+                {
+                    case 1:
+                        pic1.Image = _pic.Image;
+                        break;
+                    case 2:
+                        pic2.Image = _pic.Image;
+                        break;
+                    case 3:
+                        pic3.Image = _pic.Image;
+                        break;
+                    case 4:
+                        pic4.Image = _pic.Image;
+                        break;
+                    case 5:
+                        pic5.Image = _pic.Image;
+                        break;
+                    case 6:
+                        pic6.Image = _pic.Image;
+                        break;
+                    case 7:
+                        pic7.Image = _pic.Image;
+                        break;
+                    default:
+                        pic8.Image = _pic.Image;
+                        break;
+                }
+            }
+
+        }
+
+        private void fReset()
+        {
+            int nCount = 0;
+
+            mnExit = 0;
+            mnTrueExit = 1;
+            for (int i = 1; i <= mnCount; i++)
+            {
+                _value[i - 1] = rnd1.Next(4, 11);
+            }
+
+            int nTotal = 0;
+            for (int i = 1; i <= mnNodes; i++)
+            {
+                _node[i - 1] = rnd1.Next(2, mnCount+1);
+                nTotal = nTotal + _value[_node[i - 1] - 1];
+            }
+            mnGot = nTotal;
+            nTotal = 0;
+            for (int i = 1; i <= mnNodes; i++)
+            {
+                nCount = rnd1.Next(2, mnCount+1);
+                nTotal = nTotal + _value[nCount - 1];
+            }
+            mnNeeded = nTotal;
+            lblNeeded.Text = "NEEDED = " + Convert.ToString(mnNeeded);
+            lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
+
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -425,145 +262,70 @@ namespace CommunicationDevices
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            int nCount = 0;
-
-            mnExit = 0;
-            mnTrueExit = 1;
-            for (int i = 1; i <= 12; i++)
-            {
-                _value[i - 1] = rnd1.Next(4, 11);
-            }
+            fReset();
+            fUpdateDisplay();
+        }
+        
+        private void fClick(int nMode)
+        {
+            Random rnd1 = new Random();
 
             int nTotal = 0;
-            for (int i = 1; i <= 8; i++)
+
+            _node[nMode - 1] += 1;
+            if (_node[nMode - 1] > mnCount)
             {
-                _count[i - 1] = rnd1.Next(2, 12);
-                nTotal = nTotal + _value[_count[i - 1] - 1];
+                _node[nMode - 1] = 2;
+            }
+
+            for (int i = 1; i <= mnNodes; i++)
+            {
+                nTotal = nTotal + _value[_node[i - 1]-1];
             }
             mnGot = nTotal;
-            nTotal = 0;
-            for (int i = 1; i <= 8; i++)
-            {
-                nCount = rnd1.Next(2, 12);
-                nTotal = nTotal + _value[nCount - 1];
-            }
-            mnNeeded = nTotal;
-            lblNeeded.Text = "NEEDED = " + Convert.ToString(mnNeeded);
             lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
 
             fUpdateDisplay();
         }
+
 
         private void pic1_Click(object sender, EventArgs e)
         {
-            _count[0] = rnd1.Next(2, 12);
-            int nTotal = 0;
-            for (int i = 1; i <= 8; i++)
-            {
-                 nTotal = nTotal + _value[_count[i-1] - 1];
-            }
-            mnGot = nTotal;
-            lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
-
-            fUpdateDisplay();
+            fClick(1);
         }
-
         private void pic2_Click(object sender, EventArgs e)
         {
-            _count[1] = rnd1.Next(2, 12);
-            int nTotal = 0;
-            for (int i = 1; i <= 8; i++)
-            {
-                nTotal = nTotal + _value[_count[i - 1] - 1];
-            }
-            mnGot = nTotal;
-            lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
-
-            fUpdateDisplay();
+            fClick(2);
         }
 
         private void pic3_Click(object sender, EventArgs e)
         {
-            _count[2] = rnd1.Next(2, 12);
-            int nTotal = 0;
-            for (int i = 1; i <= 8; i++)
-            {
-                nTotal = nTotal + _value[_count[i - 1] - 1];
-            }
-            mnGot = nTotal;
-            lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
-
-            fUpdateDisplay();
+            fClick(3);
         }
 
         private void pic4_Click(object sender, EventArgs e)
         {
-            _count[3] = rnd1.Next(2, 12);
-            int nTotal = 0;
-            for (int i = 1; i <= 8; i++)
-            {
-                nTotal = nTotal + _value[_count[i - 1] - 1];
-            }
-            mnGot = nTotal;
-            lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
-
-            fUpdateDisplay();
+            fClick(4);
         }
 
         private void pic5_Click(object sender, EventArgs e)
         {
-            _count[4] = rnd1.Next(2, 12);
-            int nTotal = 0;
-            for (int i = 1; i <= 8; i++)
-            {
-                nTotal = nTotal + _value[_count[i - 1] - 1];
-            }
-            mnGot = nTotal;
-            lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
-
-            fUpdateDisplay();
+            fClick(5);
         }
 
         private void pic6_Click(object sender, EventArgs e)
         {
-            _count[5] = rnd1.Next(2, 12);
-            int nTotal = 0;
-            for (int i = 1; i <= 8; i++)
-            {
-                nTotal = nTotal + _value[_count[i - 1] - 1];
-            }
-            mnGot = nTotal;
-            lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
-
-            fUpdateDisplay();
+            fClick(6);
         }
 
         private void pic7_Click(object sender, EventArgs e)
         {
-            _count[6] = rnd1.Next(2, 12);
-            int nTotal = 0;
-            for (int i = 1; i <= 8; i++)
-            {
-                nTotal = nTotal + _value[_count[i - 1] - 1];
-            }
-            mnGot = nTotal;
-            lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
-
-            fUpdateDisplay();
+            fClick(7);
         }
 
         private void pic8_Click(object sender, EventArgs e)
         {
-            _count[7] = rnd1.Next(2, 12);
-            int nTotal = 0;
-            for (int i = 1; i <= 8; i++)
-            {
-                nTotal = nTotal + _value[_count[i - 1] - 1];
-            }
-            mnGot = nTotal;
-            lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
-
-            fUpdateDisplay();
+            fClick(8);
         }
 
         private void btnComply_Click(object sender, EventArgs e)
@@ -580,7 +342,7 @@ namespace CommunicationDevices
                 mnTrueExit = nTrueExit;
                 nScore = nScore + 10;
                 lblScore.Text = "Score = " + Convert.ToString(nScore);
-                _count[nExit - 1] = 1;
+                _node[nExit - 1] = 1;
                 fUpdateDisplay();
                 switch (nTrueExit)
                 {
@@ -617,51 +379,25 @@ namespace CommunicationDevices
         {
             if (mnExit == mnTrueExit)
             {
-                nScore += 20;
+                nScore += 100;
                 lblScore.Text = "Score = " + Convert.ToString(nScore);
 
-                int nCount = 0;
-
-                mnExit = 0;
-                mnTrueExit = 1;
-
-                for (int i = 1; i <= 12; i++)
-                {
-                    _value[i - 1] = rnd1.Next(4, 11);
-                }
-
-                int nTotal = 0;
-                for (int i = 1; i <= 8; i++)
-                {
-                    _count[i - 1] = rnd1.Next(2, 12);
-                    nTotal = nTotal + _value[_count[i - 1] - 1];
-                }
-                mnGot = nTotal;
-                nTotal = 0;
-                for (int i = 1; i <= 8; i++)
-                {
-                    nCount = rnd1.Next(2, 12);
-                    nTotal = nTotal + _value[nCount - 1];
-                }
-                mnNeeded = nTotal;
-                lblNeeded.Text = "NEEDED = " + Convert.ToString(mnNeeded);
-                lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
-
+                fReset();
                 fUpdateDisplay();
             }
         }
 
         private void btnClockwise_Click(object sender, EventArgs e)
         {
-            int nSave = _count[7];
-            for (int i = 8; i >=2; i--)
+            int nSave = _node[mnNodes-1];
+            for (int i = mnNodes; i >=2; i--)
             {
-                _count[i-1] = _count[i - 2];
+                _node[i-1] = _node[i - 2];
             }
-            _count[0] = nSave;
+            _node[0] = nSave;
 
             mnExit += 1;
-            if (mnExit == 9)
+            if (mnExit == mnNodes+1)
             {
                 mnExit = 1;
             }
@@ -670,33 +406,7 @@ namespace CommunicationDevices
 
         private void btnQNext_Click(object sender, EventArgs e)
         {
-            int nCount = 0;
-
-            mnExit = 0;
-            mnTrueExit = 1;
-
-            for (int i = 1; i <= 12; i++)
-            {
-                _value[i - 1] = rnd1.Next(4, 11);
-            }
-
-            int nTotal = 0;
-            for (int i = 1; i <= 8; i++)
-            {
-                _count[i - 1] = rnd1.Next(2, 12);
-                nTotal = nTotal + _value[_count[i - 1] - 1];
-            }
-            mnGot = nTotal;
-            nTotal = 0;
-            for (int i = 1; i <= 8; i++)
-            {
-                nCount = rnd1.Next(2, 12);
-                nTotal = nTotal + _value[nCount - 1];
-            }
-            mnNeeded = nTotal;
-            lblNeeded.Text = "NEEDED = " + Convert.ToString(mnNeeded);
-            lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
-
+            fReset();
             fUpdateDisplay();
         }
     }
