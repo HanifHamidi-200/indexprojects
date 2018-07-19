@@ -12,21 +12,36 @@ namespace ScrewdriverPeople
 {
     public partial class Form1 : Form
     {
-        private static List<int> _number = new List<int> { 0, 0, 0, 0 ,0,0,0};
-        private int mnNeeded,mnQuantity;
+        private static List<int> _number = new List<int> { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        private static List<String> _items = new List<String> { "carrier", "copier", "dataanalysis", "hmax", "hmin", "intercepter", "locater", "manipulater", "multiplexor", "organiser", "originater", "porter", "printer", "replier", "screw", "translater" };
+        private int mnCount = 16;
+        private int mnNeeded, mnQuantity;
         private int mnItem = 0;
+        private int nScore;
 
         private void fReset()
         {
             Random rnd1 = new Random();
-            mnNeeded = rnd1.Next(1, 5);
+            mnNeeded = rnd1.Next(1, mnCount + 1);
             mnQuantity = rnd1.Next(1, 10);
-            String sWord;
+            String sWord = null;
 
-            for (int i = 1; i <= 4; i++)
+            for (int i = 1; i <= mnCount; i++)
             {
                 _number[i - 1] = 0;
             }
+
+            fUpdateDisplay1();
+            fUpdateDisplay2();
+            sWord = "x" + Convert.ToString(mnQuantity) + _items[mnNeeded - 1];
+            sWord = "NEEDED = " + sWord;
+            lblNeeded.Text = sWord;
+        }
+
+        private void fUpdateDisplay1()
+        {
+            String sWord;
+
             if (lstGot.Items.Count > 0)
             {
 
@@ -35,62 +50,34 @@ namespace ScrewdriverPeople
                     lstGot.Items.RemoveAt(0);
                 } while (lstGot.Items.Count > 0);
             }
-            if (lstShop.Items.Count > 0)
+
+            for (int i = 1; i <= mnCount; i++)
             {
+                sWord = "x" + Convert.ToString(_number[i - 1]) +_items[i - 1];
+                 lstGot.Items.Add(sWord);
+              }
+    }
+    
 
-                do
-                {
-                    lstShop.Items.RemoveAt(0);
-                } while (lstShop.Items.Count > 0);
-            }
+    private void fUpdateDisplay2()
+    {
+        if (lstShop.Items.Count > 0)
+        {
 
-            sWord = "x" + Convert.ToString(_number[0]) + "screw";
-            lstGot.Items.Add(sWord);
-            sWord = "x" + Convert.ToString(_number[1]) + "multiplexor";
-            lstGot.Items.Add(sWord);
-            sWord = "x" + Convert.ToString(_number[2]) + "locater";
-            lstGot.Items.Add(sWord);
-            sWord = "x" + Convert.ToString(_number[3]) + "intercepter";
-            lstGot.Items.Add(sWord);
-            sWord = "x" + Convert.ToString(_number[4]) + "dataanalysis";
-            lstGot.Items.Add(sWord);
-            sWord = "x" + Convert.ToString(_number[5]) + "hmax";
-            lstGot.Items.Add(sWord);
-            sWord = "x" + Convert.ToString(_number[6]) + "hmin";
-            lstGot.Items.Add(sWord);
-
-            switch (mnNeeded)
+            do
             {
-                case 1:
-                    sWord = "x" + Convert.ToString(mnQuantity) + "screw";
-                    break;
-                case 2:
-                    sWord = "x" + Convert.ToString(mnQuantity) + "multiplexor";
-                    break;
-                case 3:
-                    sWord = "x" + Convert.ToString(mnQuantity) + "locater";
-                    break;
-                case 4:
-                    sWord = "x" + Convert.ToString(mnQuantity) + "intercepter";
-                    break;
-                case 5:
-                    sWord = "x" + Convert.ToString(mnQuantity) + "dataanalysis";
-                    break;
-                case 6:
-                    sWord = "x" + Convert.ToString(mnQuantity) + "hmax";
-                    break;
-                default:
-                    sWord = "x" + Convert.ToString(mnQuantity) + "hmin";
-                    break;
-            }
-            sWord = "NEEDED = " + sWord;
-            lblNeeded.Text = sWord;
+                lstShop.Items.RemoveAt(0);
+            } while (lstShop.Items.Count > 0);
         }
 
-    
+
+    }
+
     public Form1()
         {
             InitializeComponent();
+            nScore = 0;
+            lblScore.Text = "Score = 0";
         }
 
         private void btnLoad_Click(object sender, EventArgs e)
@@ -103,46 +90,13 @@ namespace ScrewdriverPeople
             sWord = null;
             for (int i = 1; i <= nTimes; i++)
             {
-                nNeeded = rnd1.Next(1, 8);
+                nNeeded = rnd1.Next(1, mnCount+1);
                 nQuantity = rnd1.Next(1, 10);
-                switch (nNeeded)
-                {
-                    case 1:
-                        sWord2 = "x[" + Convert.ToString(nQuantity) + "]screw ";
-                        break;
-                    case 2:
-                        sWord2 = "x[" + Convert.ToString(nQuantity) + "]multiplexor ";
-                        break;
-                    case 3:
-                        sWord2 = "x[" + Convert.ToString(nQuantity) + "]locater ";
-                        break;
-                    case 4:
-                        sWord2 = "x[" + Convert.ToString(nQuantity) + "]intercepter ";
-                        break;
-                    case 5:
-                        sWord2 = "x[" + Convert.ToString(nQuantity) + "]dataanalysis ";
-                        break;
-                    case 6:
-                        sWord2 = "x[" + Convert.ToString(nQuantity) + "]hmax ";
-                        break;
-                    default:
-                        sWord2 = "x[" + Convert.ToString(nQuantity) + "]hmin ";
-                        break;
-                }
-                sWord = sWord + sWord2;
-            }
+                    sWord2 = "x[" + Convert.ToString(nQuantity) + "]"+_items[mnNeeded-1];
+               sWord = sWord + sWord2;
             lstShop.Items.Add(sWord);
         }
-
-        private void lstShop_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lstShop_MouseLeave(object sender, EventArgs e)
-        {
-            mnItem = lstShop.SelectedIndex + 1;
-        }
+    }
 
         private void btnTake_Click(object sender, EventArgs e)
         {
@@ -150,8 +104,7 @@ namespace ScrewdriverPeople
             int nPos;
             int nNeeded, nQuantity;
             String sLetter;
-            String sWord;
-
+         
             if (mnItem == 0)
             {
 
@@ -174,65 +127,67 @@ namespace ScrewdriverPeople
                             nPos = nPos + 1;
                             nQuantity = Convert.ToInt32(sList.Substring(nPos - 1,1));
                             nPos = nPos + 2;
-                            sLetter = sList.Substring(nPos - 1,1);
-                            switch (sLetter)
+                            sLetter = sList.Substring(nPos - 1,3);
+                             switch (sLetter)
                             {
-                                case "s":
+                                case "car":
                                     nNeeded = 1;
                                     break;
-                                case "m":
+                                case "cop":
                                     nNeeded = 2;
                                     break;
-                                case "l":
+                                case "dat":
                                     nNeeded = 3;
                                     break;
-                                case "i":
+                                case "hma":
                                     nNeeded = 4;
                                     break;
-                                case "d":
+                                case "hmi":
                                     nNeeded = 5;
                                     break;
-                                default:
-                                    sLetter = sList.Substring(nPos+1 , 1);
-                                    switch (sLetter)
-                                    {
-                                        case "a":
-                                            nNeeded = 6;
-                                            break;
-                                        default:
-                                            nNeeded = 7;
-                                            break;
-                                    }
-                                   break;
-                            }
-                            _number[nNeeded - 1] += nQuantity;
+                            case "int":
+                                nNeeded = 6;
+                                break;
+                            case "loc":
+                                nNeeded = 7;
+                                break;
+                            case "man":
+                                nNeeded = 8;
+                                break;
+                            case "mul":
+                                nNeeded = 9;
+                                break;
+                            case "org":
+                                nNeeded = 10;
+                                break;
+                            case "ori":
+                                nNeeded = 11;
+                                break;
+                            case "por":
+                                nNeeded = 12;
+                                break;
+                            case "pri":
+                                nNeeded = 13;
+                                break;
+                            case "rep":
+                                nNeeded = 14;
+                                break;
+                            case "scr":
+                                nNeeded = 15;
+                                break;
+                            default:
+                                nNeeded = 16;
+                                break;
+                        }
+                        _number[nNeeded - 1] += nQuantity;
                         }
                     } while (nPos < sList.Length);
 
-                    if (lstGot.Items.Count > 0)
-                    {
-
-                        do
-                        {
-                            lstGot.Items.RemoveAt(0);
-                        } while (lstGot.Items.Count > 0);
-                    }
-                    sWord = "x" + Convert.ToString(_number[0]) + "screw";
-                    lstGot.Items.Add(sWord);
-                    sWord = "x" + Convert.ToString(_number[1]) + "multiplexor";
-                    lstGot.Items.Add(sWord);
-                    sWord = "x" + Convert.ToString(_number[2]) + "locater";
-                    lstGot.Items.Add(sWord);
-                    sWord = "x" + Convert.ToString(_number[3]) + "intercepter";
-                    lstGot.Items.Add(sWord);
-                    sWord = "x" + Convert.ToString(_number[4]) + "dataanalysis";
-                    lstGot.Items.Add(sWord);
-                    sWord = "x" + Convert.ToString(_number[5]) + "hmax";
-                    lstGot.Items.Add(sWord);
-                    sWord = "x" + Convert.ToString(_number[6]) + "hmin";
-                    lstGot.Items.Add(sWord);
-
+                fUpdateDisplay1();
+                   
                     lstShop.Items.RemoveAt(mnItem - 1);
+                    nScore += 10;
+                    lblScore.Text = "Score = " + Convert.ToString(nScore);
                 }
             }
         }
@@ -241,7 +196,7 @@ namespace ScrewdriverPeople
         {
             Random rnd1 = new Random();
             int nNeeded1=mnNeeded, nQuantity1=mnQuantity;
-            int nGot2, nQuantity2=_number[nNeeded1-1];
+            int nQuantity2=_number[nNeeded1-1];
             String sWord;
 
             if (nQuantity2 >= nQuantity1)
@@ -249,54 +204,12 @@ namespace ScrewdriverPeople
                 _number[nNeeded1 - 1] -= nQuantity1;
                 mnNeeded = rnd1.Next(1, 5);
                 mnQuantity = rnd1.Next(1, 10);
-                switch (mnNeeded)
-                {
-                    case 1:
-                        sWord = "x" + Convert.ToString(mnQuantity) + "screw";
-                        break;
-                    case 2:
-                        sWord = "x" + Convert.ToString(mnQuantity) + "multiplexor";
-                        break;
-                    case 3:
-                        sWord = "x" + Convert.ToString(mnQuantity) + "locater";
-                        break;
-                    case 4:
-                        sWord = "x" + Convert.ToString(mnQuantity) + "intercepter";
-                        break;
-                    case 5:
-                        sWord = "x" + Convert.ToString(mnQuantity) + "dataanalysis";
-                        break;
-                    case 6:
-                        sWord = "x" + Convert.ToString(mnQuantity) + "hmax";
-                        break;
-                    default:
-                        sWord = "x" + Convert.ToString(mnQuantity) + "hmin";
-                        break;
-                }
-                sWord = "NEEDED = " + sWord;
+                  sWord = "x" + Convert.ToString(mnQuantity) + _items[mnNeeded-1];
+                    sWord = "NEEDED = " + sWord;
                 lblNeeded.Text = sWord;
-                if (lstGot.Items.Count > 0)
-                {
-
-                    do
-                    {
-                        lstGot.Items.RemoveAt(0);
-                    } while (lstGot.Items.Count > 0);
-                }
-                sWord = "x" + Convert.ToString(_number[0]) + "screw";
-                lstGot.Items.Add(sWord);
-                sWord = "x" + Convert.ToString(_number[1]) + "multiplexor";
-                lstGot.Items.Add(sWord);
-                sWord = "x" + Convert.ToString(_number[2]) + "locater";
-                lstGot.Items.Add(sWord);
-                sWord = "x" + Convert.ToString(_number[3]) + "intercepter";
-                lstGot.Items.Add(sWord);
-                sWord = "x" + Convert.ToString(_number[4]) + "dataanalysis";
-                lstGot.Items.Add(sWord);
-                sWord = "x" + Convert.ToString(_number[5]) + "hmax";
-                lstGot.Items.Add(sWord);
-                sWord = "x" + Convert.ToString(_number[6]) + "hmin";
-                lstGot.Items.Add(sWord);
+            fUpdateDisplay1();
+                nScore += 100;
+                lblScore.Text = "Score = " + Convert.ToString(nScore);
             }
             else
             {
@@ -305,8 +218,13 @@ namespace ScrewdriverPeople
             }
         }
 
+        private void lstShop_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            mnItem = lstShop.SelectedIndex + 1;
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             fReset();
-        }    }
-}
+        }    
+}}
