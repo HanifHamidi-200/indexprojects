@@ -14,13 +14,61 @@ namespace CommunicationDevices
     {
         private static List<int> _value = new List<int> { 0, 0, 0, 0, 0, 0, 0, 0,0,0,0,0,0,0,0,0 };
         private static List<int> _node = new List<int> { 0, 0, 0, 0, 0, 0, 0, 0 };
+        private List<String> _names = new List<string> { "Exit", "anime", "Equals", "Eye", "homingdevice", "Mebbelgrid", "Paddle", "Proscient", "recharger", "SkinFormula", "spatum", "Star", "Steel", "Triangle", "Turquoise", "NullGate" };
+        private List<int> _expected = new List<int> { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
         private Random rnd1 = new Random();
         private int nScore=0;
         private int mnNeeded=0, mnGot = 0;
         private int mnExit, mnTrueExit;
         private int mnCount = 16;
         private int mnNodes = 8;
+        private int mnItem;
 
+        private void fEdit(int nItem, int nValue)
+        {
+            _expected[nItem - 1] = nValue;
+            fUpdateList2();
+        }
+        private void fUpdateList()
+        {
+            int nType;
+            String sName = null;
+
+            if (lst1.Items.Count > 0)
+            {
+                do
+                {
+                    lst1.Items.RemoveAt(0);
+                } while (lst1.Items.Count > 0);
+            }
+
+            for (int i = 1; i <= 8; i++)
+            {
+                nType = _node[i - 1];
+                sName = _names[nType - 1];
+                lst1.Items.Add(sName);
+            }
+
+        }
+
+        private void fUpdateList2()
+        {
+            String sText = null;
+
+            if (lst2.Items.Count > 0)
+            {
+                do
+                {
+                    lst2.Items.RemoveAt(0);
+                } while (lst2.Items.Count > 0);
+            }
+
+            for (int i = 1; i <= mnCount; i++)
+            {
+                sText = _names[i - 1] + " = " + Convert.ToString(_expected[i - 1]);
+                lst2.Items.Add(sText);
+            }
+        }
         private void fPeek(int nValue, int nRotate, ref PictureBox _pic2)
         {
 
@@ -220,6 +268,7 @@ namespace CommunicationDevices
                 }
             }
 
+            fUpdateList();
         }
 
         private void fReset()
@@ -228,6 +277,7 @@ namespace CommunicationDevices
 
             mnExit = 0;
             mnTrueExit = 1;
+            mnItem = 1;
             for (int i = 1; i <= mnCount; i++)
             {
                 _value[i - 1] = rnd1.Next(4, 11);
@@ -250,6 +300,11 @@ namespace CommunicationDevices
             lblNeeded.Text = "NEEDED = " + Convert.ToString(mnNeeded);
             lblGot.Text = "GOT = 0" + Convert.ToString(mnGot);
 
+            for (int i = 1; i <= mnCount; i++)
+            {
+                _expected[i - 1] = 0;
+            }
+            fUpdateList2();
         }
 
         public Form1()
@@ -264,6 +319,7 @@ namespace CommunicationDevices
         {
             fReset();
             fUpdateDisplay();
+            fUpdateList2();
         }
         
         private void fClick(int nMode)
@@ -387,6 +443,16 @@ namespace CommunicationDevices
             }
         }
 
+        private void lst2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            mnItem = lst2.SelectedIndex + 1;
+        }
+
+        private void btnPossibilities_Click(object sender, EventArgs e)
+        {
+            fEdit(mnItem, Convert.ToInt32(txtPossibilities.Text));
+        }
+
         private void btnClockwise_Click(object sender, EventArgs e)
         {
             int nSave = _node[mnNodes-1];
@@ -408,6 +474,7 @@ namespace CommunicationDevices
         {
             fReset();
             fUpdateDisplay();
+            fUpdateList2();
         }
     }
 }

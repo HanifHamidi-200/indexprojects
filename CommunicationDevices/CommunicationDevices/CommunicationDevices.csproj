@@ -12,7 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\hanif\_publish\CommunicationDevices\</PublishUrl>
+    <PublishUrl>_publish2\CommunicationDevices\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -22,7 +22,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -110,7 +110,7 @@
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <ProductName>Microsoft .NET Framework 4.6.1%28x86 및 x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
@@ -120,22 +120,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="F anime.png" />
-    <Content Include="F Equals.png" />
-    <Content Include="F Exit.png" />
-    <Content Include="F Eye.png" />
-    <Content Include="F homingdevice.png" />
-    <Content Include="F Mebbelgrid.png" />
-    <Content Include="F Nullgate.png" />
-    <Content Include="F Paddle.png" />
-    <Content Include="F Proscient.png" />
-    <Content Include="F recharger.png" />
-    <Content Include="F SkinFormula.png" />
-    <Content Include="F spatum.png" />
-    <Content Include="F Star.png" />
-    <Content Include="F Steel.png" />
-    <Content Include="F Triangle.png" />
-    <Content Include="F Turquoise.png" />
     <Content Include="icons\F anime.png" />
     <Content Include="icons\F Equals.png" />
     <Content Include="icons\F Exit.png" />
