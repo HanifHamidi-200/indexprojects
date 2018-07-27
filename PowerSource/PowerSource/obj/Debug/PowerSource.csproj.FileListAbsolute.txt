@@ -26,3 +26,4 @@ C:\Users\hanif\Desktop\PowerSource\PowerSource\obj\Debug\PowerSource.exe.manifes
 C:\Users\hanif\Desktop\PowerSource\PowerSource\obj\Debug\PowerSource.application
 C:\Users\hanif\Desktop\PowerSource\PowerSource\obj\Debug\PowerSource.exe
 C:\Users\hanif\Desktop\PowerSource\PowerSource\obj\Debug\PowerSource.pdb
+C:\Users\hanif\Desktop\PowerSource\PowerSource\obj\Debug\PowerSource.fLookup.resources

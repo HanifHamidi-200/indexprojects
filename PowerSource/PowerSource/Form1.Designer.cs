@@ -111,10 +111,13 @@
             this.picSlot5 = new System.Windows.Forms.PictureBox();
             this.picSlot6 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.lstAttach = new System.Windows.Forms.ListBox();
-            this.btnAttach = new System.Windows.Forms.Button();
             this.btnRead = new System.Windows.Forms.Button();
+            this.btnAttach = new System.Windows.Forms.Button();
+            this.lstAttach = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnLookup = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic74)).BeginInit();
@@ -190,6 +193,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picSlot6)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -1167,6 +1171,26 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "AttachError";
             // 
+            // btnRead
+            // 
+            this.btnRead.Location = new System.Drawing.Point(267, 83);
+            this.btnRead.Name = "btnRead";
+            this.btnRead.Size = new System.Drawing.Size(76, 46);
+            this.btnRead.TabIndex = 32;
+            this.btnRead.Text = "read";
+            this.btnRead.UseVisualStyleBackColor = true;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
+            // 
+            // btnAttach
+            // 
+            this.btnAttach.Location = new System.Drawing.Point(267, 31);
+            this.btnAttach.Name = "btnAttach";
+            this.btnAttach.Size = new System.Drawing.Size(76, 46);
+            this.btnAttach.TabIndex = 31;
+            this.btnAttach.Text = "attach";
+            this.btnAttach.UseVisualStyleBackColor = true;
+            this.btnAttach.Click += new System.EventHandler(this.btnAttach_Click);
+            // 
             // lstAttach
             // 
             this.lstAttach.FormattingEnabled = true;
@@ -1184,26 +1208,6 @@
             this.lstAttach.TabIndex = 0;
             this.lstAttach.SelectedIndexChanged += new System.EventHandler(this.lstAttach_SelectedIndexChanged);
             // 
-            // btnAttach
-            // 
-            this.btnAttach.Location = new System.Drawing.Point(267, 31);
-            this.btnAttach.Name = "btnAttach";
-            this.btnAttach.Size = new System.Drawing.Size(76, 46);
-            this.btnAttach.TabIndex = 31;
-            this.btnAttach.Text = "attach";
-            this.btnAttach.UseVisualStyleBackColor = true;
-            this.btnAttach.Click += new System.EventHandler(this.btnAttach_Click);
-            // 
-            // btnRead
-            // 
-            this.btnRead.Location = new System.Drawing.Point(267, 83);
-            this.btnRead.Name = "btnRead";
-            this.btnRead.Size = new System.Drawing.Size(76, 46);
-            this.btnRead.TabIndex = 32;
-            this.btnRead.Text = "read";
-            this.btnRead.UseVisualStyleBackColor = true;
-            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -1214,11 +1218,49 @@
             this.pictureBox1.TabIndex = 35;
             this.pictureBox1.TabStop = false;
             // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.groupBox3.Controls.Add(this.btnLookup);
+            this.groupBox3.Controls.Add(this.listBox1);
+            this.groupBox3.Location = new System.Drawing.Point(555, 487);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(363, 222);
+            this.groupBox3.TabIndex = 36;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "ChipLookup";
+            // 
+            // btnLookup
+            // 
+            this.btnLookup.Location = new System.Drawing.Point(299, 31);
+            this.btnLookup.Name = "btnLookup";
+            this.btnLookup.Size = new System.Drawing.Size(44, 46);
+            this.btnLookup.TabIndex = 31;
+            this.btnLookup.Text = "GO";
+            this.btnLookup.UseVisualStyleBackColor = true;
+            this.btnLookup.Click += new System.EventHandler(this.btnLookup_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "1= takescare ofthe mainplumbing",
+            "2= swaps over viscous liquid",
+            "3= talligated a parallel affair",
+            "4= reunites a cumbersome connectionpoint",
+            "5= delays power until Satisfaction achieved",
+            "6= playsback a HorseScenario of intervening classes"});
+            this.listBox1.Location = new System.Drawing.Point(21, 31);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(272, 108);
+            this.listBox1.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(973, 652);
+            this.ClientSize = new System.Drawing.Size(973, 732);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -1304,6 +1346,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picSlot6)).EndInit();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1395,6 +1438,9 @@
         private System.Windows.Forms.Button btnAttach;
         private System.Windows.Forms.Button btnRead;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button btnLookup;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 

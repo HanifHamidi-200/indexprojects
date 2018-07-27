@@ -3696,6 +3696,12 @@ namespace PowerSource
             mbRead = true;
         }
 
+        private void btnLookup_Click(object sender, EventArgs e)
+        {
+            fLookup _dlg = new fLookup();
+            _dlg.ShowDialog();
+        }
+
         private void btnAttach_Click(object sender, EventArgs e)
         {
             mbAttach = true;
