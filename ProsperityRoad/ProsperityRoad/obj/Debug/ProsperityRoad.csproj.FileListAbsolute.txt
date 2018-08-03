@@ -1,7 +1,0 @@
-C:\Users\hanif\source\repos\ProsperityRoad\ProsperityRoad\bin\Debug\ProsperityRoad.exe.config
-C:\Users\hanif\source\repos\ProsperityRoad\ProsperityRoad\bin\Debug\ProsperityRoad.exe
-C:\Users\hanif\source\repos\ProsperityRoad\ProsperityRoad\bin\Debug\ProsperityRoad.pdb
-C:\Users\hanif\source\repos\ProsperityRoad\ProsperityRoad\obj\Debug\ProsperityRoad.csprojAssemblyReference.cache
-C:\Users\hanif\source\repos\ProsperityRoad\ProsperityRoad\obj\Debug\ProsperityRoad.csproj.CoreCompileInputs.cache
-C:\Users\hanif\source\repos\ProsperityRoad\ProsperityRoad\obj\Debug\ProsperityRoad.exe
-C:\Users\hanif\source\repos\ProsperityRoad\ProsperityRoad\obj\Debug\ProsperityRoad.pdb
