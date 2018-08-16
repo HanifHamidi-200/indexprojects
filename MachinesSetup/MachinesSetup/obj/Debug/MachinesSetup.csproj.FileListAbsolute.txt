@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\bin\Debug\MachinesSetup.exe.config
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\bin\Debug\MachinesSetup.exe.manifest
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\bin\Debug\MachinesSetup.application
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\bin\Debug\MachinesSetup.exe
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\bin\Debug\MachinesSetup.pdb
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\obj\Debug\MachinesSetup.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\obj\Debug\MachinesSetup.Form1.resources
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\obj\Debug\MachinesSetup.Properties.Resources.resources
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\obj\Debug\MachinesSetup.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\obj\Debug\MachinesSetup.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\obj\Debug\MachinesSetup.exe.manifest
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\obj\Debug\MachinesSetup.application
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\obj\Debug\MachinesSetup.exe
+C:\Users\hanif\source\repos\MachinesSetup\MachinesSetup\obj\Debug\MachinesSetup.pdb

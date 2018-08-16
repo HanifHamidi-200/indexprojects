@@ -1,0 +1,13 @@
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\bin\Debug\P_TRACK.exe.config
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\bin\Debug\P_TRACK.exe.manifest
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\bin\Debug\P_TRACK.application
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\bin\Debug\P_TRACK.exe
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\bin\Debug\P_TRACK.pdb
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\obj\Debug\P_TRACK.Form1.resources
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\obj\Debug\P_TRACK.Properties.Resources.resources
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\obj\Debug\P_TRACK.csproj.GenerateResource.cache
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\obj\Debug\P_TRACK.csproj.CoreCompileInputs.cache
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\obj\Debug\P_TRACK.exe.manifest
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\obj\Debug\P_TRACK.application
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\obj\Debug\P_TRACK.exe
+c:\users\hanif\source\repos\P_TRACK\P_TRACK\obj\Debug\P_TRACK.pdb

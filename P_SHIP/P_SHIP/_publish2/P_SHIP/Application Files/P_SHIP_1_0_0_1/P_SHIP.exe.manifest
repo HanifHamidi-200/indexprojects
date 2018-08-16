@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="P_SHIP.exe" version="1.0.0.1" publicKeyToken="19cc54d59eb6849d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="P_SHIP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="P_SHIP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="P_SHIP.exe" size="9184">
+      <assemblyIdentity name="P_SHIP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LFIEbMLvzhm/4lwP8YEMzccFW88NyqNtntE+s+/GuZ8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="P_SHIP.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="9de3c65759b41e17e054cde4e5cf937683b1a4ff" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2GR8zDRC1hrwZfxxJa57LYb1bjCZR2rZlX8bP6jizfk=</DigestValue></Reference></SignedInfo><SignatureValue>od8IoSSCkhepgWSeL2sToylr4FRn9Mdfy7ciiJIvOWqD1fdThuu6vzcWavh5/I25Re2tzZHiMH4D4sku58svC3fU5GELnxQ/oeX/APOsFPKsEGUPTJtBHeBwL81vIOL1zJJ2GoeJTxFo2jjBnJvgE28oB2lZvnMky0bB3DgY9PQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>px2NKpmuReJzfDdk3na5nPbeo0elU51k2LQVww83gJkOAARBsDxnn1a8hpnPcHLbn1zAjhfO20Nk0f3qmOr1vRRqe1eSHT6QESM5WQsAT0UbcfI+bQ0hz5FLE1kIBk30M3VV25FVASNYxBaFk82NgTmjBcuwhvaCbnD4T8eGDvE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f9cde2a83f1b7f95d96a4799306ef5862d7bae2571fc65f01ad64234cc7c64d8" Description="" Url=""><as:assemblyIdentity name="P_SHIP.exe" version="1.0.0.1" publicKeyToken="19cc54d59eb6849d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DA5CRU/tmo27/3Sxs1+phpIIvZffUqRBDrcT6WOuUew=</DigestValue></Reference></SignedInfo><SignatureValue>FovU5CzQ/CcX8xUcaccHQXWk+VzkBHOdkVjTlehPc/8fFcvWiPBaKD8MWesDxof7XXp/PjR8ZD4BiKLBnyQuptblyRff/aX9rdwoLGKsUqu/ec+uRhmGZAbQF/oAt37S3Oi5iuhPWFibehgvvdro0IX/vUZPlBQMnlAeibev4wU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>px2NKpmuReJzfDdk3na5nPbeo0elU51k2LQVww83gJkOAARBsDxnn1a8hpnPcHLbn1zAjhfO20Nk0f3qmOr1vRRqe1eSHT6QESM5WQsAT0UbcfI+bQ0hz5FLE1kIBk30M3VV25FVASNYxBaFk82NgTmjBcuwhvaCbnD4T8eGDvE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQcxRQOqG7ophMRsj2t3ii7zANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzIyMTgwMzEwWhcNMTkwNzIzMDAwMzEwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKcdjSqZrkXic3w3ZN52uZz23qNHpVOdZNi0FcMPN4CZDgAEQbA8Z59WvIaZz3By259cwI4XzttDZNH96pjq9b0UantXkh0+kBEjOVkLAE9FG3HyPm0NIc+RSxNZCAZN9DN1VduRVQEjWMQWhZPNjYE5owXLsIb2gm5w+E/Hhg7xAgMBAAEwDQYJKoZIhvcNAQELBQADgYEABxCjBIZ/CuSf/mPGRopPA3S5s69U2r0Lc82GY+T7p8by/RJPx/VXOeaQOJHJskJZvZw0K8ZsOmrs/oQvwObYfwm1Qhb0rgIXaLi33R+ZE90nlRfmb/YpM2zMRfmL6vmwQJIO/C04qgXwAR//WmMjN/fV2TPxzpeL50T7dS2qxtM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

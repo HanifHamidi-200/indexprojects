@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\bin\Debug\ReviseCumulativeWorks.exe.config
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\bin\Debug\ReviseCumulativeWorks.exe
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\bin\Debug\ReviseCumulativeWorks.pdb
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\obj\Debug\ReviseCumulativeWorks.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\obj\Debug\ReviseCumulativeWorks.Form1.resources
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\obj\Debug\ReviseCumulativeWorks.Properties.Resources.resources
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\obj\Debug\ReviseCumulativeWorks.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\obj\Debug\ReviseCumulativeWorks.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\obj\Debug\ReviseCumulativeWorks.exe
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\obj\Debug\ReviseCumulativeWorks.pdb
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\bin\Debug\ReviseCumulativeWorks.exe.manifest
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\bin\Debug\ReviseCumulativeWorks.application
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\obj\Debug\ReviseCumulativeWorks.exe.manifest
+C:\Users\hanif\source\repos\ReviseCumulativeWorks\ReviseCumulativeWorks\obj\Debug\ReviseCumulativeWorks.application

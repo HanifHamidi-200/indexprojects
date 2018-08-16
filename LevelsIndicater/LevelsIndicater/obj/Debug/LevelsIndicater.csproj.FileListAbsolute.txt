@@ -1,0 +1,17 @@
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\bin\Debug\LevelsIndicater.exe.config
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\bin\Debug\LevelsIndicater.exe.manifest
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\bin\Debug\LevelsIndicater.application
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\bin\Debug\LevelsIndicater.exe
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\bin\Debug\LevelsIndicater.pdb
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.csprojAssemblyReference.cache
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.Form1.resources
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.fSub1.resources
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.fSub2.resources
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.fSub3.resources
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.Properties.Resources.resources
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.csproj.GenerateResource.cache
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.csproj.CoreCompileInputs.cache
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.exe.manifest
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.application
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.exe
+c:\users\hanif\source\repos\LevelsIndicater\LevelsIndicater\obj\Debug\LevelsIndicater.pdb

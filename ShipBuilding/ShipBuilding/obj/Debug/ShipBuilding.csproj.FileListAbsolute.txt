@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\bin\Debug\ShipBuilding.exe.config
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\bin\Debug\ShipBuilding.exe
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\bin\Debug\ShipBuilding.pdb
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\obj\Debug\ShipBuilding.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\obj\Debug\ShipBuilding.Form1.resources
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\obj\Debug\ShipBuilding.Properties.Resources.resources
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\obj\Debug\ShipBuilding.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\obj\Debug\ShipBuilding.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\obj\Debug\ShipBuilding.exe
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\obj\Debug\ShipBuilding.pdb
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\bin\Debug\ShipBuilding.exe.manifest
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\bin\Debug\ShipBuilding.application
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\obj\Debug\ShipBuilding.exe.manifest
+C:\Users\hanif\source\repos\ShipBuilding\ShipBuilding\obj\Debug\ShipBuilding.application

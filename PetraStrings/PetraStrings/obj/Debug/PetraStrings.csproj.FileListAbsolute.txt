@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\bin\Debug\PetraStrings.exe.config
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\bin\Debug\PetraStrings.exe.manifest
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\bin\Debug\PetraStrings.application
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\bin\Debug\PetraStrings.exe
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\bin\Debug\PetraStrings.pdb
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\obj\Debug\PetraStrings.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\obj\Debug\PetraStrings.Form1.resources
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\obj\Debug\PetraStrings.Properties.Resources.resources
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\obj\Debug\PetraStrings.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\obj\Debug\PetraStrings.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\obj\Debug\PetraStrings.exe.manifest
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\obj\Debug\PetraStrings.application
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\obj\Debug\PetraStrings.exe
+C:\Users\hanif\source\repos\PetraStrings\PetraStrings\obj\Debug\PetraStrings.pdb

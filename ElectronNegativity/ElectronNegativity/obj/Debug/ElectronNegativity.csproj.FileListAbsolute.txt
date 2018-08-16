@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\bin\Debug\ElectronNegativity.exe.config
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\bin\Debug\ElectronNegativity.exe.manifest
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\bin\Debug\ElectronNegativity.application
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\bin\Debug\ElectronNegativity.exe
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\bin\Debug\ElectronNegativity.pdb
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\obj\Debug\ElectronNegativity.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\obj\Debug\ElectronNegativity.Form1.resources
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\obj\Debug\ElectronNegativity.Properties.Resources.resources
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\obj\Debug\ElectronNegativity.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\obj\Debug\ElectronNegativity.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\obj\Debug\ElectronNegativity.exe.manifest
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\obj\Debug\ElectronNegativity.application
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\obj\Debug\ElectronNegativity.exe
+C:\Users\hanif\source\repos\ElectronNegativity\ElectronNegativity\obj\Debug\ElectronNegativity.pdb

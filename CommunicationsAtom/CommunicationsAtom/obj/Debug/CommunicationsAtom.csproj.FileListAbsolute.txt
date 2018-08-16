@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\bin\Debug\CommunicationsAtom.exe.config
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\bin\Debug\CommunicationsAtom.exe.manifest
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\bin\Debug\CommunicationsAtom.application
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\bin\Debug\CommunicationsAtom.exe
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\bin\Debug\CommunicationsAtom.pdb
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\obj\Debug\CommunicationsAtom.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\obj\Debug\CommunicationsAtom.Form1.resources
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\obj\Debug\CommunicationsAtom.Properties.Resources.resources
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\obj\Debug\CommunicationsAtom.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\obj\Debug\CommunicationsAtom.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\obj\Debug\CommunicationsAtom.exe.manifest
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\obj\Debug\CommunicationsAtom.application
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\obj\Debug\CommunicationsAtom.exe
+C:\Users\hanif\source\repos\CommunicationsAtom\CommunicationsAtom\obj\Debug\CommunicationsAtom.pdb

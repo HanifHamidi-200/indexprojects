@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\bin\Debug\SelectDiamond.exe.config
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\bin\Debug\SelectDiamond.exe.manifest
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\bin\Debug\SelectDiamond.application
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\bin\Debug\SelectDiamond.exe
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\bin\Debug\SelectDiamond.pdb
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\obj\Debug\SelectDiamond.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\obj\Debug\SelectDiamond.Form1.resources
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\obj\Debug\SelectDiamond.Properties.Resources.resources
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\obj\Debug\SelectDiamond.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\obj\Debug\SelectDiamond.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\obj\Debug\SelectDiamond.exe.manifest
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\obj\Debug\SelectDiamond.application
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\obj\Debug\SelectDiamond.exe
+C:\Users\hanif\source\repos\SelectDiamond\SelectDiamond\obj\Debug\SelectDiamond.pdb

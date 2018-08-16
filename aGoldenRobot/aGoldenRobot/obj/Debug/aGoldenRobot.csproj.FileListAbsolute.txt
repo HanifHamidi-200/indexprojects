@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\bin\Debug\aGoldenRobot.exe.config
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\bin\Debug\aGoldenRobot.exe
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\bin\Debug\aGoldenRobot.pdb
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\obj\Debug\aGoldenRobot.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\obj\Debug\aGoldenRobot.Form1.resources
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\obj\Debug\aGoldenRobot.Properties.Resources.resources
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\obj\Debug\aGoldenRobot.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\obj\Debug\aGoldenRobot.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\obj\Debug\aGoldenRobot.exe
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\obj\Debug\aGoldenRobot.pdb
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\bin\Debug\aGoldenRobot.exe.manifest
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\bin\Debug\aGoldenRobot.application
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\obj\Debug\aGoldenRobot.exe.manifest
+C:\Users\hanif\source\repos\aGoldenRobot\aGoldenRobot\obj\Debug\aGoldenRobot.application

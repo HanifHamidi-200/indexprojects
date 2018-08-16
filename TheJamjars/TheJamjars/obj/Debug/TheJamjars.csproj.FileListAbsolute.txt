@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\bin\Debug\TheJamjars.exe.config
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\bin\Debug\TheJamjars.exe.manifest
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\bin\Debug\TheJamjars.application
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\bin\Debug\TheJamjars.exe
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\bin\Debug\TheJamjars.pdb
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\obj\Debug\TheJamjars.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\obj\Debug\TheJamjars.Form1.resources
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\obj\Debug\TheJamjars.Properties.Resources.resources
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\obj\Debug\TheJamjars.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\obj\Debug\TheJamjars.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\obj\Debug\TheJamjars.exe.manifest
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\obj\Debug\TheJamjars.application
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\obj\Debug\TheJamjars.exe
+C:\Users\hanif\source\repos\TheJamjars\TheJamjars\obj\Debug\TheJamjars.pdb

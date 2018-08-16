@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AnimalsDatabase.exe" version="1.0.0.0" publicKeyToken="62ae0750f448f5b2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F BoulderLogic.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AnimalsDatabase" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AnimalsDatabase.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AnimalsDatabase.exe" size="79328">
+      <assemblyIdentity name="AnimalsDatabase" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JYDMLibMySzDfrlo7AHKJIT+RCZlKhft9eflX17hyRo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AnimalsDatabase.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="F BoulderLogic.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>piNGcUr+LugKtl1hhLr7MhOutSmtNlGPvsXiyAwpGUw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="pics\F AnimalsThenPlants.png" size="11778">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>X/nAbh7rrwrjlfyygWuv25uI1vWAESyUT9TZQcnP6Sk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="pics\F PlantsThenAnimals.png" size="11539">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4YXJFn6ZFGosf+OJWxN7bEV4LQWCsWNdYWQP3NrwOfc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="6428a35ab5e073229e57b0b1265959c59533a7a5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NMDiZG2cyzD4D+SwOAWkugdSffmdzA2P4UHu7fpHNq8=</DigestValue></Reference></SignedInfo><SignatureValue>eXnX4UUiMDFQTjnKf3QiVLsoJy7L9qTljqT//PaiA9KU7bCsRrrz5BHcQolHDWev45oT/xNOKAN2KSx+6e3dkjTbqB0WAS84d0nBNeDrIE4N3SGGGEbibtb05zwfnHT+IZ88K9vvDUtk+91QcBKRq+bqMPvHMQlI4TZlgraLCC4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1JoNvLYVFA65bSqpM2Zxw7zVniZheXfzFhbMHE8XI+MvaWb4EAZHuxRk+40npG3CJGwjlOFn5dpgTirBmh3QKLFErmsfPRyPYkqULgQUzeZOlsD+dlOlyBfsY9CdOCtT6ge1rb/jbZ3R6veV8jLBlWRNuMaB7Fin3sr6b7MLBek=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="af3647faedee41e18f0dcc9df97d5207baa40538b0e40ff830cb9c6d64e2c034" Description="" Url=""><as:assemblyIdentity name="AnimalsDatabase.exe" version="1.0.0.0" publicKeyToken="62ae0750f448f5b2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FOHXEK1rMQkgZjZozsE+cFU4l2CUhxu8IP/op/5cyqs=</DigestValue></Reference></SignedInfo><SignatureValue>OWxGMxfe+SkgrMvHbTh1NcaoqGOhNyA1jAo00Av4hROcib/x3LvATzWAMZbjAeadSxzOk9jpHMcN7crnjzBzuySL0TW5lQUEK+polrNIrSuc1N/HSjZvV2xqAAMRwPF/YNFhQ6xG5ylA4BAD/uGhUi8bgnl2GJe4q3mlgNMThbE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1JoNvLYVFA65bSqpM2Zxw7zVniZheXfzFhbMHE8XI+MvaWb4EAZHuxRk+40npG3CJGwjlOFn5dpgTirBmh3QKLFErmsfPRyPYkqULgQUzeZOlsD+dlOlyBfsY9CdOCtT6ge1rb/jbZ3R6veV8jLBlWRNuMaB7Fin3sr6b7MLBek=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQQq8uGRCfeK9DUAVljk2bsjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwODA1MTYxMTIwWhcNMTkwODA1MjIxMTIwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANSaDby2FRQOuW0qqTNmccO81Z4mYXl38xYWzBxPFyPjL2lm+BAGR7sUZPuNJ6RtwiRsI5ThZ+XaYE4qwZod0CixRK5rHz0cj2JKlC4EFM3mTpbA/nZTpcgX7GPQnTgrU+oHta2/422d0er3lfIywZVkTbjGgexYp97K+m+zCwXpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAHOKGHYSiV4oCwpRrUxhKVracBOSN69sZy7oHhnCK0Snr5V9mlJbdz5RQ9Qlu6pZ/ZUxJ/8ka5Ynv6XIe+j1ooUKgfokY+GYHQi9yA90ru5Cpo4fp/PM0t6Me5klbXsiZNk1JYUsxtsGdJho0oLgP2Ja7NgwXmER6cIlI4DfLDCQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

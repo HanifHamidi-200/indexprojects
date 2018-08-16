@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NasaBytes.exe" version="1.0.0.0" publicKeyToken="d790783e739ef562" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F tryseed.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NasaBytes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NasaBytes.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NasaBytes.exe" size="34784">
+      <assemblyIdentity name="NasaBytes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hK+6J5KOuFr5uu4tHXYlyN0RlW48f+ITgB3JSpR3/P8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F tryseed.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c3t7FHGSPUdJ2GwKVDGzvDDwcZW6F84yxJooe1f4KZs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NasaBytes.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="0f00acf60456985ed7a856b02a12683b103ab974" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ffBUbz8KCxbYBJFLsCj6RdYmY50+XoLfe0nGbBr2KYg=</DigestValue></Reference></SignedInfo><SignatureValue>V2l8fBPHc6f9gfzQWQuL2rEH4A4LZSpJ0yB+BuaqyQXYc3ACKLRwFX/jsJ02qzq6uJE7umrx5cXfK3bVfDXNJrqzl9m4DaK0vHQYqYdHptzPK3+P460PxoxJOrwp1XVgkxD8/t9aaafVq/HudM/Ts3MzG5vtl9qIILVqXsvDpHw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2LEVCF88l49XuHJEdin8CvNk6NncZ71tk0uOspxx9/1EdIjJh35UIRM0kL8SG3jr7tJHBE3wU67Gqn4oV0MhzVJxSz0jBxZgbd12ef7zKJ3LJHc3BfK14+zy0G+NiAFooroTiJy5YO9EYbFmhmhIzvelI24DZvbxNBBstMS2xxk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8829f61a6cc6497bdf825e3e9d6326d645fa28b04b9104d8160b0a3f6f54f07d" Description="" Url=""><as:assemblyIdentity name="NasaBytes.exe" version="1.0.0.0" publicKeyToken="d790783e739ef562" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AzNr+T5h6cubJfVsBWnEPK7BDpdKYutBf1GsmHZeQCg=</DigestValue></Reference></SignedInfo><SignatureValue>V+VDN7lTZHJ3e60uCpoCvODdKat2EoHft3bS55RzaOYOZ1pV1+jwiQNTCOiQABDjk2D87dubP9jcmfYpqAx0H9H+XedBzpfFxPXuUy8kyLvT9NiNLWib581vChpwkOO9apV6EwEKID+kUyG0Z6ZDfnpIQTJI5i2TNvQdDmycxuk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2LEVCF88l49XuHJEdin8CvNk6NncZ71tk0uOspxx9/1EdIjJh35UIRM0kL8SG3jr7tJHBE3wU67Gqn4oV0MhzVJxSz0jBxZgbd12ef7zKJ3LJHc3BfK14+zy0G+NiAFooroTiJy5YO9EYbFmhmhIzvelI24DZvbxNBBstMS2xxk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQG0DuxdTyWJFEhUWlPfj5ZDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwODA3MTUyMjMyWhcNMTkwODA3MjEyMjMyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANixFQhfPJePV7hyRHYp/ArzZOjZ3Ge9bZNLjrKccff9RHSIyYd+VCETNJC/Eht46+7SRwRN8FOuxqp+KFdDIc1ScUs9IwcWYG3ddnn+8yidyyR3NwXytePs8tBvjYgBaKK6E4icuWDvRGGxZoZoSM73pSNuA2b28TQQbLTEtscZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAY07YS7oWFRXiZOiiKBsAS5oX4KqES6sViOMKBQM6rWEMvnT/9wTqEG9D+dMCFa8YuL/orlG7ZlTfgw+NYKjObrO0tlp+njn4vUy6f+2M4rRAQW4U/32K6sYe1av4ARRxYKfwnKsYsnp+slwnTaWIsLtJ2C3TXYqE+KpqcT9zAGI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

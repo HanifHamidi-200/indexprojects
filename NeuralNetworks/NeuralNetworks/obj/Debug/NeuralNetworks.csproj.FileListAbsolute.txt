@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\bin\Debug\NeuralNetworks.exe.config
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\bin\Debug\NeuralNetworks.exe.manifest
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\bin\Debug\NeuralNetworks.application
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\bin\Debug\NeuralNetworks.exe
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\bin\Debug\NeuralNetworks.pdb
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.Form1.resources
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.Properties.Resources.resources
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.exe.manifest
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.application
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.exe
+C:\Users\hanif\source\repos\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.pdb

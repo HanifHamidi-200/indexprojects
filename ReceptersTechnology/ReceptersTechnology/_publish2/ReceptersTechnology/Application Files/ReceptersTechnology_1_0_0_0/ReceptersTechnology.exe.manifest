@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ReceptersTechnology.exe" version="1.0.0.0" publicKeyToken="a3fbc4c96392bf4f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ReceptersTechnology" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ReceptersTechnology.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReceptersTechnology.exe" size="23520">
+      <assemblyIdentity name="ReceptersTechnology" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FJvqaBaL6VvaRbmmudDiwMvkwU1KFgFTcX2WeUV+/8o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ReceptersTechnology.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="0ddb5360dffca1e34de971f84e5a12028adb00a4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>No+kxkz/8g7ogrIeDKk/wBVR9KDUz37Hk/6UlMZaC+8=</DigestValue></Reference></SignedInfo><SignatureValue>UC8AGwREguBRLR9P6zHRY7crPBaaH5CZssia6Mv+flGx2I1Jo67KSqXjN37Ne3jhJ9E5pzmkaE4wokVynufKwR3aj2eE6NzhPRZOfpUSK/Qkjcmm6Objp+zJYRevGyRWhk/hnA/IWXhHYJibTtlqUBGS5OiSmPsiT03FzO9MxRI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>otBCzK4K3/HJ1diCdkkyyx+tA3qyDJCxeG1jfT9SlMVEFxdmxGny4zX9T+DYonv8VEFiNOMagJFjbqQxWTX4mdrV07xhgAY65GEtbJAzm4FVaiZZ4xQD77r3m/OHHWExW7dlQCCFnikGYdsumIGQ9YVBnpPi58U3wQ5jIAQ+9Hk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ef0b5ac69494fe93c77ecfd4a0f45115c03fa90c1eb282e80ef2ff4cc6a48f36" Description="" Url=""><as:assemblyIdentity name="ReceptersTechnology.exe" version="1.0.0.0" publicKeyToken="a3fbc4c96392bf4f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>h3GAY8l8D7WvE7pIU0Ql6aGVnAwmc2CmPcznB2gaOiA=</DigestValue></Reference></SignedInfo><SignatureValue>CqqXsawk+0Oym07olhJecIWbtuJuoXnuZEyH0ZrmbAk5WKvEkj7sBNFbcCmAODjOfXZbJVccQ0j6PWAOkrgc9q4XJZC6EutxDOGyNdXMzjVJ6Yc069/8fW0vPYebXvMuPcVT+J1mWGT6JCwyT+YgnCmLRegjnJO98ykBtMR9yVU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>otBCzK4K3/HJ1diCdkkyyx+tA3qyDJCxeG1jfT9SlMVEFxdmxGny4zX9T+DYonv8VEFiNOMagJFjbqQxWTX4mdrV07xhgAY65GEtbJAzm4FVaiZZ4xQD77r3m/OHHWExW7dlQCCFnikGYdsumIGQ9YVBnpPi58U3wQ5jIAQ+9Hk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHksWfvTFcoFOilu25nRZSjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzIzMTU1MDExWhcNMTkwNzIzMjE1MDExWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKLQQsyuCt/xydXYgnZJMssfrQN6sgyQsXhtY30/UpTFRBcXZsRp8uM1/U/g2KJ7/FRBYjTjGoCRY26kMVk1+Jna1dO8YYAGOuRhLWyQM5uBVWomWeMUA++695vzhx1hMVu3ZUAghZ4pBmHbLpiBkPWFQZ6T4ufFN8EOYyAEPvR5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAZZjh384oJMpcYjgCJnUBKBIVv8LYpKe5lE3ck/IKloi2N8qmGKD8oeX+ZfJCTa5WLjcqOMG/YG1T0Tg4FZX2lF0KjQvVgp/sIQyTjjTVaKzXeD+RbXxZxgvA0e8BeWJoLVKIhQlkR665O1NxUdkPqKEyfoROeRdmm4GV+kvA+eE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

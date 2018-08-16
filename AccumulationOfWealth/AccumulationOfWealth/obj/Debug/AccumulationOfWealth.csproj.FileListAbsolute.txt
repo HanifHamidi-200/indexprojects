@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\bin\Debug\AccumulationOfWealth.exe.config
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\bin\Debug\AccumulationOfWealth.exe.manifest
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\bin\Debug\AccumulationOfWealth.application
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\bin\Debug\AccumulationOfWealth.exe
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\bin\Debug\AccumulationOfWealth.pdb
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\obj\Debug\AccumulationOfWealth.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\obj\Debug\AccumulationOfWealth.Form1.resources
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\obj\Debug\AccumulationOfWealth.Properties.Resources.resources
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\obj\Debug\AccumulationOfWealth.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\obj\Debug\AccumulationOfWealth.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\obj\Debug\AccumulationOfWealth.exe.manifest
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\obj\Debug\AccumulationOfWealth.application
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\obj\Debug\AccumulationOfWealth.exe
+C:\Users\hanif\source\repos\AccumulationOfWealth\AccumulationOfWealth\obj\Debug\AccumulationOfWealth.pdb

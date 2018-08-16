@@ -1,0 +1,14 @@
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\obj\Debug\AnElectronQuestion.csprojAssemblyReference.cache
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\obj\Debug\AnElectronQuestion.Form1.resources
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\obj\Debug\AnElectronQuestion.Properties.Resources.resources
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\obj\Debug\AnElectronQuestion.csproj.GenerateResource.cache
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\obj\Debug\AnElectronQuestion.csproj.CoreCompileInputs.cache
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\bin\Debug\AnElectronQuestion.exe.config
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\bin\Debug\AnElectronQuestion.exe.manifest
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\bin\Debug\AnElectronQuestion.application
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\bin\Debug\AnElectronQuestion.exe
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\bin\Debug\AnElectronQuestion.pdb
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\obj\Debug\AnElectronQuestion.exe.manifest
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\obj\Debug\AnElectronQuestion.application
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\obj\Debug\AnElectronQuestion.exe
+c:\users\hanif\source\repos\AnElectronQuestion\AnElectronQuestion\obj\Debug\AnElectronQuestion.pdb

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TheJamjars.exe" version="1.0.0.0" publicKeyToken="fabf8e645fe87293" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F setsquare.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TheJamjars" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TheJamjars.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TheJamjars.exe" size="24032">
+      <assemblyIdentity name="TheJamjars" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Eyb16JVaHHL5DJJ7FeNw4kVut9I1l6TjXNZ6j6Xbx90=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F setsquare.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sOh28dQre8NqRjUaypVHgQUn1+qalRx2FT89GsUmU2E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TheJamjars.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="4ba5a7f5c2589ab3dd5fada01136e746cc45b549" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xTPfF/KdNyBZoauono5EnrFQxUEa+QQN9xQC8Eplaa0=</DigestValue></Reference></SignedInfo><SignatureValue>ajeUwF8GtaszV8R/zPdt+q9YJjkM8pGXokkVgHrF//VS5LF5Bk8W7EakTU44f+EfLhysP5ZJE6MbAFt5StlYXMYJtMRBUNUIoxf3nH969Xywpdn5vaCXovhr5u5KllWtgfbpD7LTczLGb27FNiGlAHzH26lnqz3CPGFjM/2SrUk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nqOscni1+7TC9o+9+ItU0MkXlmYDC7iHs8fy8U/+kMpspD4lDiqPQdgUF5DXfAN2r4Ru9I7C6vKnXPiHDxMhp3HkXZIsLsjaSWcSH5Mz4R8AexrC6mhp0xTeL7+tLmahVTJ0tunLaHTeo37zoTwqfZTNgbp9t29k3fg3Eqmxbgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ad69654af00214f70d04f91a41c550b19e448e9ea8aba15920379df217df33c5" Description="" Url=""><as:assemblyIdentity name="TheJamjars.exe" version="1.0.0.0" publicKeyToken="fabf8e645fe87293" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>B+JdZQrn7G2zzyqYDcn7wlJQhVDfoxGH+VQ6/IdDBZ0=</DigestValue></Reference></SignedInfo><SignatureValue>Y7P2mimkOcgv5GwDnJLVSLx1dmZM7J9dF0iZJUpQqR4UzcEbexjcQWV+vRifzEuas5T1K2bkUW04mSdx0Qgcuk5lsz/5mtAXXsfl9JbzoInlWKWQd0NMxnvhyJGUiXZ+fQCQ/RXFJsdbe+RtIijG6MPkBiW7r1bPD64/qsP9IC4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nqOscni1+7TC9o+9+ItU0MkXlmYDC7iHs8fy8U/+kMpspD4lDiqPQdgUF5DXfAN2r4Ru9I7C6vKnXPiHDxMhp3HkXZIsLsjaSWcSH5Mz4R8AexrC6mhp0xTeL7+tLmahVTJ0tunLaHTeo37zoTwqfZTNgbp9t29k3fg3Eqmxbgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQTWt+98TAVLVAYj/uxlhjfjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzMxMTI1OTI2WhcNMTkwNzMxMTg1OTI2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ6jrHJ4tfu0wvaPvfiLVNDJF5ZmAwu4h7PH8vFP/pDKbKQ+JQ4qj0HYFBeQ13wDdq+EbvSOwuryp1z4hw8TIadx5F2SLC7I2klnEh+TM+EfAHsawupoadMU3i+/rS5moVUydLbpy2h03qN+86E8Kn2UzYG6fbdvZN34NxKpsW4JAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAP1oAFufmOfYKDx1U6m7ZQmhtRxkn489PvFCF/QO5Gx4piXI83PofyFiyf64+h1jXdZwD/8ONl1HaA/LJO4oud16B2tVUMCroyz01O3dPNAYfDJtmJDWYKuImuCaEFaZ3fLLW0PDQ/tZHT/6I9UWsN8j2nwlUMqbqHBT1T97Jm18=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

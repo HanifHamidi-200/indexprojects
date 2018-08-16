@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\bin\Debug\P_SHIP.exe.config
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\bin\Debug\P_SHIP.exe.manifest
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\bin\Debug\P_SHIP.application
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\bin\Debug\P_SHIP.exe
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\bin\Debug\P_SHIP.pdb
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\obj\Debug\P_SHIP.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\obj\Debug\P_SHIP.Form1.resources
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\obj\Debug\P_SHIP.Properties.Resources.resources
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\obj\Debug\P_SHIP.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\obj\Debug\P_SHIP.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\obj\Debug\P_SHIP.exe.manifest
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\obj\Debug\P_SHIP.application
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\obj\Debug\P_SHIP.exe
+C:\Users\hanif\source\repos\P_SHIP\P_SHIP\obj\Debug\P_SHIP.pdb

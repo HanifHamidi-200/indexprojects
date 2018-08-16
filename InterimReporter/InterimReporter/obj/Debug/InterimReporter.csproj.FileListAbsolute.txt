@@ -1,0 +1,10 @@
+C:\Users\hanif\source\repos\InterimReporter\InterimReporter\bin\Debug\InterimReporter.exe.config
+C:\Users\hanif\source\repos\InterimReporter\InterimReporter\bin\Debug\InterimReporter.exe
+C:\Users\hanif\source\repos\InterimReporter\InterimReporter\bin\Debug\InterimReporter.pdb
+C:\Users\hanif\source\repos\InterimReporter\InterimReporter\obj\Debug\InterimReporter.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\InterimReporter\InterimReporter\obj\Debug\InterimReporter.Form1.resources
+C:\Users\hanif\source\repos\InterimReporter\InterimReporter\obj\Debug\InterimReporter.Properties.Resources.resources
+C:\Users\hanif\source\repos\InterimReporter\InterimReporter\obj\Debug\InterimReporter.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\InterimReporter\InterimReporter\obj\Debug\InterimReporter.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\InterimReporter\InterimReporter\obj\Debug\InterimReporter.exe
+C:\Users\hanif\source\repos\InterimReporter\InterimReporter\obj\Debug\InterimReporter.pdb

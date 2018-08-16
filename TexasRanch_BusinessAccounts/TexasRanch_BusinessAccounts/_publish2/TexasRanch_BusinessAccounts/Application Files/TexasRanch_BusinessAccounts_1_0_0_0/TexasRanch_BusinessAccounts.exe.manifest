@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TexasRanch_BusinessAccounts.exe" version="1.0.0.0" publicKeyToken="e37e999fdff79e27" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F tryseed.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TexasRanch_BusinessAccounts" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TexasRanch_BusinessAccounts.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TexasRanch_BusinessAccounts.exe" size="29152">
+      <assemblyIdentity name="TexasRanch_BusinessAccounts" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HHo8CmVUTKZp+ScFqtww3hiW64qBKA1uua/d9FJrTYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F tryseed.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c3t7FHGSPUdJ2GwKVDGzvDDwcZW6F84yxJooe1f4KZs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TexasRanch_BusinessAccounts.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="613256f34a3b71b051d372983b3668867b14ee6c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ibksTpr8w+P/H/WMG8tAEEsKshES7/C2sLJLMCUbHLQ=</DigestValue></Reference></SignedInfo><SignatureValue>yB6jWWfUmZQfoTN5KPAC+7uvu4SQR6L/UpghQlWFwVfvglPDbz7kopf+ENRrvfBv7/IlBdTZ3yAUm8AItnD+V6L/y8Cydcn7litL/jwkjBS0mwR1Hlz0NR6P+WPA5CGc0QQ8O2NkoHrtIT9iGzC7EJPw4pkyh8csSfD221ZJaM4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zgcjF1/U+JXifXjSH8k3SFd0Kvg+spzICugchT6KwwqDAljcmPQgowITPkAl6Udlgz3t3M7ztS4EWgagH7nVJ+SVvHvI8ZVzOnx53/ZjtsiWQWYDRWWeLNq7e6DHXN7h5p4sqq/B2FCOmszItohAyygdqnXcZhlZugs24d01ju0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b41c1b25304bb2b0b6f0ef1211b20a4b1040cb1b8cf51fffe3c3fc9a4e2cb989" Description="" Url=""><as:assemblyIdentity name="TexasRanch_BusinessAccounts.exe" version="1.0.0.0" publicKeyToken="e37e999fdff79e27" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WLjEJVPXyuB3NcwdCGaVQd8gAlfXI/cEiiMdqqYAnfg=</DigestValue></Reference></SignedInfo><SignatureValue>ZTCBnK0HcvSg+kLnkIjE7HQDIGt5FveW5mp9yxoybbUBOfFBNlH2F+ddwyaMzbWeUyOODVpF5rUouDL3ZTlVB4O1vGAANTmdq0hU3GHxXOaqQgY18/XzygDeO2oA0bYjlGdYnngEIQ3OKiSFT+lpVMQaAAKudPnhjMrsZHlSo8o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zgcjF1/U+JXifXjSH8k3SFd0Kvg+spzICugchT6KwwqDAljcmPQgowITPkAl6Udlgz3t3M7ztS4EWgagH7nVJ+SVvHvI8ZVzOnx53/ZjtsiWQWYDRWWeLNq7e6DHXN7h5p4sqq/B2FCOmszItohAyygdqnXcZhlZugs24d01ju0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQVkAtmMMpIrlE958IBlnPsTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwODA5MTU0NTA3WhcNMTkwODA5MjE0NTA3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM4HIxdf1PiV4n140h/JN0hXdCr4PrKcyAroHIU+isMKgwJY3Jj0IKMCEz5AJelHZYM97dzO87UuBFoGoB+51Sfklbx7yPGVczp8ed/2Y7bIlkFmA0Vlnizau3ugx1ze4eaeLKqvwdhQjprMyLaIQMsoHap13GYZWboLNuHdNY7tAgMBAAEwDQYJKoZIhvcNAQELBQADgYEADrHpL1RtdYusSLFL8MuzaevwDkkCme6efz198xjZSksLLbIB7K8/koLoAauiA16GUT/jmo6NEZ32ySh0RieJeXxfrnanlGdrbvm0SGb7GdOo0/+Y77kyHkImQw6F5aQpUQ6rUe8nhyz5tJvdujkU7rEh7y0MYEuluquWN2n35WM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

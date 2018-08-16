@@ -1,0 +1,14 @@
+c:\users\hanif\source\repos\P_CSB\P_CSB\bin\Debug\P_CSB.exe.config
+c:\users\hanif\source\repos\P_CSB\P_CSB\bin\Debug\P_CSB.exe.manifest
+c:\users\hanif\source\repos\P_CSB\P_CSB\bin\Debug\P_CSB.application
+c:\users\hanif\source\repos\P_CSB\P_CSB\bin\Debug\P_CSB.exe
+c:\users\hanif\source\repos\P_CSB\P_CSB\bin\Debug\P_CSB.pdb
+c:\users\hanif\source\repos\P_CSB\P_CSB\obj\Debug\P_CSB.csprojAssemblyReference.cache
+c:\users\hanif\source\repos\P_CSB\P_CSB\obj\Debug\P_CSB.Form1.resources
+c:\users\hanif\source\repos\P_CSB\P_CSB\obj\Debug\P_CSB.Properties.Resources.resources
+c:\users\hanif\source\repos\P_CSB\P_CSB\obj\Debug\P_CSB.csproj.GenerateResource.cache
+c:\users\hanif\source\repos\P_CSB\P_CSB\obj\Debug\P_CSB.csproj.CoreCompileInputs.cache
+c:\users\hanif\source\repos\P_CSB\P_CSB\obj\Debug\P_CSB.exe.manifest
+c:\users\hanif\source\repos\P_CSB\P_CSB\obj\Debug\P_CSB.application
+c:\users\hanif\source\repos\P_CSB\P_CSB\obj\Debug\P_CSB.exe
+c:\users\hanif\source\repos\P_CSB\P_CSB\obj\Debug\P_CSB.pdb

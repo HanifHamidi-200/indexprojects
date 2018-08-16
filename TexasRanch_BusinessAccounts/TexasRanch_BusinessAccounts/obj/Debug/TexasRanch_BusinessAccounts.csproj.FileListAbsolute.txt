@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\bin\Debug\TexasRanch_BusinessAccounts.exe.config
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\bin\Debug\TexasRanch_BusinessAccounts.exe.manifest
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\bin\Debug\TexasRanch_BusinessAccounts.application
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\bin\Debug\TexasRanch_BusinessAccounts.exe
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\bin\Debug\TexasRanch_BusinessAccounts.pdb
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\obj\Debug\TexasRanch_BusinessAccounts.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\obj\Debug\TexasRanch_BusinessAccounts.Form1.resources
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\obj\Debug\TexasRanch_BusinessAccounts.Properties.Resources.resources
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\obj\Debug\TexasRanch_BusinessAccounts.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\obj\Debug\TexasRanch_BusinessAccounts.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\obj\Debug\TexasRanch_BusinessAccounts.exe.manifest
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\obj\Debug\TexasRanch_BusinessAccounts.application
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\obj\Debug\TexasRanch_BusinessAccounts.exe
+C:\Users\hanif\source\repos\TexasRanch_BusinessAccounts\TexasRanch_BusinessAccounts\obj\Debug\TexasRanch_BusinessAccounts.pdb

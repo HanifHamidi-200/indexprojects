@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TheLearningCurve.exe" version="1.0.0.0" publicKeyToken="61a0d40fb799799b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F BoulderLogic.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TheLearningCurve" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TheLearningCurve.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TheLearningCurve.exe" size="42976">
+      <assemblyIdentity name="TheLearningCurve" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rQb2xUq77Gs/nDfiPNN4o6ZWDybWHZDyfVshUP2A8Ro=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F BoulderLogic.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>piNGcUr+LugKtl1hhLr7MhOutSmtNlGPvsXiyAwpGUw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TheLearningCurve.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="491a3cdda266bb1ce848746a3e4938ab630bacbe" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8U64wzQC/P6emWqCr4+Umy4AXix8qHpaWmAEt3Xo+v8=</DigestValue></Reference></SignedInfo><SignatureValue>p8rQGGCaUburL5O+35G1en0MzH2segy9AmIY4h4iyqBtZnYFLaMLysi99y2ZgMgjpJTIgQWeSPG6KB/OWQ2JCbQ57CcYbDgHuwrVBdRuud4lj6dBUig6ADLtXivFOybNsBAKAfXiJGYkBIAJufbeuA68IDRLSPOwrpZefA1ql9Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xM0mEnMN4iEqKmfA8zKUU6Ss3sDezObgwbiVS3KS2pjW029F/O3NxNGFXrbch+z1jsChi8iXzMU2f3zO9pq2kf6oVArTxSQVkxZ5XIrmRzIGKN4JvK+jDnm9a/4VvaZMyDSj8W+kAfUUyft9W9EdGFllSvl7czGQy654N6tsfWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fffae875b704605a5a7aa87c2c5e002e9b948faf826a999efefc0234c3b84ef1" Description="" Url=""><as:assemblyIdentity name="TheLearningCurve.exe" version="1.0.0.0" publicKeyToken="61a0d40fb799799b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GS3VC1Rfty3nVgSwDOZfwcMlTBOGm1OJ32LutqSLigo=</DigestValue></Reference></SignedInfo><SignatureValue>NSIyoy5YwE4181XESz3NB2yUh23wW9C3vWIY7MGcc1kbnczId66LZycVa4kfgUEgivmBcjIidWtM3rpdOzTvu8JQPtsZZsCVpKdUIKn+z4ijzANNWnPLe+XIDYdRzvT1dE4ZPSD+JVykCdNJmtqKsjawcC6LT7AVaMTIOYK6WI0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xM0mEnMN4iEqKmfA8zKUU6Ss3sDezObgwbiVS3KS2pjW029F/O3NxNGFXrbch+z1jsChi8iXzMU2f3zO9pq2kf6oVArTxSQVkxZ5XIrmRzIGKN4JvK+jDnm9a/4VvaZMyDSj8W+kAfUUyft9W9EdGFllSvl7czGQy654N6tsfWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQGAhDxEWivrJMr2MK8U8uHjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzI1MTYxMzQzWhcNMTkwNzI1MjIxMzQzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMTNJhJzDeIhKipnwPMylFOkrN7A3szm4MG4lUtyktqY1tNvRfztzcTRhV623Ifs9Y7AoYvIl8zFNn98zvaatpH+qFQK08UkFZMWeVyK5kcyBijeCbyvow55vWv+Fb2mTMg0o/FvpAH1FMn7fVvRHRhZZUr5e3MxkMuueDerbH1lAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAcvotbzNTpUceu2mkKZIYlJODpl40nHueGMXoJENTM13GeDl4tHMbkp9msyV7F0DRV9FDJbgTMF6e//2oLyIA7uOjIGD6Cj0YLQBOSF8xKtE6YJOcOUM4FAvf0vkiGsURwChQ8l3b+55dyu8l8dW80UTPTgJO5oxx5oSaEC9eAoM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

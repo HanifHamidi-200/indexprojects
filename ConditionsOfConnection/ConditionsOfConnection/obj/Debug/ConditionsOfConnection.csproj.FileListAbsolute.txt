@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\bin\Debug\ConditionsOfConnection.exe.config
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\bin\Debug\ConditionsOfConnection.exe
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\bin\Debug\ConditionsOfConnection.pdb
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\obj\Debug\ConditionsOfConnection.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\obj\Debug\ConditionsOfConnection.Form1.resources
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\obj\Debug\ConditionsOfConnection.Properties.Resources.resources
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\obj\Debug\ConditionsOfConnection.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\obj\Debug\ConditionsOfConnection.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\obj\Debug\ConditionsOfConnection.exe
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\obj\Debug\ConditionsOfConnection.pdb
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\bin\Debug\ConditionsOfConnection.exe.manifest
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\bin\Debug\ConditionsOfConnection.application
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\obj\Debug\ConditionsOfConnection.exe.manifest
+C:\Users\hanif\source\repos\ConditionsOfConnection\ConditionsOfConnection\obj\Debug\ConditionsOfConnection.application

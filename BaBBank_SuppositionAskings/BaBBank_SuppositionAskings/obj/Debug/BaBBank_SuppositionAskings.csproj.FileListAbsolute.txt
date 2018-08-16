@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\bin\Debug\BaBBank_SuppositionAskings.exe.config
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\bin\Debug\BaBBank_SuppositionAskings.exe
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\bin\Debug\BaBBank_SuppositionAskings.pdb
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\obj\Debug\BaBBank_SuppositionAskings.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\obj\Debug\BaBBank_SuppositionAskings.Properties.Resources.resources
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\obj\Debug\BaBBank_SuppositionAskings.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\obj\Debug\BaBBank_SuppositionAskings.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\obj\Debug\BaBBank_SuppositionAskings.exe
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\obj\Debug\BaBBank_SuppositionAskings.pdb
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\bin\Debug\BaBBank_SuppositionAskings.exe.manifest
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\bin\Debug\BaBBank_SuppositionAskings.application
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\obj\Debug\BaBBank_SuppositionAskings.Form1.resources
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\obj\Debug\BaBBank_SuppositionAskings.exe.manifest
+C:\Users\hanif\source\repos\BaBBank_SuppositionAskings\BaBBank_SuppositionAskings\obj\Debug\BaBBank_SuppositionAskings.application

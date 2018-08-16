@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\bin\Debug\NasaBytes.exe.config
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\bin\Debug\NasaBytes.exe.manifest
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\bin\Debug\NasaBytes.application
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\bin\Debug\NasaBytes.exe
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\bin\Debug\NasaBytes.pdb
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\obj\Debug\NasaBytes.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\obj\Debug\NasaBytes.Form1.resources
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\obj\Debug\NasaBytes.Properties.Resources.resources
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\obj\Debug\NasaBytes.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\obj\Debug\NasaBytes.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\obj\Debug\NasaBytes.exe.manifest
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\obj\Debug\NasaBytes.application
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\obj\Debug\NasaBytes.exe
+C:\Users\hanif\source\repos\NasaBytes\NasaBytes\obj\Debug\NasaBytes.pdb

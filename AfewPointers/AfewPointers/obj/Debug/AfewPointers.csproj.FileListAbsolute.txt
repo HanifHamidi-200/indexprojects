@@ -1,0 +1,17 @@
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\bin\Debug\AfewPointers.exe.config
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\bin\Debug\AfewPointers.exe
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\bin\Debug\AfewPointers.pdb
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.Form1.resources
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.fSub1.resources
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.fSub2.resources
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.fSub3.resources
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.Properties.Resources.resources
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.exe
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.pdb
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\bin\Debug\AfewPointers.exe.manifest
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\bin\Debug\AfewPointers.application
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.exe.manifest
+C:\Users\hanif\source\repos\AfewPointers\AfewPointers\obj\Debug\AfewPointers.application

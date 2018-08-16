@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BaBBank_SuppositionAskings.exe" version="1.0.0.0" publicKeyToken="973d87e2731c2628" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F BoulderLogic.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BaBBank_SuppositionAskings" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BaBBank_SuppositionAskings.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BaBBank_SuppositionAskings.exe" size="29664">
+      <assemblyIdentity name="BaBBank_SuppositionAskings" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>95oxR4/zfxmY6reKC27TgYjBsZy5HGFFz++xt4AlzmE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BaBBank_SuppositionAskings.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="F BoulderLogic.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>piNGcUr+LugKtl1hhLr7MhOutSmtNlGPvsXiyAwpGUw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="c7fa548b81d0768fb11f4b1b0d2eb411da3aee9a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zH80rEfPbCYKi87lQuCZ7KvRt9IyVQiogagYPW9Jjj4=</DigestValue></Reference></SignedInfo><SignatureValue>FfNvaC8KIgXoVYlmO4IFsSVbDm8jgAxYu4/jOGMXd0N6eUQ9o9gQeCM4jSHdovI166cWSBE3LfkYZnYjYEPEqitxZkVZ4N3GGUTKWgw3z0ob6IDe1kTgWFLWEcnC6Wh6K/t1Zdu4owxEnD3AfvjDw00fPVIi/+BNw8NlFA+jCGw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wPSQlu9OOGYeFYFjJ/1hgnRZ1UW60P/UzjPg+fzLM5ifUau5xtqwLznJtVIMFKHHcGQW1/Rd5c02fAnbasffyLgr2j2pWc43eBQpjsbq7x4MRldDo96nfdqdzStPM+GrGWIebbJtInFeSYOXPQJPIrXyEFjG/A2gC+NPuYMk5e0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3e8e496f3d18a881a8085532d2b7d1abec99e042e5ce8b0a266ccf47ac347fcc" Description="" Url=""><as:assemblyIdentity name="BaBBank_SuppositionAskings.exe" version="1.0.0.0" publicKeyToken="973d87e2731c2628" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>f39azikxw0Fk8rRRAh31HFIVLhBPieALZ6nnh9GIsVo=</DigestValue></Reference></SignedInfo><SignatureValue>AN98AKw5A2D3CmvsL9s+/sPhn/sEtUUAYMvTEfSHBfthK7/XTFQObLgEZZWsERtPKQPXnjF4JG5oku9w40mpvvSwcgAigb+tl7jEv45LageArP/MJAUIcrjlZWEajJ1twEMFEGSoH236gGzMCznXopQS5yKH1pRa9KEayQNNK/8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wPSQlu9OOGYeFYFjJ/1hgnRZ1UW60P/UzjPg+fzLM5ifUau5xtqwLznJtVIMFKHHcGQW1/Rd5c02fAnbasffyLgr2j2pWc43eBQpjsbq7x4MRldDo96nfdqdzStPM+GrGWIebbJtInFeSYOXPQJPIrXyEFjG/A2gC+NPuYMk5e0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQPMSY9vllSK1FVuF+Qe+dtzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwODA5MDU0MTMwWhcNMTkwODA5MTE0MTMwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMD0kJbvTjhmHhWBYyf9YYJ0WdVFutD/1M4z4Pn8yzOYn1GrucbasC85ybVSDBShx3BkFtf0XeXNNnwJ22rH38i4K9o9qVnON3gUKY7G6u8eDEZXQ6Pep33anc0rTzPhqxliHm2ybSJxXkmDlz0CTyK18hBYxvwNoAvjT7mDJOXtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAWbtIVNVIBOI0aDT6etj+uo4cDuUYLrEC0IlH4IZ0jzqiMPjqmY+nmFS7C+dT3/CgPya8l2SE2mT3aY3u3BYMlPwYHhsb7vkZ5lM14PGvKlf8/4yI72IDdmSEjUJPhKQLM28egQ7CdnjsFYLS0+xO4QpWFy7TWJv14qE/HNqrOx8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

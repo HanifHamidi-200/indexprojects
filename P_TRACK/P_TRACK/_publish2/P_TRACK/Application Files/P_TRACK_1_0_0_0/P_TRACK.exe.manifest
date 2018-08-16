@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="P_TRACK.exe" version="1.0.0.0" publicKeyToken="b7263a475f2e786e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F spark.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="P_TRACK" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="P_TRACK.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="P_TRACK.exe" size="21984">
+      <assemblyIdentity name="P_TRACK" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PvURbbKOnCsVhaVzzKOBJqYBtst0KPLizMq/9dE9DMw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F spark.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+EPQz208gwlcrv8qk3lmfrGWIcTsNUq2x0gU1S0rIeE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="P_TRACK.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="ae4dfcbb6d87f64476053d7b42a578db2e0c8ebf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0tpyHFxJY7K7oiHSXl2Lzgz6/Dxi7JvW11BpJKnYEG4=</DigestValue></Reference></SignedInfo><SignatureValue>P3nFJznWaNfYxadogMnfMM1pQNcdPlbPYooSyA+0wf0VH6SjXT8n5JvzH7LECqOB2agoy4hTLtE+JRtjnUh+SCxJguSb5Zem3uqRTUJ57k0GWA9TeqCePWQEn9u5YW/aYBQ1qYwqL4Hmv0EoVj+Sa1vVQiyqhWlmTPRkrOSIZuI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0XNMEB38QtBwYvU55XKDWHEQlGdpfHwfLU2xDnwnHEJzqjM58oH9BF1yuCYw9j981epyBoMcVtCpwg42RS7Klq/n2S73j0gAhvzc4jO8Raj9DUMhTpMLx5vw07BnD0KWasVbr4dnaC0+g4fDYiTaHs6bdLNBjYRhmH7bZ1537wU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6e10d8a9246950d7d69bec623cfcfa0cce8b5d5ed221a2bbb263495c1c72dad2" Description="" Url=""><as:assemblyIdentity name="P_TRACK.exe" version="1.0.0.0" publicKeyToken="b7263a475f2e786e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>w3uv6ZYG/gkEXusl7Je5MzyOnENj30RAy/2IjyGt+Jk=</DigestValue></Reference></SignedInfo><SignatureValue>0Dwmz2SUZSpJvr6TPj6yxOLV9TULZoiJ3FapaVTQkVHSHA/xbZg6icJby/Gep6o+TSBastLO4RGb8RCho+biyqHnZoCNk9+XmPCokLanHDK48rX196/Liw6WIGrrh6K94t59yA3LUYJf73kq/+W0FVSMBAp9gcmRjtk8L/8LVAs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0XNMEB38QtBwYvU55XKDWHEQlGdpfHwfLU2xDnwnHEJzqjM58oH9BF1yuCYw9j981epyBoMcVtCpwg42RS7Klq/n2S73j0gAhvzc4jO8Raj9DUMhTpMLx5vw07BnD0KWasVbr4dnaC0+g4fDYiTaHs6bdLNBjYRhmH7bZ1537wU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQEyuoNoNohJVIvr/9tDdrkzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwODAxMDY1NjI5WhcNMTkwODAxMTI1NjI5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANFzTBAd/ELQcGL1OeVyg1hxEJRnaXx8Hy1NsQ58JxxCc6ozOfKB/QRdcrgmMPY/fNXqcgaDHFbQqcIONkUuypav59ku949IAIb83OIzvEWo/Q1DIU6TC8eb8NOwZw9ClmrFW6+HZ2gtPoOHw2Ik2h7Om3SzQY2EYZh+22ded+8FAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAWVg7tcFzKkxhxZ53VdZh1dXwmdJ9JD5lbMtKWlpH50da+U82Qg5886o5pPV9QVt3SJazMQrLZ3kIrURrLjH14NKPAqp8nZyWpQCesjOz0y1cBHjlONlE6I4sTFMdzMt4dEtikcDeiM0ejG2PopDq8BzL+2P9360xNhwC9I255ic=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

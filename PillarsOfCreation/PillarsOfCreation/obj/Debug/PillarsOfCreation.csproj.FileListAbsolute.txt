@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\bin\Debug\PillarsOfCreation.exe.config
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\bin\Debug\PillarsOfCreation.exe
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\bin\Debug\PillarsOfCreation.pdb
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\obj\Debug\PillarsOfCreation.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\obj\Debug\PillarsOfCreation.Form1.resources
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\obj\Debug\PillarsOfCreation.Properties.Resources.resources
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\obj\Debug\PillarsOfCreation.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\obj\Debug\PillarsOfCreation.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\obj\Debug\PillarsOfCreation.exe
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\obj\Debug\PillarsOfCreation.pdb
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\bin\Debug\PillarsOfCreation.exe.manifest
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\bin\Debug\PillarsOfCreation.application
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\obj\Debug\PillarsOfCreation.exe.manifest
+C:\Users\hanif\source\repos\PillarsOfCreation\PillarsOfCreation\obj\Debug\PillarsOfCreation.application

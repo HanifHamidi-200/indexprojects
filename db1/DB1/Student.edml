@@ -1,0 +1,85 @@
+﻿<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:devart="http://devart.com/schemas/edml/StorageSchemaExtensions/1.0" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="EntitiesStoreContainer" />
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" d4p1:ViewGeneration="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:devart="http://devart.com/schemas/edml/ConceptualSchemaExtensions/1.0" xmlns:ed="http://devart.com/schemas/EntityDeveloper/1.0" annotation:UseStrongSpatialTypes="false" xmlns:d4p1="http://devart.com/schemas/edml/ConceptualSchemaExtensions/1.0" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true" ed:Guid="0ce5e881-89b9-496e-86d1-11003f689045">
+          <EntitySet Name="GradesT" EntityType="Model.GradesT" />
+          <EntitySet Name="HighT" EntityType="Model.HighT" />
+          <AssociationSet Name="GradesT_HighTSet" Association="Model.GradesT_HighT">
+            <End Role="GradesT" EntitySet="GradesT" />
+            <End Role="HighTs" EntitySet="HighT" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="GradesT" ed:Guid="af48f089-2001-4591-a7d0-1a317a07061f">
+          <Key>
+            <PropertyRef Name="ExamID" />
+            <PropertyRef Name="PassID" />
+          </Key>
+          <Property Name="ExamID" Type="Int32" Nullable="false" ed:ValidateRequired="true" ed:Guid="fd6d4f10-3f69-4f05-9cf1-19bb25897be2" />
+          <Property Name="Mark" Type="Int32" ed:ValidateRequired="false" ed:Guid="055e89e3-6baa-4b2e-b14b-74844bf4bf9d" />
+          <Property Name="Grade" Type="String" ed:ValidateRequired="false" ed:Guid="123fe2dc-c7ad-41aa-aa26-86e88bc6965f" />
+          <Property Name="Pass" Type="Boolean" ed:ValidateRequired="false" ed:Guid="714e5753-1618-4751-a5f9-2c4303ea9d9e" />
+          <Property Name="PassID" Type="Int32" Nullable="false" ed:ValidateRequired="true" ed:Guid="df443b09-6584-4655-b23e-e2084687965e" />
+          <Property Name="Date" Type="DateTime" ed:ValidateRequired="false" ed:Guid="6b703488-751b-4999-a29a-3d799fd8ffcd" />
+          <NavigationProperty Name="HighTs" Relationship="Model.GradesT_HighT" FromRole="GradesT" ToRole="HighTs" ed:Guid="68a7b492-ca20-4fbc-860d-b16b9bb34023" />
+        </EntityType>
+        <EntityType Name="HighT" ed:Guid="4c630fd8-a9b8-4787-ad2f-cf559f81b0de">
+          <Key>
+            <PropertyRef Name="PassID" />
+          </Key>
+          <Property Name="PassID" Type="Int32" Nullable="false" ed:ValidateRequired="true" ed:Guid="e642213e-e29d-42f8-90be-4d9bcaa35808" />
+          <Property Name="Conclusion" Type="String" ed:ValidateRequired="false" ed:Guid="c63171a4-de54-40ee-9afd-2e545d84b52a" />
+          <Property Name="ExamID" Type="Int32" Nullable="false" ed:ValidateRequired="true" ed:Guid="b6219e54-3bd3-4813-9ac5-c70d6e20fd2d" />
+          <Property Name="GradesTPassID" Type="Int32" Nullable="false" ed:ValidateRequired="true" ed:Guid="db9dfcc9-b619-46f3-8f8b-edb2ee6c6aee" />
+          <NavigationProperty Name="GradesT" Relationship="Model.GradesT_HighT" FromRole="HighTs" ToRole="GradesT" ed:Guid="01335c89-d487-48f2-903f-0960f6d111bc" />
+        </EntityType>
+        <Association Name="GradesT_HighT" ed:Guid="a337b65f-7996-482e-a306-43a6f81dcae4">
+          <End Role="GradesT" Type="Model.GradesT" Multiplicity="1" />
+          <End Role="HighTs" Type="Model.HighT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GradesT">
+              <PropertyRef Name="ExamID" />
+              <PropertyRef Name="PassID" />
+            </Principal>
+            <Dependent Role="HighTs">
+              <PropertyRef Name="ExamID" />
+              <PropertyRef Name="GradesTPassID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- MSL content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EntitiesStoreContainer" CdmEntityContainer="Entities" />
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <edmx:Diagrams>
+      <Diagram Name="Main" />
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

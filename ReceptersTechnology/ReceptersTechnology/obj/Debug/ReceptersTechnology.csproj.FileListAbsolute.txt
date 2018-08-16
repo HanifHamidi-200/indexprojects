@@ -1,0 +1,14 @@
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\bin\Debug\ReceptersTechnology.exe.config
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\bin\Debug\ReceptersTechnology.exe
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\bin\Debug\ReceptersTechnology.pdb
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\obj\Debug\ReceptersTechnology.csprojAssemblyReference.cache
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\obj\Debug\ReceptersTechnology.Form1.resources
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\obj\Debug\ReceptersTechnology.Properties.Resources.resources
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\obj\Debug\ReceptersTechnology.csproj.GenerateResource.cache
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\obj\Debug\ReceptersTechnology.csproj.CoreCompileInputs.cache
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\obj\Debug\ReceptersTechnology.exe
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\obj\Debug\ReceptersTechnology.pdb
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\bin\Debug\ReceptersTechnology.exe.manifest
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\bin\Debug\ReceptersTechnology.application
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\obj\Debug\ReceptersTechnology.exe.manifest
+c:\users\hanif\source\repos\ReceptersTechnology\ReceptersTechnology\obj\Debug\ReceptersTechnology.application

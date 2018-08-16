@@ -1,0 +1,17 @@
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.Form1.resources
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.fSub1.resources
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.fSub2.resources
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.fSub3.resources
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.Properties.Resources.resources
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\bin\Debug\AnimalsDatabase.exe.config
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\bin\Debug\AnimalsDatabase.exe
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\bin\Debug\AnimalsDatabase.pdb
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.exe
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.pdb
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\bin\Debug\AnimalsDatabase.exe.manifest
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\bin\Debug\AnimalsDatabase.application
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.exe.manifest
+C:\Users\hanif\source\repos\AnimalsDatabase\AnimalsDatabase\obj\Debug\AnimalsDatabase.application

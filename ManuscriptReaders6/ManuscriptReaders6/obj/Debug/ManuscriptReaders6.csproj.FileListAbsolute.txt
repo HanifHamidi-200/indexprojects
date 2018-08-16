@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\obj\Debug\ManuscriptReaders6.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\obj\Debug\ManuscriptReaders6.Form1.resources
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\obj\Debug\ManuscriptReaders6.Properties.Resources.resources
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\obj\Debug\ManuscriptReaders6.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\obj\Debug\ManuscriptReaders6.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\bin\Debug\ManuscriptReaders6.exe.config
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\bin\Debug\ManuscriptReaders6.exe
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\bin\Debug\ManuscriptReaders6.pdb
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\obj\Debug\ManuscriptReaders6.exe
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\obj\Debug\ManuscriptReaders6.pdb
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\bin\Debug\ManuscriptReaders6.exe.manifest
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\bin\Debug\ManuscriptReaders6.application
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\obj\Debug\ManuscriptReaders6.exe.manifest
+C:\Users\hanif\source\repos\ManuscriptReaders6\ManuscriptReaders6\obj\Debug\ManuscriptReaders6.application

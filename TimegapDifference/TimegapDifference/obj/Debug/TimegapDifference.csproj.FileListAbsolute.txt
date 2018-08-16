@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\obj\Debug\TimegapDifference.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\obj\Debug\TimegapDifference.Form1.resources
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\obj\Debug\TimegapDifference.Properties.Resources.resources
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\obj\Debug\TimegapDifference.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\obj\Debug\TimegapDifference.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\bin\Debug\TimegapDifference.exe.config
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\bin\Debug\TimegapDifference.exe
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\bin\Debug\TimegapDifference.pdb
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\obj\Debug\TimegapDifference.exe
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\obj\Debug\TimegapDifference.pdb
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\bin\Debug\TimegapDifference.exe.manifest
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\bin\Debug\TimegapDifference.application
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\obj\Debug\TimegapDifference.exe.manifest
+C:\Users\hanif\source\repos\TimegapDifference\TimegapDifference\obj\Debug\TimegapDifference.application

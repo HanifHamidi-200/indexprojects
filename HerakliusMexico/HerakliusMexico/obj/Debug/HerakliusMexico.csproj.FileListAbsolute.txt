@@ -1,0 +1,17 @@
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\bin\Debug\HerakliusMexico.exe.config
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\bin\Debug\HerakliusMexico.exe.manifest
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\bin\Debug\HerakliusMexico.application
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\bin\Debug\HerakliusMexico.exe
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\bin\Debug\HerakliusMexico.pdb
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.Form1.resources
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.fSub1.resources
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.fSub2.resources
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.fSub3.resources
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.Properties.Resources.resources
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.exe.manifest
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.application
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.exe
+C:\Users\hanif\source\repos\HerakliusMexico\HerakliusMexico\obj\Debug\HerakliusMexico.pdb

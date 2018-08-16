@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\bin\Debug\MarriageBytes.exe.config
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\bin\Debug\MarriageBytes.exe.manifest
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\bin\Debug\MarriageBytes.application
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\bin\Debug\MarriageBytes.exe
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\bin\Debug\MarriageBytes.pdb
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\obj\Debug\MarriageBytes.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\obj\Debug\MarriageBytes.Form1.resources
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\obj\Debug\MarriageBytes.Properties.Resources.resources
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\obj\Debug\MarriageBytes.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\obj\Debug\MarriageBytes.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\obj\Debug\MarriageBytes.exe.manifest
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\obj\Debug\MarriageBytes.application
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\obj\Debug\MarriageBytes.exe
+C:\Users\hanif\source\repos\MarriageBytes\MarriageBytes\obj\Debug\MarriageBytes.pdb

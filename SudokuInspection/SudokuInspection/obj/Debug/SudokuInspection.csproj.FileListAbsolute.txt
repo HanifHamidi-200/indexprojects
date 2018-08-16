@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\bin\Debug\SudokuInspection.exe.config
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\bin\Debug\SudokuInspection.exe
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\bin\Debug\SudokuInspection.pdb
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\obj\Debug\SudokuInspection.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\obj\Debug\SudokuInspection.Form1.resources
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\obj\Debug\SudokuInspection.Properties.Resources.resources
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\obj\Debug\SudokuInspection.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\obj\Debug\SudokuInspection.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\obj\Debug\SudokuInspection.exe
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\obj\Debug\SudokuInspection.pdb
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\bin\Debug\SudokuInspection.exe.manifest
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\bin\Debug\SudokuInspection.application
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\obj\Debug\SudokuInspection.exe.manifest
+C:\Users\hanif\source\repos\SudokuInspection\SudokuInspection\obj\Debug\SudokuInspection.application
